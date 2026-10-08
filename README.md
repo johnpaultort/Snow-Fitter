@@ -44,12 +44,12 @@ Each recommendation is generated using a scoring-based system rather than static
 - Improved ranking logic beyond filtering
 
 ## Roadmap
-[] Snowboard and Ski Finder.
-[] Din Calculator
-[] Gear Comparison
-[] Saved information
-[] Favorite items
-[] Transitions
+[] Snowboard and Ski Finder. <br>
+[] Din Calculator <br>
+[] Gear Comparison <br>
+[] Saved information <br>
+[] Favorite items <br>
+[] Transitions <br>
 [] ...
 
 ## Goal of the Project
@@ -58,4 +58,4 @@ To reduce decision fatigue in ski/snowboard gear selection by building a structu
 
 ## Links
 - Live Demo: https://snowfitter.netlify.app/
-- GitHub: https://github.com/johnpaultort/SportsBasement_SkiFinder
+- GitHub: https://github.com/johnpaultort/Snow-Fitter.git

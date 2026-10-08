@@ -1,0 +1,281 @@
+import json
+
+# Format
+#    {
+#        "name": "",
+#        "brand": "",
+#
+#        "styles": [""],
+#        "skill": [""],
+#        "terrain": [],
+#        "preferences": [''],
+#        "waist_mm": , 
+#        "lengths": [],
+#
+#        "price": "",
+#        "image": "",
+#        "notes": "."
+#    },
+
+SKIS = [
+    # Blizard (26/27 images)
+    # Add Material used
+    {
+        "name": "Canvas 118",
+        "brand": "Blizzard",
+        "styles": ["all-mountain"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": ["mixed"],
+        "local": "",
+        "preferences": ['playful', 'powder'],
+        "waist_mm": 118, 
+        "lengths": [172, 180, 186],
+        "price": "649.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305170_WHT_1.png?crop=center&height=800&v=1779319612&width=800",
+        "notes": "."
+    },
+    {
+        "name": "Canvas 108",
+        "brand": "Blizzard",
+        "styles": ["all-mountain"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": ["mixed"],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 108, 
+        "lengths": [168, 174, 180, 186, 192],
+        "price": "799.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305171_WHT_1.png?crop=center&height=800&v=1779321055&width=800",
+        "notes": "Replace with your real product. Great all-rounder for mixed terrain."
+    },
+    {
+        "name": "Canvas 100",
+        "brand": "Blizzard",
+        "styles": ["all-mountain"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": ["mixed"],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 100, 
+        "lengths": [162, 168, 174, 180, 186],
+        "price": "699.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305172_WHT_1.png?v=1779322250",
+        "notes": "Replace with your real product. Great all-rounder for mixed terrain."
+    },
+    {
+        "name": "Rustler 10",
+        "brand": "Blizzard",
+        "styles": ["freeride"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": ["mixed"],
+        "local": "",
+        "preferences": ['powder', 'trees'],
+        "waist_mm": 102, 
+        "lengths": [168, 174, 180, 186, 192],
+        "price": "699.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295442_BLU_1.png?v=1766781510",
+        "notes": "Replace with your real product. Great all-rounder for mixed terrain."
+    },
+    # ARMADA (26/27 images)
+    {
+        "name": "ARV",
+        "brand": "Armada",
+        "styles": ["groomer", "park"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": ['playful'],
+        "waist_mm": 94, 
+        "lengths": [164, 171, 178, 185],
+        "price": "649.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306748_1.png?v=1776914439",
+        "notes": "Replace with your real product. Great all-rounder for mixed terrain."
+    },
+    {
+        "name": "ARV",
+        "brand": "Armada",
+        "styles": ["groomer", "freeride"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 100, 
+        "lengths": [165, 172, 179, 186],
+        "price": "749.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306747_1.png?v=1776911940",
+        "notes": "Replace with your real product. Great all-rounder for mixed terrain."
+    },
+    {
+        "name": "ARV",
+        "brand": "Armada",
+        "styles": ["freeride"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 106, 
+        "lengths": [164, 172, 180, 186],
+        "price": "799.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306746_1.png?v=1776910518",
+        "notes": "Replace with your real product. Great all-rounder for mixed terrain."
+    },
+    # Nordica (26/27 images)
+    {
+        "name": "Enforcer",
+        "brand": "Nordica",
+        "styles": ["groomer", "all-mountain"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 94,
+        "lengths": [167, 173, 179, 185, 191],
+        "price": "799",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100294730.PetrolGrey.1.png?v=1775604185",
+        "notes": "Replace with your real product. Wide and rockered for deep days."
+    },
+    {
+        "name": "Enforcer",
+        "brand": "Nordica",
+        "styles": ["groomer", "all-mountain"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 99,
+        "lengths": [167, 173, 179, 185, 191],
+        "price": "849.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100294729.BlueSand.2.png?crop=center&height=800&v=1775597400&width=800",
+        "notes": "Replace with your real product. Wide and rockered for deep days."
+    },
+    # Atomic (26/27 images)
+    {
+        "name": "Bent Chetler 90",
+        "brand": "Atomic",
+        "styles": ["park"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 90,
+        "lengths": [176, 184, 192],
+        "price": "599.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306679-MULTI-5.png?v=1776032908",
+        "notes": "Replace with your real product. Narrow piste carver."
+    },
+    {
+        "name": "Bent Chetler 100",
+        "brand": "Atomic",
+        "styles": ["all-mountain", "powder"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 100,
+        "lengths": [176, 184, 192],
+        "price": "699.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306678-MULTI-5.png?crop=center&height=800&v=1776029087&width=800",
+        "notes": "Replace with your real product. Narrow piste carver."
+    },
+    {
+        "name": "Bent Chetler 110",
+        "brand": "Atomic",
+        "styles": ["powder"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 110,
+        "lengths": [176, 184, 192],
+        "price": "799.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306677-MULTI-5.png?crop=center&height=800&v=1776026129&width=800",
+        "notes": "Replace with your real product. Narrow piste carver."
+    },
+    {
+        "name": "Bent Chetler 120",
+        "brand": "Atomic",
+        "styles": ["powder"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": ['powder', 'trees'],
+        "waist_mm": 120,
+        "lengths": [176, 184, 192],
+        "price": "899.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306676-MULTI-5.png?v=1775859210",
+        "notes": "Replace with your real product. Narrow piste carver."
+    },
+    {
+        "name": "Maverick 98 CTI",
+        "brand": "Atomic",
+        "styles": ["groomer"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [""],
+        "local": "",
+        "preferences": [""],
+        "waist_mm": 96,
+        "lengths": [165, 172, 179, 186],
+        "price": "799.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306674-ONE-5.png?crop=center&height=800&v=1775578590&width=800",
+        "notes": "Replace with your real product. Narrow piste carver."
+    },
+    # Rozzy (26/27 images)
+    {
+        "name": "Sender 100",
+        "brand": "Rossignol",
+        "styles": ["freeride"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 100,
+        "lengths": [170, 178, 184, 190],
+        "price": "699.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288831.Arcade78Xpress10GW.1.png?v=1754107583",
+        "notes": "This is the ski for the person that is getting off of rentals wanting their own pairs of skis for someone that doesnt go as often a season, this is a groomer friendly ski that is amazing for that and carving."
+    },
+    {
+        "name": "Sender 110",
+        "brand": "Rossignol",
+        "styles": ["freeride"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": [],
+        "waist_mm": 110,
+        "lengths": [168, 176, 184, 191],
+        "price": "899.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304820.Sender110.1.png?v=1778607741",
+        "notes": "This is the ski for the person that is getting off of rentals wanting their own pairs of skis for someone that doesnt go as often a season, this is a groomer friendly ski that is amazing for that and carving."
+    },
+
+    # Faction (25/26 Images)
+    {
+        "name": "Prodigy 2",
+        "brand": "Faction",
+        "styles": ["park"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": ['playful'],
+        "waist_mm": 98,
+        "lengths": [165, 171, 177],
+        "price": "679.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295823_1.png?v=1766858791",
+        "notes": "Fun park ski that does anything you want, if you want more of an all mountain apporach look for the ARV"
+    },
+    {
+        "name": "Prodigy 1",
+        "brand": "Faction",
+        "styles": ["park"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": [],
+        "local": "",
+        "preferences": ['playful'],
+        "waist_mm": 88,
+        "lengths": [164, 171, 178, 184],
+        "price": "629.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295822_1.png?v=1766857795",
+        "notes": "Fun park ski that does anything you want, if you want more of an all mountain apporach look for the ARV"
+    }
+]

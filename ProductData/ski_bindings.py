@@ -1,14 +1,5 @@
 import json
 
-# Format
-#    {
-#        "name": "Pivot 11",
-#        "brand": "Look",
-#        "widths":[95, 105, 115],
-#        "price": "279.95",
-#        "image": "https://www.sportsbasement.com/cdn/shop/files/100288955_WHBK_1.png?v=1754107554",
-#        "notes": ""
-#    },
 
 SKI_BINDINGS = [
 
@@ -19,7 +10,7 @@ SKI_BINDINGS = [
         "widths":[95, 105, 115],
         "price": "299.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100288955_WHBK_1.png?v=1754107554",
-        "notes": ""
+        "notes": "In the pursuit of excellence, Pivot 2.0 11 GW introduces enhancements such as extended boot-sole-length adjustments, updated DIN setting screws, better durability with specific protections for ski edges and poles, and a 105mm brake ensuring compatibility with various ski shapes and sizes. Unleash the evolution of the Pivot 2.0 and discover a binding that not only adapts to your style but elevates your entire skiing journey."
     },
     {
         "name": "Pivot 2.0 13 GW",

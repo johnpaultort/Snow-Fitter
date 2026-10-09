@@ -1,20 +1,5 @@
 import json
 
-"""
-    {
-        "name": "",
-        "brand": "",
-        "styles": [""],
-        "flex": ,
-        "sizes": [],
-        "lacing": [],
-        "price": "",
-        "image": "",
-        "notes": "",
-    },
-"""
-# I think for now just copy the notes that the website has gather a couple notes on the boots in store then change from there.
-
 BOOTS = [
     # Ride
     {
@@ -25,8 +10,8 @@ BOOTS = [
         "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15],
         "lacing": ["double-boa"],
         "price": "379.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303347_BLK_1.png?crop=center&height=800&v=1778544478&width=800"
-        "notes": "This boot showed the most dominance in 25/26 season being nearly impossible to keep in stock. This boot secures the heel      ensuring maximum control. This boots lacing mechanism really allows the boots to get tight with their new H5 boa for the 26/27  season where the previous season the B.O.A can only tighten where as of now can really perfect the fit without loosening the whole dial. (Only front lace, not heel lace). This boot also offers calf adjustment for those larger calfs. This boot is meant for anyone from narrow to wide."
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303347_BLK_1.png?crop=center&height=800&v=1778544478&width=800",
+        "notes": "This boot showed the most dominance in 25/26 season being nearly impossible to keep in stock. This boot secures the heel ensuring maximum control. This boots lacing mechanism really allows the boots to get tight with their new H5 boa for the 26/27  season where the previous season the B.O.A can only tighten where as of now can really perfect the fit without loosening the whole dial. (Only front lace, not heel lace). This boot also offers calf adjustment for those larger calfs. This boot is meant for anyone from narrow to wide."
     },
     {
         "name": "Anthem",
@@ -218,7 +203,7 @@ BOOTS = [
         "styles": ["all-mountain"],
         "flex": 6,
         "sizes": [6, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14],
-        "wide_sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12]
+        "wide_sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
         "lacing": ["double-boa", "step-on"],
         "price": "529.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100304048_BLK_1.png?v=1781890681",

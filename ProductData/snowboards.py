@@ -1,23 +1,5 @@
 import json
 
-# Format
-#    {
-#        "gender": [""],
-#        "name": "",
-#        "brand": "",
-#        "styles": ["""],
-#        "skill": [""],
-#        "shape": "",
-#        "flex": ,
-#        "lengths": [],
-#        "wide_lengths": [],
-#        "price": "",
-#        "image": "",
-#        "notes": ""
-#    },
-#
-# NB = Not Bought.
-
 SNOWBOARDS = [
 
     # Bataleon
@@ -81,38 +63,6 @@ SNOWBOARDS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100309166_1.png?v=1780612053",
         "notes": ""
     },
-    
-    # NB
-    """
-    {
-        "gender": "mens",
-        "name": "Disaster",
-        "brand": "Bataleon",
-        "styles": ["park"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "shape": "true-twin",
-        "flex": 3,
-        "lengths": [144, 148, 151, 154, 157],
-        "price": "499.95",
-        "image": "https://bataleon.com/cdn/shop/files/bataleon-2526-disaster-2-mens-snowboards.jpg?v=1757387976&width=493",
-        "notes": "Park heavy board that does anything, best for butters or any kind of presses."
-    },
-    
-    # NB
-    {
-        "gender": "mens",
-        "name": "Goliath+",
-        "brand": "Bataleon",
-        "styles": ["all-mountain"],
-        "skill": ["intermediate", "advanced"],
-        "shape": "directional-twin",
-        "flex": 7,
-        "lengths": [153, 156, 159],
-        "price": "699.95",
-        "image": "https://bataleon.com/cdn/shop/files/bataleon-2526-goliath-plus-2-mens-snowboards_e50c0e08-eddc-470d-b54c-99092098b4b3.jpg?v=1764664626&width=360",
-        "notes": "This is going to be their all mountain option that can run down the hill."
-    },
-    """
 
     # Capita
     {
@@ -703,7 +653,7 @@ SNOWBOARDS = [
         "name": "Rally Cat",
         "brand": "Jones",
         "styles": ["freeride"],
-        "skill": ["beginner", "intermediate" "advanced"],
+        "skill": ["beginner", "intermediate", "advanced"],
         "shape": "directional-twin",
         "flex": 4,
         "lengths": [139, 142, 145, 148, 151, 154],
@@ -944,49 +894,4 @@ SNOWBOARDS = [
         "image": "https://www.burton.com/cdn/shop/files/311741148Q_1.webp?v=1783957378&width=620",
         "notes": "."
     }
-    
-    """
-    {
-        "gender": ["mens"],
-        "name": "",
-        "brand": "",
-        "styles": [""],
-        "skill": [""],
-        "shape": "",
-        "flex": ,
-        "lengths": [],
-        "wide_lengths": [],
-        "price": "",
-        "image": "",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "",
-        "brand": "",
-        "styles": [""],
-        "skill": [""],
-        "shape": "",
-        "flex": ,
-        "lengths": [],
-        "wide_lengths": [],
-        "price": "",
-        "image": "",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "",
-        "brand": "",
-        "styles": [""],
-        "skill": [""],
-        "shape": "",
-        "flex": ,
-        "lengths": [],
-        "wide_lengths": [],
-        "price": "",
-        "image": "",
-        "notes": "."
-    },
-    """
 ]

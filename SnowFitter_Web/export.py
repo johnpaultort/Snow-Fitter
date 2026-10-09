@@ -1,4 +1,5 @@
 import json
+from pathlb import Path
 
 from skis import SKIS
 from snowboards import SNOWBOARDS
@@ -17,6 +18,15 @@ def export():
         "snowboard_bindings": SB_BINDINGS,
         "ski_bindings": SKI_BINDINGS
     }
+
+    # ProductData/
+    product_data_dir = Path(__file__).resolve().parent
+
+    # Snow-Fitter/
+    project_dir = product_data_dir.parent
+
+    # Web output
+    web_file = project_dir / "SnowFitter_Web" / "gear_data.js"
 
     js = "// Auto-generated file — do not edit manually\n"
     js += "window.GEAR_DATA = " + json.dumps(data, indent=2) + ";\n"

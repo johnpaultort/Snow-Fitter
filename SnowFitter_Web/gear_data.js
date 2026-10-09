@@ -1,5 +1,5 @@
 // Auto-generated file — do not edit manually
-window.GEAR_DATA = {
+const GEAR_DATA = {
   "skis": [
     {
       "name": "Canvas 118",
@@ -12,10 +12,7 @@ window.GEAR_DATA = {
         "advanced"
       ],
       "terrain": [],
-      "preferences": [
-        "playful",
-        "powder"
-      ],
+      "preferences": [],
       "waist_mm": 118,
       "lengths": [
         172,
@@ -85,10 +82,7 @@ window.GEAR_DATA = {
         "advanced"
       ],
       "terrain": [],
-      "preferences": [
-        "powder",
-        "trees"
-      ],
+      "preferences": [],
       "waist_mm": 102,
       "lengths": [
         168,
@@ -113,9 +107,7 @@ window.GEAR_DATA = {
         "advanced"
       ],
       "terrain": [],
-      "preferences": [
-        "playful"
-      ],
+      "preferences": [],
       "waist_mm": 94,
       "lengths": [
         164,
@@ -302,10 +294,7 @@ window.GEAR_DATA = {
         "advanced"
       ],
       "terrain": [],
-      "preferences": [
-        "powder",
-        "trees"
-      ],
+      "preferences": [],
       "waist_mm": 120,
       "lengths": [
         176,
@@ -401,9 +390,7 @@ window.GEAR_DATA = {
         "advanced"
       ],
       "terrain": [],
-      "preferences": [
-        "playful"
-      ],
+      "preferences": [],
       "waist_mm": 98,
       "lengths": [
         165,
@@ -425,9 +412,7 @@ window.GEAR_DATA = {
         "advanced"
       ],
       "terrain": [],
-      "preferences": [
-        "playful"
-      ],
+      "preferences": [],
       "waist_mm": 88,
       "lengths": [
         164,
@@ -442,10 +427,193 @@ window.GEAR_DATA = {
   ],
   "snowboards": [
     {
-      "gender": [
-        "mens",
-        "womens"
+      "name": "Hometown Hero",
+      "brand": "Burton",
+      "styles": [
+        "all-mountain"
       ],
+      "skill": [
+        "intermediate",
+        "advanced"
+      ],
+      "shape": "directional",
+      "profile": "",
+      "strengths": [],
+      "weakness": [],
+      "flex": 7,
+      "lengths": [
+        {
+          "size": 144,
+          "width": "regular"
+        },
+        {
+          "size": 148,
+          "width": "regular"
+        },
+        {
+          "size": 152,
+          "width": "regular"
+        },
+        {
+          "size": 156,
+          "width": "regular"
+        },
+        {
+          "size": 156,
+          "width": "wide"
+        },
+        {
+          "size": 160,
+          "width": "wide"
+        },
+        {
+          "size": 160,
+          "width": "wide"
+        }
+      ],
+      "price": "679.95",
+      "image": "https://www.burton.com/static/product/W26/2224513E1QRG_1.png?impolicy=bglt&imwidth=943",
+      "notes": "This is a great All Mountain board, it feels stable at high speed. This pairs great with their channel system bindings"
+    },
+    {
+      "name": "Good Company",
+      "brand": "Burton",
+      "styles": [
+        "park"
+      ],
+      "skill": [
+        "intermediate",
+        "advanced"
+      ],
+      "shape": "true-twin",
+      "flex": 4,
+      "lengths": [
+        135,
+        145,
+        148,
+        152,
+        155,
+        159
+      ],
+      "price": "449.95",
+      "image": "https://www.burton.com/static/product/W26/2359513A03RG_1.png?impolicy=bglt&imwidth=943",
+      "notes": "This is one of the best park boards on the market. Go anywhere on the park with this board."
+    },
+    {
+      "name": "Custom",
+      "brand": "Burton",
+      "styles": [
+        "all-mountain"
+      ],
+      "skill": [
+        "intermediate",
+        "advanced"
+      ],
+      "shape": "directional-twin",
+      "flex": 6,
+      "lengths": [
+        150,
+        154,
+        156,
+        158,
+        162
+      ],
+      "price": "679.95",
+      "image": "https://www.burton.com/static/product/W26/106881997DRG_1.png?impolicy=bglt&imwidth=943",
+      "notes": "The custom is a great board."
+    },
+    {
+      "name": "Custom X",
+      "brand": "Burton",
+      "styles": [
+        "all-mountain"
+      ],
+      "skill": [
+        "intermediate",
+        "advanced"
+      ],
+      "shape": "true-twin",
+      "flex": 8,
+      "lengths": [
+        150,
+        154,
+        156,
+        158,
+        162
+      ],
+      "price": "899.95",
+      "image": "https://www.burton.com/static/product/W26/106891CA03RG_1.png?impolicy=bglt&imwidth=943",
+      "notes": "The custom x is a upgrade from the regular custom, the difference is stiffness. The stifness allows the board to be a hard charger with speed."
+    },
+    {
+      "name": "Team",
+      "brand": "Nitro",
+      "styles": [
+        "all-mountain"
+      ],
+      "skill": [
+        "intermediate",
+        "advanced"
+      ],
+      "shape": "directional-twin",
+      "flex": 7,
+      "lengths": [
+        152,
+        155,
+        157,
+        159,
+        162
+      ],
+      "price": "579.95",
+      "image": "https://www.nitrosnowboards.com/cdn/shop/files/833222-001_Team_152_Product-1.jpg?v=1755928797&width=400",
+      "notes": "Nitro Team is a great board for someone that just wants to hit all the mountain with no regret and no hezzy."
+    },
+    {
+      "name": "T1",
+      "brand": "Nitro",
+      "styles": [
+        "all-mountain"
+      ],
+      "skill": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "shape": "true-twin",
+      "flex": 7,
+      "lengths": [
+        149,
+        152,
+        155,
+        158
+      ],
+      "price": "529.95",
+      "image": "https://www.nitrosnowboards.com/cdn/shop/files/833228-001_T1_149_Product-1.jpg?v=1755928801&width=800",
+      "notes": "This board is an amazing all mountain board for those blue bird days that can be taken anywhere. Its least strongest suit is in powder."
+    },
+    {
+      "name": "Alternator",
+      "brand": "Nitro",
+      "styles": [
+        "all-mountain"
+      ],
+      "skill": [
+        "intermediate",
+        "advanced"
+      ],
+      "shape": "directional",
+      "flex": 8,
+      "lengths": [
+        154,
+        157,
+        160,
+        162
+      ],
+      "price": "579.95",
+      "image": "https://www.nitrosnowboards.com/cdn/shop/files/833214-001_Alternator_154_Product-1.jpg?v=1755950251&width=800",
+      "notes": "This is that all mountain board that really does all mountain. This can be taken in float, park, etc. (26/27 is the last year of the alt)"
+    },
+    {
       "name": "Whatever",
       "brand": "Bataleon",
       "styles": [
@@ -459,17 +627,18 @@ window.GEAR_DATA = {
       "shape": "directional-twin",
       "flex": 5,
       "lengths": [
+        138,
+        144,
         148,
         151,
         154,
         157
       ],
-      "price": "579.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100309170_1.png?v=1780608050",
-      "notes": "The Bataleon Whatever Snowboard is the ultimate all-in-one quiver killer\u2014built to handle whatever, wherever. From park laps and groomer carves to powder stashes, this board thrives in every condition with its perfect blend of freestyle playfulness and all-mountain control. Thanks to Triple Base Technology\u2122 and a medium flex, it\u2019s catch-free, floaty, and ready to adapt to your every move. If versatility is your vibe, the Whatever is your ride."
+      "price": "599.95",
+      "image": "https://www.sportsbasement.com/cdn/shop/files/100296294_144.png?v=1761849755",
+      "notes": "This is a great board that goes from groomers to steeps without hezzy."
     },
     {
-      "gender": "mens",
       "name": "Evil Twin",
       "brand": "Bataleon",
       "styles": [
@@ -489,11 +658,10 @@ window.GEAR_DATA = {
         159
       ],
       "price": "579.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100309164_1.png?v=1780606727",
+      "image": "https://bataleon.com/cdn/shop/files/bataleon-2526-eviltwin-2-mens-snowboards.jpg?v=1757387976&width=493",
       "notes": "Bataleons best resort board that we carry, it has a lot of hype around the mountain from the park to steeps."
     },
     {
-      "gender": "mens",
       "name": "Disaster",
       "brand": "Bataleon",
       "styles": [
@@ -518,7 +686,6 @@ window.GEAR_DATA = {
       "notes": "Park heavy board that does anything, best for butters or any kind of presses."
     },
     {
-      "gender": "mens",
       "name": "Goliath+",
       "brand": "Bataleon",
       "styles": [
@@ -540,96 +707,31 @@ window.GEAR_DATA = {
       "notes": "This is going to be their all mountain option that can run down the hill."
     },
     {
-      "gender": "mens",
-      "name": "Resort Twin",
+      "name": "Dark Horse",
       "brand": "Capita",
       "styles": [
         "park"
       ],
       "skill": [
-        "beginner",
         "intermediate",
         "advanced"
       ],
       "shape": "true-twin",
-      "flex": 5,
+      "flex": 6,
       "lengths": [
+        148,
+        150,
         152,
         154,
         156,
-        158,
-        160
-      ],
-      "wide_lengths": [
-        155,
         158
       ],
-      "price": "599.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303371-ONE.png?v=1779917790",
-      "notes": "Capitas staple in my opinion, cannot go wrong with this board as it does everything great."
+      "price": "499.95",
+      "image": "https://capitasnowboarding.com/cdn/shop/files/FST03_DARK_HORSE_150_550x550.png?v=1738183696",
+      "notes": "This is going to be a park/resort board that is really good at jumps either small to 100 footers."
     },
     {
-      "gender": "mens",
       "name": "Mercury",
-      "brand": "Capita",
-      "styles": [
-        "all-mountain",
-        "freeride"
-      ],
-      "skill": [
-        "beginner",
-        "intermediate",
-        "advanced"
-      ],
-      "shape": "directional",
-      "flex": 6.5,
-      "lengths": [
-        147,
-        150,
-        153,
-        155,
-        157,
-        159,
-        161
-      ],
-      "wide_lengths": [
-        156,
-        158,
-        160,
-        162
-      ],
-      "price": "699.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303367-ONE-1.png?v=1778714939",
-      "notes": "Capitas staple in my opinion, cannot go wrong with this board as it does everything great."
-    },
-    {
-      "gender": "mens",
-      "name": "Mega Merc",
-      "brand": "Capita",
-      "styles": [
-        "all-mountain",
-        "freeride"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "shape": "directional",
-      "flex": 7,
-      "lengths": [
-        153,
-        155,
-        157,
-        159,
-        161
-      ],
-      "price": "699.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303357-ONE-1.png?v=1778537175",
-      "notes": "Capitas staple in my opinion, cannot go wrong with this board as it does everything great."
-    },
-    {
-      "gender": "mens",
-      "name": "Mega Death",
       "brand": "Capita",
       "styles": [
         "all-mountain"
@@ -642,23 +744,43 @@ window.GEAR_DATA = {
       "shape": "directional-twin",
       "flex": 6.5,
       "lengths": [
-        156,
-        159,
-        162
-      ],
-      "wide_lengths": [
+        147,
+        150,
+        153,
+        155,
         157,
-        161,
-        165,
-        169
+        159,
+        161
       ],
-      "price": "1,199.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303355-ONE-2.png?v=1778531228",
+      "price": "679.95",
+      "image": "https://capitasnowboarding.com/cdn/shop/files/FRD05_MERCURY_147_f704d6fe-b943-47ea-a52c-f2474d32c864_550x550.png?v=1738179265",
       "notes": "Capitas staple in my opinion, cannot go wrong with this board as it does everything great."
     },
     {
-      "gender": "mens",
-      "name": "Kazu Kokubo Pro",
+      "name": "Aeronaut",
+      "brand": "Capita",
+      "styles": [
+        "freeride"
+      ],
+      "skill": [
+        "intermediate",
+        "advanced"
+      ],
+      "shape": "directional",
+      "flex": 6,
+      "lengths": [
+        144,
+        148,
+        152,
+        156,
+        160
+      ],
+      "price": "699.95",
+      "image": "https://capitasnowboarding.com/cdn/shop/files/RST02_AERONAUT_153_9c18bb71-000d-44bb-b0ed-a273060dd713.png?v=1738177827&width=1024",
+      "notes": "This directional boards is amazing in the backcountry!"
+    },
+    {
+      "name": "Kazu Kokubo",
       "brand": "Capita",
       "styles": [
         "freeride",
@@ -671,23 +793,17 @@ window.GEAR_DATA = {
       "shape": "directional",
       "flex": 6,
       "lengths": [
-        151,
-        154,
-        157,
+        144,
+        148,
+        152,
+        156,
         160
       ],
-      "wide_lengths": [
-        155,
-        158,
-        161,
-        164
-      ],
-      "price": "679.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303369-ONE-1.png?v=1779749673",
+      "price": "699.95",
+      "image": "https://capitasnowboarding.com/cdn/shop/files/FRD04_KAZU_151_e3c09b6f-11ba-4d7c-a083-993a9d6651e8.png?v=1738178854&width=1024",
       "notes": "Fast and Powerful. This board goes from side-country down to resort once you are done."
     },
     {
-      "gender": "mens",
       "name": "D.O.A.",
       "brand": "Capita",
       "styles": [
@@ -707,132 +823,15 @@ window.GEAR_DATA = {
         154,
         156,
         158,
-        160
+        160,
+        162,
+        164
       ],
-      "wide_lengths": [
-        153,
-        155,
-        157,
-        159,
-        161
-      ],
-      "price": "599.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303361-ONE-1.png?v=1778605725",
+      "price": "579.95",
+      "image": "https://capitasnowboarding.com/cdn/shop/files/RST03_DOA_148_07b6f332-7858-4fdb-8b75-2b0a1b617fb0.png?v=1738178394&width=1024",
       "notes": "D.O.A stands for Destroyer of Awesomeness with this board anything can be done. Really good at going fast and really stable."
     },
     {
-      "gender": "mens",
-      "name": "Super D.O.A.",
-      "brand": "Capita",
-      "styles": [
-        "all-mountain"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "shape": "true-twin",
-      "flex": 5.5,
-      "lengths": [
-        152,
-        154,
-        156,
-        158,
-        160
-      ],
-      "wide_lengths": [
-        155,
-        157,
-        159,
-        161,
-        163
-      ],
-      "price": "599.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303359-ONE-1.png?v=1778597250",
-      "notes": "D.O.A stands for Destroyer of Awesomeness with this board anything can be done. Really good at going fast and really stable."
-    },
-    {
-      "gender": "mens",
-      "name": "Sidewinder",
-      "brand": "Capita",
-      "styles": [
-        "all-mountain"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "shape": "true-twin",
-      "flex": 5.5,
-      "lengths": [
-        148,
-        150,
-        152,
-        154,
-        156,
-        158,
-        160
-      ],
-      "price": "549.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303362-ONE-2.png?v=1778612047",
-      "notes": "D.O.A stands for Destroyer of Awesomeness with this board anything can be done. Really good at going fast and really stable."
-    },
-    {
-      "gender": "mens",
-      "name": "Black Snowboard of Death",
-      "brand": "Capita",
-      "styles": [
-        "all-mountain",
-        "freeride"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "shape": "directional",
-      "flex": 6.5,
-      "lengths": [
-        156,
-        159,
-        162
-      ],
-      "wide_lengths": [
-        157,
-        161,
-        165
-      ],
-      "price": "749.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303363-ONE-1.png?v=1778616675",
-      "notes": ""
-    },
-    {
-      "gender": "mens",
-      "name": "Matriarch",
-      "brand": "Capita",
-      "styles": [
-        "all-mountain"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "shape": "true-twin",
-      "flex": 5.5,
-      "lengths": [
-        155,
-        158,
-        161
-      ],
-      "wide_lengths": [
-        157,
-        160
-      ],
-      "price": "729.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303365-ONE-1.png?v=1778648036",
-      "notes": ""
-    },
-    {
-      "gender": "mens",
       "name": "Horizon",
       "brand": "United Shapes",
       "styles": [
@@ -857,7 +856,6 @@ window.GEAR_DATA = {
       "notes": "For those who like simple. Any board from the United Shapes line comes with matte top sheet. This board is for those who want to do everything, this board has no limits. Not to mention the tortional flex this board has allows for quick response."
     },
     {
-      "gender": "mens",
       "name": "Object",
       "brand": "United Shapes",
       "styles": [
@@ -882,7 +880,6 @@ window.GEAR_DATA = {
       "notes": "The object is a really niche park board that is not spotted on the regular, this board is really flexy for those who enjoy presses and butters."
     },
     {
-      "gender": "mens",
       "name": "Deep Reach",
       "brand": "United Shapes",
       "styles": [
@@ -906,7 +903,6 @@ window.GEAR_DATA = {
       "notes": "The Deep Reach is amazing at holding edges, and carving really fun on those powder days."
     },
     {
-      "gender": "mens",
       "name": "Cadet",
       "brand": "United Shapes",
       "styles": [
@@ -932,7 +928,6 @@ window.GEAR_DATA = {
       "notes": "This board is so amazing at everything, looking for something that does everything this is the one (We had a customer heli ride in this). The stiffness on this board allows it to be stable at high speeds, the edge control is instant this board wants to move."
     },
     {
-      "gender": "mens",
       "name": "Orca",
       "brand": "Lib Tech",
       "styles": [
@@ -958,7 +953,6 @@ window.GEAR_DATA = {
       "notes": "Directonal board that does everything from groomers down to powder, this is an everday board that you cannot get enough from."
     },
     {
-      "gender": "mens",
       "name": "DPR",
       "brand": "Lib Tech",
       "styles": [
@@ -983,7 +977,6 @@ window.GEAR_DATA = {
       "notes": "The price tag this has is insane for a board that can do anything the price justifies it. There are boards that feel the exact same for way more."
     },
     {
-      "gender": "mens",
       "name": "Sleepwalker",
       "brand": "Salomon",
       "styles": [
@@ -1008,7 +1001,6 @@ window.GEAR_DATA = {
       "notes": "True twin that is ready for any rails, this board is mid stiff great entry level board into the sport as well"
     },
     {
-      "gender": "mens",
       "name": "Huck Knife",
       "brand": "Salomon",
       "styles": [
@@ -1032,7 +1024,6 @@ window.GEAR_DATA = {
       "notes": "True twin that is ready for any rails, this board is mid stiff great entry level board into the sport as well"
     },
     {
-      "gender": "mens",
       "name": "Huck Knife Pro",
       "brand": "Salomon",
       "styles": [
@@ -1059,7 +1050,6 @@ window.GEAR_DATA = {
       "notes": "True twin that is ready for any rails, this board is mid stiff great entry level board into the sport as well"
     },
     {
-      "gender": "mens",
       "name": "Abstract",
       "brand": "Salomon",
       "styles": [
@@ -1086,7 +1076,6 @@ window.GEAR_DATA = {
       "notes": "True twin that is ready for any rails, this board is mid stiff great entry level board into the sport as well"
     },
     {
-      "gender": "mens",
       "name": "Assasin",
       "brand": "Salomon",
       "styles": [
@@ -1111,7 +1100,6 @@ window.GEAR_DATA = {
       "notes": "Matte color to avoid having a shark or a bannana printed on your board, a niche board that holds a lot of fun."
     },
     {
-      "gender": "mens",
       "name": "Assasin Pro",
       "brand": "Salomon",
       "styles": [
@@ -1135,7 +1123,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": "mens",
       "name": "Craft",
       "brand": "Salomon",
       "styles": [
@@ -1162,7 +1149,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": "mens",
       "name": "Dancehaul",
       "brand": "Salomon",
       "styles": [
@@ -1186,9 +1172,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Rally Cat",
       "brand": "Jones",
       "styles": [
@@ -1213,9 +1196,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Frontier 2.0",
       "brand": "Jones",
       "styles": [
@@ -1240,9 +1220,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Storm Wolf",
       "brand": "Jones",
       "styles": [
@@ -1264,9 +1241,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Storm Chaser",
       "brand": "Jones",
       "styles": [
@@ -1288,9 +1262,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Free Carver 6000",
       "brand": "Jones",
       "styles": [
@@ -1313,9 +1284,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Free Carver 9000",
       "brand": "Jones",
       "styles": [
@@ -1338,9 +1306,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Howler",
       "brand": "Jones",
       "styles": [
@@ -1365,9 +1330,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Mountain Twin Pro",
       "brand": "Jones",
       "styles": [
@@ -1390,9 +1352,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Hovercraft 2.0",
       "brand": "Jones",
       "styles": [
@@ -1417,9 +1376,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Stratos",
       "brand": "Jones",
       "styles": [
@@ -1444,9 +1400,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Flagship",
       "brand": "Jones",
       "styles": [
@@ -1472,9 +1425,6 @@ window.GEAR_DATA = {
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Flagship pro",
       "brand": "Jones",
       "styles": [
@@ -1493,178 +1443,6 @@ window.GEAR_DATA = {
       ],
       "price": "949.95",
       "image": "https://www.sportsbasement.com/cdn/shop/files/100308716_1.png?v=1779460684",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "womens"
-      ],
-      "name": "Howler",
-      "brand": "Jones",
-      "styles": [
-        "freeride"
-      ],
-      "skill": [
-        "advanced"
-      ],
-      "shape": "directional",
-      "flex": 10,
-      "lengths": [
-        154,
-        158,
-        161,
-        164
-      ],
-      "price": "699.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308726_1.png?v=1779488948",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "womens"
-      ],
-      "name": "Rally Cat",
-      "brand": "Jones",
-      "styles": [
-        "freeride"
-      ],
-      "skill": [
-        "advanced"
-      ],
-      "shape": "directional-twin",
-      "flex": 10,
-      "lengths": [
-        139,
-        142,
-        145,
-        148,
-        151,
-        154
-      ],
-      "price": "499.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308730_1.png?v=1779747357",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "womens"
-      ],
-      "name": "Twin Sister",
-      "brand": "Jones",
-      "styles": [
-        "freeride"
-      ],
-      "skill": [
-        "advanced"
-      ],
-      "shape": "directional-twin",
-      "flex": 10,
-      "lengths": [
-        140,
-        143,
-        146,
-        149,
-        152,
-        155
-      ],
-      "price": "599.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308729_1.png?v=1779748198",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "womens"
-      ],
-      "name": "Stratos",
-      "brand": "Jones",
-      "styles": [
-        "freeride"
-      ],
-      "skill": [
-        "advanced"
-      ],
-      "shape": "directional",
-      "flex": 10,
-      "lengths": [
-        154,
-        158,
-        161,
-        164
-      ],
-      "price": "699.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308726_1.png?v=1779488948",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "womens"
-      ],
-      "name": "Dream Weaver 2.0",
-      "brand": "Jones",
-      "styles": [
-        "freeride"
-      ],
-      "skill": [
-        "advanced"
-      ],
-      "shape": "directional",
-      "flex": 10,
-      "lengths": [
-        154,
-        158,
-        161,
-        164
-      ],
-      "price": "699.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308726_1.png?v=1779488948",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "womens"
-      ],
-      "name": "Airheart 2.0",
-      "brand": "Jones",
-      "styles": [
-        "freeride"
-      ],
-      "skill": [
-        "advanced"
-      ],
-      "shape": "directional",
-      "flex": 10,
-      "lengths": [
-        154,
-        158,
-        161,
-        164
-      ],
-      "price": "699.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308726_1.png?v=1779488948",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "womens"
-      ],
-      "name": "Flagship",
-      "brand": "Jones",
-      "styles": [
-        "freeride"
-      ],
-      "skill": [
-        "advanced"
-      ],
-      "shape": "directional",
-      "flex": 10,
-      "lengths": [
-        154,
-        158,
-        161,
-        164
-      ],
-      "price": "699.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308726_1.png?v=1779488948",
       "notes": "."
     }
   ],
@@ -2054,64 +1832,15 @@ window.GEAR_DATA = {
       "price": "349.95",
       "image": "https://www.sportsbasement.com/cdn/shop/files/100303316_BLK_1.png?v=1779123852",
       "notes": "."
-    },
-    {
-      "name": "Reset Pro",
-      "brand": "Union",
-      "styles": [
-        "all-mountain"
-      ],
-      "flex": 8,
-      "sizes": [
-        8,
-        8.5,
-        9,
-        9.5,
-        10,
-        10.5,
-        11
-      ],
-      "lacing": [
-        "double-boa"
-      ],
-      "price": "649.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303383.Black.3.png?v=1780435792",
-      "notes": "."
-    },
-    {
-      "name": "Reset",
-      "brand": "Union",
-      "styles": [
-        "all-mountain"
-      ],
-      "flex": 6,
-      "sizes": [
-        8,
-        8.5,
-        9,
-        9.5,
-        10,
-        10.5,
-        11
-      ],
-      "lacing": [
-        "double-boa"
-      ],
-      "price": "549.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303384.Black.1.png?v=1780441049",
-      "notes": "."
     }
   ],
-  "snowboard_bindings": [
+  "bindings": [
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Strata",
       "brand": "Union",
       "style": [
-        "park",
-        "all-mountain"
+        "all-mountain",
+        "freestyle"
       ],
       "skill": [
         "beginner",
@@ -2137,20 +1866,15 @@ window.GEAR_DATA = {
         "4x2",
         "channel"
       ],
-      "type": "traditional",
       "price": "279.95",
       "image": "https://unionbindingcompany.com/cdn/shop/files/UN25_STRATA_BLACK_1024x.jpg?v=1753686597",
       "notes": "The Strata has a mini disk that allows the binding to carry a soft surfy feeling. Smaller contact point and allows your board to flex naturally."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Force",
       "brand": "Union",
       "style": [
-        "all-mountain",
-        "park"
+        "all-mountain"
       ],
       "skill": [
         "beginner",
@@ -2177,21 +1901,15 @@ window.GEAR_DATA = {
         "4x2",
         "channel"
       ],
-      "type": "traditional",
       "price": "349.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303407.Force.Black.1.png?v=1780696910",
-      "notes": "The Union Force is the ultimate do-it-all binding trusted by riders worldwide. With a smooth, responsive flex and bombproof construction, it\u2019s built to handle any terrain, any rider, any condition."
+      "image": "https://unionbindingcompany.com/cdn/shop/files/UN25_FORCE_BLACK_db5dd6ad-dca0-4136-982f-dfaf63159e12_1024x.jpg?v=1753861019",
+      "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Falcor",
       "brand": "Union",
       "style": [
-        "freeride",
-        "park",
-        "all-mountain"
+        "freeride"
       ],
       "skill": [
         "intermediate",
@@ -2216,301 +1934,26 @@ window.GEAR_DATA = {
         "4x2",
         "channel"
       ],
-      "type": "traditional",
       "price": "439.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303402.Black.1.png?v=1780676964",
-      "notes": "Precision-engineered for the demands of Travis Rice, the Union Falcor is built for riders who push the limits of big mountain snowboarding. Lightweight, responsive, and ultra-durable, it blends power and precision for aggressive freeride performance."
+      "image": "https://unionbindingcompany.com/cdn/shop/files/UN25_FALCOR_BLACK_1024x.jpg?v=1753276224",
+      "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
       "name": "Atlas",
       "brand": "Union",
       "style": [
         "all-mountain",
-        "carving",
-        "park",
-        "freeride"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "sizes": [
-        {
-          "size": "S",
-          "boot_sizes": "5.5-7.5"
-        },
-        {
-          "size": "M",
-          "boot_sizes": "8-10"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "10.5-13"
-        }
-      ],
-      "flex": 8,
-      "pattern": [
-        "4x4",
-        "4x2",
-        "channel"
-      ],
-      "type": "traditional",
-      "price": "399.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303406.Atlas.Black.1.png?v=1780693194",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens"
-      ],
-      "name": "Ultra",
-      "brand": "Union",
-      "style": [
-        "park",
-        "all-mountain"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "sizes": [
-        {
-          "size": "S",
-          "boot_sizes": "5.5-7.5"
-        },
-        {
-          "size": "M",
-          "boot_sizes": "8-10"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "10.5-13"
-        }
-      ],
-      "flex": 6,
-      "pattern": [
-        "4x2",
-        "channel"
-      ],
-      "type": "traditional",
-      "price": "329.95",
-      "image": "https://unionbindingcompany.com/cdn/shop/files/UN25_ULTRA_BLACK_1024x.jpg?v=1753276418",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens"
-      ],
-      "name": "Neo",
-      "brand": "Union",
-      "style": [
-        "park",
-        "all-mountain"
-      ],
-      "skill": [
-        "beginner",
-        "intermediate",
-        "advanced"
-      ],
-      "sizes": [
-        {
-          "size": "S",
-          "boot_sizes": "5.5-7.5"
-        },
-        {
-          "size": "M",
-          "boot_sizes": "8-10"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "10.5-13"
-        }
-      ],
-      "flex": 6,
-      "pattern": [
-        "4x2",
-        "channel"
-      ],
-      "type": "traditional",
-      "price": "379.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303403.Neo.White.1.png?v=1780680369",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens"
-      ],
-      "name": "STR",
-      "brand": "Union",
-      "style": [
-        "all-mountain"
-      ],
-      "skill": [
-        "beginner"
-      ],
-      "sizes": [
-        {
-          "size": "S",
-          "boot_sizes": "5.5-7.5"
-        },
-        {
-          "size": "M",
-          "boot_sizes": "8-10"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "10.5-13"
-        }
-      ],
-      "flex": 6,
-      "pattern": [
-        "4x2",
-        "4x4",
-        "channel"
-      ],
-      "type": "traditional",
-      "price": "199.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303408.STR.Black.1.png?v=1780704023",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens"
-      ],
-      "name": "Atlas Step On",
-      "brand": "Union",
-      "style": [
-        "park",
-        "all-mountain",
-        "freeride"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "sizes": [
-        {
-          "size": "S",
-          "boot_sizes": "6-8"
-        },
-        {
-          "size": "M",
-          "boot_sizes": "8.5-10.5"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "11-13"
-        },
-        {
-          "size": "XL",
-          "boot_sizes": "14-15"
-        }
-      ],
-      "flex": 8,
-      "pattern": [
-        "4x2",
-        "channel"
-      ],
-      "type": "step-on",
-      "price": "429.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303392.Black.1.png?v=1780506580",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens"
-      ],
-      "name": "Atlas Step On Pro",
-      "brand": "Union",
-      "style": [
-        "park",
-        "all-mountain"
-      ],
-      "skill": [
-        "beginner",
-        "intermediate",
-        "advanced"
-      ],
-      "sizes": [
-        {
-          "size": "S",
-          "boot_sizes": "5.5-7.5"
-        },
-        {
-          "size": "M",
-          "boot_sizes": "8-10"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "10.5-13"
-        }
-      ],
-      "flex": 6,
-      "pattern": [
-        "4x2",
-        "channel"
-      ],
-      "type": "step-on",
-      "price": "499.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303385.Black.1.png?v=1780499173",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens"
-      ],
-      "name": "Source",
-      "brand": "Union",
-      "style": [
-        "all-mountain",
-        "carving",
-        "freeride"
-      ],
-      "skill": [
-        "beginner",
-        "intermediate",
-        "advanced"
-      ],
-      "sizes": [
-        {
-          "size": "M",
-          "boot_sizes": "8-10"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "10.5-13"
-        }
-      ],
-      "flex": 7,
-      "pattern": [
-        "4x2",
-        "channel"
-      ],
-      "type": "traditional",
-      "price": "549.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303400.Source.Black.1.png?v=1780612051",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens"
-      ],
-      "name": "Source FC",
-      "brand": "Union",
-      "style": [
-        "all-mountain",
-        "freeride",
         "carving"
       ],
       "skill": [
-        "beginner",
         "intermediate",
         "advanced"
       ],
       "sizes": [
+        {
+          "size": "S",
+          "boot_sizes": "5.5-7.5"
+        },
         {
           "size": "M",
           "boot_sizes": "8-10"
@@ -2522,22 +1965,19 @@ window.GEAR_DATA = {
       ],
       "flex": 8,
       "pattern": [
+        "4x4",
         "4x2",
         "channel"
       ],
-      "type": "traditional",
-      "price": "999.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303396.FCBlack.1.png?v=1780606599",
+      "price": "399.95",
+      "image": "https://unionbindingcompany.com/cdn/shop/files/UN25_ATLAS_CHROME_1024x.jpg?v=1757931696",
       "notes": "."
     },
     {
-      "gender": [
-        "mens"
-      ],
-      "name": "Source Pro TH",
+      "name": "Ultra",
       "brand": "Union",
       "style": [
-        "park",
+        "freestyle",
         "all-mountain"
       ],
       "skill": [
@@ -2546,6 +1986,10 @@ window.GEAR_DATA = {
         "advanced"
       ],
       "sizes": [
+        {
+          "size": "S",
+          "boot_sizes": "5.5-7.5"
+        },
         {
           "size": "M",
           "boot_sizes": "8-10"
@@ -2560,230 +2004,8 @@ window.GEAR_DATA = {
         "4x2",
         "channel"
       ],
-      "type": "traditional",
-      "price": "999.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100303397.SourceProTH.Black.1.png?v=1780610364",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens",
-        "womens"
-      ],
-      "name": "Nebula FASE",
-      "brand": "Jones",
-      "style": [
-        "park",
-        "all-mountain"
-      ],
-      "skill": [
-        "beginner",
-        "intermediate",
-        "advanced"
-      ],
-      "sizes": [
-        {
-          "size": "S",
-          "boot_sizes": "5-8"
-        },
-        {
-          "size": "M",
-          "boot_sizes": "8.5-10.5"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "11-14"
-        }
-      ],
-      "flex": 4,
-      "pattern": [
-        "4x4",
-        "4x2",
-        "channel"
-      ],
-      "type": "fase",
-      "price": "299.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308731_TBR_1.png?v=1780069215",
-      "notes": "."
-    },
-    {
-      "gender": [
-        "mens",
-        "womens"
-      ],
-      "name": "Mercury FASE",
-      "brand": "Jones",
-      "style": [
-        "freeride",
-        "all-mountain"
-      ],
-      "skill": [
-        "intermediate",
-        "advanced"
-      ],
-      "sizes": [
-        {
-          "size": "S",
-          "boot_sizes": "5-8"
-        },
-        {
-          "size": "M",
-          "boot_sizes": "8.5-10.5"
-        },
-        {
-          "size": "L",
-          "boot_sizes": "11-14"
-        }
-      ],
-      "flex": 8,
-      "pattern": [
-        "4x4",
-        "4x2",
-        "channel"
-      ],
-      "type": "fase",
-      "price": "369.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100308731_TBR_1.png?v=1780069215",
-      "notes": "."
-    }
-  ],
-  "ski_bindings": [
-    {
-      "name": "Pivot 11",
-      "brand": "Look",
-      "widths": [
-        95,
-        105,
-        115
-      ],
-      "price": "279.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100288955_WHBK_1.png?v=1754107554",
-      "notes": ""
-    },
-    {
-      "name": "Pivot 13",
-      "brand": "Look",
-      "widths": [
-        95,
-        105,
-        115
-      ],
-      "price": "379.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100288954_ORGM_1.png?crop=center&height=800&v=1754107555&width=800",
-      "notes": ""
-    },
-    {
-      "name": "Pivot 15",
-      "brand": "Look",
-      "widths": [
-        95,
-        105,
-        115
-      ],
-      "price": "479.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100270601_ORMT_1.png?crop=center&height=800&v=1754107675&width=800",
-      "notes": ""
-    },
-    {
-      "name": "Squire 11",
-      "brand": "Marker",
-      "widths": [
-        90,
-        100,
-        110,
-        120
-      ],
-      "price": "249.99",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100224158_BLK_1.png?crop=center&height=800&v=1754107711&width=800",
-      "notes": ""
-    },
-    {
-      "name": "Jester 16 x MWerks",
-      "brand": "Marker",
-      "widths": [
-        90,
-        100,
-        110,
-        120
-      ],
-      "price": "489.99",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100293342_BKOR_1.png?v=1754107226",
-      "notes": ""
-    },
-    {
-      "name": "Griffon 13",
-      "brand": "Marker",
-      "widths": [
-        90,
-        100,
-        110,
-        120
-      ],
-      "price": "299.99",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100266735_BLK_1.png?crop=center&height=800&v=1750620997&width=800",
-      "notes": ""
-    },
-    {
-      "name": "Griffon 13 X",
-      "brand": "Marker",
-      "widths": [
-        90,
-        100,
-        110,
-        120
-      ],
-      "price": "299.99",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100305309_BLK_1.png?v=1779991584",
-      "notes": ""
-    },
-    {
-      "name": "Strive 10 GW",
-      "brand": "Salomon",
-      "widths": [
-        80,
-        90,
-        100
-      ],
-      "price": "169.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/L47320500__0c5a9dbca60d4437c35d372eec9fb188.png?crop=center&height=800&v=1754107708&width=800",
-      "notes": "."
-    },
-    {
-      "name": "Strive 12 GW",
-      "brand": "Salomon",
-      "widths": [
-        90,
-        100,
-        115
-      ],
-      "price": "239.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/L47322700__7b8bea2180fdecdd09906e0759d0434b.png?crop=center&height=800&v=1754107706&width=800",
-      "notes": "."
-    },
-    {
-      "name": "Strive 14 GW",
-      "brand": "Salomon",
-      "widths": [
-        90,
-        100,
-        115,
-        130
-      ],
-      "price": "279.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100248134_BLK_1.png?v=1746656803",
-      "notes": "."
-    },
-    {
-      "name": "Strive 16 MN",
-      "brand": "Salomon",
-      "widths": [
-        90,
-        100,
-        115,
-        130
-      ],
-      "price": "399.95",
-      "image": "https://www.sportsbasement.com/cdn/shop/files/100248133-BLK-1.png?crop=center&height=800&v=1683821506&width=800",
+      "price": "329.95",
+      "image": "https://unionbindingcompany.com/cdn/shop/files/UN25_ULTRA_BLACK_1024x.jpg?v=1753276418",
       "notes": "."
     }
   ]

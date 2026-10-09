@@ -1,45 +1,5 @@
 import json
 
-# Union sizing chart
-#
-#         "sizes": [
-#            {
-#                "size": "S",
-#                "boot_sizes": "5.5-7.5"
-#            },
-#            {
-#                "size": "M",
-#                "boot_sizes": "8-10"
-#            },
-#            {
-#                "size": "L",
-#                "boot_sizes": "10.5-13"
-#            }
-#          ],
-#
-#   Instead of creating sizing logic here in the product, I think doing its own logic and calculation based on the size is better.
-#
-# Format
-# {
-#   "gender": [],
-#   "name": "",
-#   "brand": "",
-#   "style": [],
-#   "skill": [],
-#   "sizes": [
-#
-#   ],
-#
-#   "flex": ,
-#   "pattern": [],
-#   "type": "",
-#   "price": "",
-#   "image": "",
-#   "notes": "."
-# },
-#
-
-
 SB_BINDINGS = [
 
     # UNION BINDINGS
@@ -207,7 +167,7 @@ SB_BINDINGS = [
         "brand": "Union",
         "style": ["park", "all-mountain"],
         "sizes": ["S","M","L"],
-        "flex": ,
+        "flex": 4,
         "pattern": [],
         "type": "traditional",
         "price": "279.95",

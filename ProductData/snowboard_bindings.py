@@ -655,6 +655,8 @@ SB_BINDINGS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100308731_CWHT_1.png?v=1780069215",
         "notes": "The Nebula FASE® is a next-gen all-mountain freestyle binding offering playful response and all-day comfort. The responsive D-Fuse XR Baseplate cushions impacts, while the tweak-friendly highback and ankle strap unlock creative mountain surfing. With the natural feel of a two-strap binding and the FASE® Fast Entry System, it’s made for riders who turn the whole mountain into their playground."
     },
+
+    # Nidecker
     {
         "gender": ["womens", "mens"],
         "name": "LT Supermatic",
@@ -681,6 +683,8 @@ SB_BINDINGS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100287656_BLK_1.png?v=1790091978",
         "notes": "The OG Supermatic® is an original game changer – a hands-free fast entry binding that works with virtually any boot. Just push your foot in through the back and step down on the heel pedal to flip up the hiback. That’s it – you’re ready to shred. A simple release lever makes exiting just as rapid. Supermatic® feels just like a classic two-strap binding to ride, and you can even operate the ratchets normally if the conditions demand it. Steep slope? Deep pow? No problem."
     },
+
+    # ThirtyTwo
     {
         "gender": ["mens"],
         "name": "T32M Fava FASE",

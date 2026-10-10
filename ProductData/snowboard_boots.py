@@ -58,6 +58,52 @@ BOOTS = [
         "notes": "Insano. Ask anyone who works in a snowboard shop about it. This is the boot that doesn’t mess around. The snowboard boot built for stability and performance to handle every condition. Fitted with RIDE’s Intuition™ Center Tongue Dream Liner for a supportive and customizable fit. BOA® Closer Wrap is a dial activated fit system that wraps over the midfoot of the foot for a more even closure to reduce pressure points, increase fit and provide better heel hold. The Insano also features the updated Flex Slime Tongue™ for better rebound and damping. The Michelin® Hybrid Traverse Outsole emphasizes grip and response underfoot. The Insano is the stiffest boot in the RIDE line by design, this thing is built for all-mountain response all the time."
     },
 
+    # Women's Ride
+    {
+        "name": "Women's Sage",
+        "brand": "Ride",
+        "styles": ["all-mountain"],
+        "flex": 4,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "lacing": ["single-boa"],
+        "price": "289.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303351_PRP_1.png?v=1779148706",
+        "notes": "The Sage is made for comfort and ease of use. This boot will go anywhere and keep your feet warm and comfortable all day long. Fitted with Intuition™ Plush Foam Liners and the H5 BOA® Coiler Fit System, which provides a uniform fit to your foot. The Closer™ Lace Guide evens the lace tension across the entire boot. C.A.T. technology allows for a custom fit in the calf zone for increased comfort. Lock Down™ Turbo provides secure, no slack liner lace hold. Grip Lite 2.0 Sole combines +Slime Midsole with rubber pods for durability and traction. The Sage is a medium flexing boot for riders of all ability levels."
+    },
+    {
+        "name": "Women's Hera",
+        "brand": "Ride",
+        "styles": ["all-mountain"],
+        "flex": 6,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
+        "lacing": ["double-boa"],
+        "price": "379.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303350_BLK_1.png?v=1779147906",
+        "notes": "The Hera blends performance, comfort, and durability. Fitted with RIDE’s Intuition™ Support Foam Liner for a comfortable fit straight out of the box. The Hera’s lacing system utilizes the H5 BOA® Coiler Fit System providing a uniform fit for the shell of the boot. Paired with RIDE’s patented BOA® Tongue Tied™ Fit System, delivering a secure fit in the ankle and eliminates the need for a traditional harness while locking your heel in place. C.A.T. technology allows for a custom fit in the calf zone for increased comfort, which goes a long way for those “just one more run” days. The sole of the Hera is strapped with RIDE’s Impact Rubber Cup Sole and the Eco +Slime Midsole provides cushioning and traction in all terrain. The Hera is a medium flexing boot designed for all-mountain performance."
+    },
+    {
+        "name": "Women's Hera Pro",
+        "brand": "Ride",
+        "styles": ["all-mountain"],
+        "flex": 7,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "lacing": ["double-boa"],
+        "price": "449.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303352_FDD_1.png?v=1779150236",
+        "notes": "The Hera Pro is based off the bestselling Hera model. The Hera Pro has added features to increase performance and durability while maintaining the versatility that has made the Hera so popular. The Hera Pro is designed for riders that want the perfect mix of comfort and performance. The Tongue Tied™ Hybrid Harness assures that your heels will be locked down without creating any pressure points. The Rebound Heel Counter™ increases durability and performance by offering additional heel side response. And the Michelin® Hybrid Summit Sole will lock you onto the snow so you don’t have to worry about sliding around. The Hera Pro is a high-end medium-stiff flexing boot designed for all-mountain performance."
+    },
+    {
+        "name": "Women's Cadence",
+        "brand": "Ride",
+        "styles": ["all-mountain"],
+        "flex": 8,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
+        "lacing": ["double-boa"],
+        "price": "449.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303349_BLK_1.png?v=1778546640",
+        "notes": "The Cadence is not your ordinary snowboard boot; this boot is centered around performance every step of the way. This boot is designed for the rider that is focused on precision and function. Cadence is fitted with RIDE’s Intuition™ Dream Liner for a supportive and customizable fit. The BOA® Closer Wrap is a dial activated fit system that wraps over the midfoot of the foot for a more even closure to reduce pressure points, increase fit and provide better heel hold. Transition Wrap Harness provides a secure heel hold, while C.A.T. technology allows for a custom fit in the calf zone for increased comfort. The Cadence is all about performance all the way down to the sole, using RIDE’s Michelin® Hybrid Traverse Sole, the traction is unmatched. The Cadence is designed for the rider that is looking for an aggressive, responsive, comfortable snowboard boot that can take every condition you throw at it."
+    },
+
     # K2
     {
         "name": "Maysis",
@@ -104,6 +150,42 @@ BOOTS = [
         "notes": "With upgraded fit and functionality comes progression, and that’s precisely what K2 had in mind when they designed the Raider snowboard boot. A long-time favorite of resort employees and progressing snowboarders alike, K2 packed all the essentials into the mix in the Raider, starting with an H5 Coiler BOA® Fit System. This securely closes the shell using a stainless-steel BOA® lace for the perfect fit and helps to effortlessly get you in and out of your boots at the beginning and end of the day. Next, K2 added Fast-In liner lacing to maximize fit and keep the liner snug against the contours of your feet. No matter the shape of your foot, the ultra-warm, heat-moldable, and breathable Intuition™ Comfort Foam 3D liner hugs every nook and cranny for a great fit right out of the box. K2 added internal and external J-bars to the liner to increase responsiveness when turning, wrapping your ankles with support and cushion, and added an EVA footbed for comfort."
     },
 
+    # Women's K2
+    {
+        "name": "Women's Haven ",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 4,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "lacing": ["single-boa"],
+        "price": "279.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303470_GREY_1.png?v=1776292229",
+        "notes": "The Haven is a staple in the K2 Snowboarding boot line and is the perfect all-mountain option for boarders who want a softer flexing boot with deluxe features for exploring new terrain. A long-time favorite of resort employees and progressing snowboarders alike, K2 packed all the essentials into the mix on the Haven, starting with an H4 Coiler BOA® Fit System. This securely closes the shell using a stainless-steel BOA® lace for the perfect fit and helps to effortlessly get you in and out of your boots at the beginning and end of the day. Next, K2 added Fast-In liner lacing to maximize fit and keep the liner snug against the contours of your feet. No matter the shape of your foot, the ultra-warm, heat-moldable, and breathable Intuition™ Comfort Foam 3D liner hugs every nook and cranny for a great fit right out of the box. They also added internal and external J-bars to the liner to increase responsiveness when turning, wrapping your ankles with support and cushion, and added an EVA footbed for comfort."
+    },
+    {
+        "name": "Women's Contour",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 6,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
+        "lacing": ["double-boa"],
+        "price": "379.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303469_BLK_1.png?v=1775859439",
+        "notes": "For a good reason, the Contour has long been the favorite boot of the K2 women's team. This mid-to-stiff flexing boot is a no-bull, feature-forward snowboard boot that prioritizes performance and looks damn good doing it. The secret to the award-winning fit is our Conda™ liner lacing system. Powered by a BOA® Fit System dial, this forgiving and adjustable harness is designed to pull the user's heel into the boot's heel pocket. This urethane-based harness hugs your ankle and flexes naturally. Externally, we started with an articulating cuff to reduce distortion when bending the knee, and we've integrated our Flex Zone calf panel at the top of the cuff, helping to keep legs happy all day long. A high-powered BOA® Fit System H4 Coiler closes the shell securely and can be done without removing your gloves. Lastly, to add durability and maintain the boot's flex over the boot's lifetime, we constructed the K2 Contour using our Endo™ technology. Underfoot, we've used premium materials to improve damping and grip. The outsole is built using our proprietary This Grips!™ dual-rubber compound to provide excellent grip both on and off the snow. This is all set atop a dual-density midsole comprised of a lightweight EVA and our proprietary Harshmellow™, designed to dampen vibration on rough terrain, and cushion big landings. Lastly, we wrap your feet in a breathable Intuition® Pro Foam 3D liner, fully customizable and heat-moldable to fit the exact shape of your feet, and contains a 95% post-consumer recycled coffee mesh to control foot odor."
+    },
+    {
+        "name": "Women's Theory",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 7,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "lacing": ["double-boa"],
+        "price": "409.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303472_WHT_1.png?v=1776292678",
+        "notes": "The K2 Theory introduces F.O.R.M. (“Fit Optimization for Ride and Mobility”) Wrap Solution, an innovative three-panel design that wraps seamlessly from the medial to lateral side of your foot for a true custom fit. Powered by dual H5 BOA® dials, the upper shell tightens and actively draws your heel into the pocket, maximizing response while eliminating heel lift. By reducing pressure points and stress on your feet, F.O.R.M allows you to ride more comfortable, for longer – letting you maximize your time going downhill and making every turn feel at ease. Inside, the Intuition™ Control Foam 3D Wrap Liner brings a heat-moldable, dual-density foam that shapes perfectly for a fit that’s dialed, warm, and supremely comfortable. Add in the 3-Point Internal Harness, and you’ve got a locked-in feel that moves with you from first chair to final lap. Responsive and powerful when you're charging but forgiving enough to stay playful, the Vibram® V5 Outsole with Harshmellow™ damping eats up impact, grips icy boot packs, and keeps things feeling smooth. A reinforced rubber toe cap rounds things out for added durability and wet-weather defense."
+    },
+
+
     # Salomon
     {
         "name": "Dialogue",
@@ -148,6 +230,41 @@ BOOTS = [
         "price": "349.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303316_BLK_1.png?v=1779123852",
         "notes": "The X Approach Lace SJ BOA® is a unisex park and freestyle boot inspired by iconic Salomon footwear DNA. Utilizing premium materials and Fit To Ride construction, the X Approach offers superior comfort in a lightweight design along with BOA® activated STR8JKT, eliminating heel-lift for enhanced support."
+    },
+
+    # Women's Salomon
+    {
+        "name": "Women's Pearl BOA",
+        "brand": "Salomon",
+        "styles": ["all-mountain"],
+        "flex": 4,
+        "sizes": [4, 5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5],
+        "lacing": ["single-boa"],
+        "price": "279.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303322_GREY_1.png?v=1779142170",
+        "notes": "The Pearl BOA® brings everyday performance and a first-rate fit for those looking to progress. Inspired by Salomon footwear DNA, this boot combines durability and comfort in a lightweight design with a Feather 1.0 outsole, offering shock absorption and grip, and a heat moldable liner. Dial it all in with BOA® Fit System for a secure fit."
+    },
+    {
+        "name": "Women's Ivy SJ BOA",
+        "brand": "Salomon",
+        "styles": ["all-mountain"],
+        "flex": 5,
+        "sizes": [4, 5, 6, 6.5, 7, 7.5, 8.5, 9, 9.5],
+        "lacing": ["double-boa"],
+        "price": "379.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100270271_BLK_1.png?v=1746730337",
+        "notes": "The IVY BOA® SJ is a versatile women’s boot with modern design lines inspired by iconic Salomon footwear. With a medium flex for a variety of riding styles, the Ivy utilizes premium materials and Fit To Ride construction, ensuring instant and lasting comfort, along with a BOA® activated STR8JKT harness for superior heel hold."
+    },
+    {
+        "name": "Women's Kiana Dual BOA",
+        "brand": "Salomon",
+        "styles": ["all-mountain"],
+        "flex": 7,
+        "sizes": [4, 5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5],
+        "lacing": ["double-boa"],
+        "price": "429.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303321_HKBY_1.png?v=1779127633",
+        "notes": "The Kiana Dual BOA® features a precise fit and progressive flex focused on freestyle performance. This mid-flexing boot features zonal customization and a Precision Harness™ 3.0, securing your heel to provide an articulated fit. Built with FTR construction, the Kiana offers a light and durable design with superior grip and dampening underfoot."
     },
     
     # Union
@@ -401,7 +518,7 @@ BOOTS = [
         "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14],
         "lacing": ["double-boa"],
         "price": "319.95",
-        "image": "",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100291944-BLK-1.png?v=1754107292",
         "notes": "The Altai is the centerpiece of our boot collection, offering premium features and support at an exceptional price. It’s built around an asymmetrical upper that minimizes pressure points, with dual H5 BOA® dials to allow you to tighten the upper and lower sections independently. The responsive, mid-stiff flex is great for digging trenches in the piste or floating through forests with pinpoint accuracy. If you love the art of the turn, you’ll love this boot.",
     },
     

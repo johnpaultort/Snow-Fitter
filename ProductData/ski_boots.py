@@ -2,28 +2,7 @@ import json
 
 SKI_BOOTS = [
 
-    {
-        "name": "",
-        "brand": "",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
-    },
-    {
-        "name": "",
-        "brand": "",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
-    },
+    # TODO: Change "all-mountain" to downhill since it makes more sense
 
 # Atomic
     {
@@ -393,13 +372,13 @@ SKI_BOOTS = [
     {
         "name": "Promachine 3 85",
         "brand": "Nordica",
-        "styles": [],
+        "styles": ["all-mountain"],
         "flex": 98,
         "last_mm": 85,
         "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
-        "price": ,
-        "image": "",
-        "notes": ""
+        "price": 549.99,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100307177.BlackRoseWhite.1.png?v=1776123946",
+        "notes": "The all-new Promachine 3 85 W is built for skiers who want performance without stiffness. As the softest women’s boot in the Promachine lineup, it blends a precise, low-volume fit with a forgiving flex—delivering control and confidence at every turn. The redesigned 98-mm, women’s-specific shell with 3Force Frame Technology offers smoother flex, enhanced stability, and reliable energy transfer. Comfortable to wear and effortless to ski, it’s perfect for cruising groomers, exploring new zones, or just getting back into the sport. Light on effort, and big on enjoyment—this is the experience you’ve been looking for."
     },
     {
         "name": "Promachine 3 95",
@@ -417,14 +396,13 @@ SKI_BOOTS = [
     {
         "name": "Speedmachine 3 85",
         "brand": "Nordica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 85,
         "last_mm": 100,
         "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
-        "price": ,
-        "image": "",
-        "notes": ""
+        "price": 549.99,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100294742_BWP_1.png?v=1755200036",
+        "notes": "Meet the Speedmachine 3 BOA®85 W, designed for comfort and peak performance. Its integrated BOA® Fit System provides exceptional micro-adjustability and precision. With this system in mind, Nordica redesigned their Tri Force technology to optimize comfort and skiing ability. And with the added benefit of the 3D Performance Fit Primaloft liner, you can readily customize it to fit your needs for optimal comfort and warmth."
     },
     {
         "name": "Speedmachine 3 95",
@@ -453,14 +431,13 @@ SKI_BOOTS = [
     {
         "name": "Sportmachine 3 85",
         "brand": "Nordica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 85,
         "last_mm": 102,
         "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
         "price": 549.95,
         "image": "https://www.sportsbasement.com/cdn/shop/files/100294743_BBR_1.png?v=1759848490",
-        "notes": ""
+        "notes": "As comfortable as it is confident, the Sportmachine 3 BOA® 85 W is at home anywhere on the mountain. The wrapping power of the BOA® Fit System integrates with redesigned Tri Force technology for exceptional precision and control. This boot includes a Precision Fit liner with PrimaLoft insulation, that is fully customizable for ultimate comfort and warm on the hill. With an emphasis on comfort, the Sportmachine 3 BOA® 85 W focuses on your feet so you can focus on your skiing."
     },
 
     # HF
@@ -481,90 +458,83 @@ SKI_BOOTS = [
     {
         "name": "Mach BOA MV 100",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 100,
         "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
         "price": 599.95,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295449_RGRY_1.png?v=1754678495",
+        "notes": "Intermediate level skiers with mid-volume fit needs that are looking for a Dialed In precision fit -- meet the Mach BOA MV 100. With a medium volume anatomically shaped lower shell crafted specifically for the BOA® Fit System, this boot delivers on Tecnica's commitment to performance and fit. With a simple turn of the dial, you get a secure performance fit, while the contoured liner provides exceptional comfort. Stay locked in all day."
     },
     {
         "name": "Mach BOA MV 120",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 120,
         "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
         "price": 799.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305176-PROGGRN-1.png?v=1781901611",
+        "notes": "With a medium volume anatomically shaped lower shell crafted specifically for the BOA® Fit System -- the Mach BOA MV 120 is committed to performance and fit. With a simple turn of the dial, you get a secure performance fit, while the contoured liner provides exceptional comfort. For strong skiers looking for a Dialed In precision fit, Tecnica's Mach BOA MV 120 delivers. Designed to feel effortless once it’s on, the Mach BOA MV 120 keeps you locked in and ready for a full day on the slopes. Specifically designed for the BOA® shell, the C.A.S. Comfort Liner delivers a super-comfortable out-of-the-box fit without compromising precision. Its anatomical, pre-shaped construction made from dual-density thermoformed micro-cell material ensures best-in-class foot wrapping, enhanced sensitivity, and long-lasting comfort. The result is a liner that adapts instantly, providing exceptional feel and control from the very first run."
     },
     {
-        "name": "Mach BOA MV 130",
+        "name": "Mach BOA MV 130 Dual",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 130,
         "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [26.5, 27.5, 28.5, 29.5],
         "price": 949.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305187-SAND-6.png?v=1781909770",
+        "notes": "Seeking a Dialed In, Performance Fit with a 130-flex? Tecnic's all Dual BOA Mach MV 130 is designed for just that. Featuring a mid-volume, anatomically shaped lower shell crafted specifically to work with the BOA® Fit System, this Mach BOA flexes an upper and lower BOA for a precise and higher performing experience."
     },
     
     # HV
     {
         "name": "Mach BOA HV 100",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 100,
         "last_mm": 103,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
         "price": 599.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295450_RGRY_1.png?v=1754674696",
+        "notes": "For those seeking a Dialed-In precision fit, the Mach BOA 100 features a high-volume, anatomically shaped lower shell designed specifically to work with the BOA® Fit System. The Mach BOA 110 provides a performance fit with a turn of the dial, while the plush anatomically shaped liner provides unparalleled comfort inside the boot. Designed to be put on and forgotten, the Mach BOA is all you need to stay Dialed-In on the hill all day long."
     },
     {
         "name": "Mach BOA HV 120",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 120,
         "last_mm": 103,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
         "price": 799.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305189-DRKPROGRN-6.png?v=1782163549",
+        "notes": "For those seeking a Dialed In, Precision Fit in a supportive 120-flex boot, the MachBOA HV 120 is designed for just that. Featuring a high-volume, anatomically shaped lower shell designed specifically to work with the BOA® Fit System, the MachBOA HV 120 provides unparalleled comfort infused with Tecnica’s performance ethos, making it the one boot you need to ski at your best from first chair to the closing bell."
     },
     
     # Mach 1
     {
         "name": "Mach1 LV 120",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 120,
         "last_mm": 98,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [26.5, 27.5, 28.5, 29.5],
         "price": 799.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305188-DRKPROGRN-6.png?v=1782160951",
+        "notes": "The art of boot craftmanship is alive and well, and the Mach1 LV 120 is a product of this nearly lost art. Tecnica stepped up the performance, fit-out-of-the-box and personalization options in this updated release. With the confidence to improve, Tecnica modernized the LV fit and performance - while holding true to the benefits that Custom Adaptive Shape has provided. A fresh T-Drive system ensures a consistent and progressive flex, while also supporting easier access when getting in and out of the boot. Feel Real Shape, Fit and Performance."
     },
     {
         "name": "Mach1 LV 130",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 130,
         "last_mm": 98,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5],
         "price": 849.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295447_IORG_1.png?v=1754685347",
+        "notes": "The Mach1 LV 130 has been reimagined to deliver "Real Feel" with enhanced performance, out-of-the-box fit, and greater personalization. Driven by a commitment to improvement, Tecnica modernized the LV fit and performance while preserving the trusted benefits of Custom Adaptive Shape. The newly designed T-Drive system ensures a smooth, consistent flex and makes getting in and out of the boot easier than ever. Feel Real Performance."
     },
     
 # Womens Tecnica
@@ -572,52 +542,48 @@ SKI_BOOTS = [
     {
         "name": "Women's Mach BOA MV 85",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 85,
         "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
         "price": 599.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305196-COOLGRY-6.png?v=1782175254",
+        "notes": "For the ladies who know that a good day on the hill starts with being comfortable, the Mach BOA 85 W is your new best friend. Featuring a medium-volume, anatomically shaped lower shell designed specifically to work with the BOA® Fit System -- the MachBOA 85 W provides a Dialed-In Precision Fit. A plush, anatomically shaped liner provides unparalleled comfort inside the boot, so you focus on having an epic day on the mountain."
     },
     {
         "name": "Women's Mach BOA MV 95",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 95,
         "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [23.5, 24.5, 25.5, 26.5],
         "price": 699.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305192-BLK-6.png?v=1782170068",
+        "notes": "For women searching for a super comfortable day on the hill, the MachBOA 95 W is your new go-to. Designed with a medium-volume, anatomically shaped lower shell that works seamlessly with the BOA® Fit System, the MachBOA 95 W delivers a Dialed-In Precision Fit. Inside, a plush, anatomically crafted liner ensures unmatched comfort, allowing you to focus entirely on making the most of your day on the mountain."
     },
 
     # Mach Sport
     {
         "name": "Women's Mach Sport LV 75",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 75,
         "last_mm": 98,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
         "price": 449.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305207-TRANGRY-6.png?v=1782176861",
+        "notes": "The Mach Sport LV 75 W is designed for new female skiers with lower volume feet looking for comfort while building their confidence on the hill. An anatomically shaped NFS liner with Celliant offers warmth and a comfortable, secure fit."
     },
     {
         "name": "Women's Mach Sport LV 85",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 85,
         "last_mm": 98,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
         "price": 549.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305177-BLK-6.png?v=1781906085",
+        "notes": "The Women's Mach Sport LV 85 is designed for intermediate female skiers with lower volume feet looking for comfort while building their confidence on the hill. An anatomically shaped NFS liner with Celliant offers warmth and a comfortable, secure fit."
     },
     
     
@@ -625,142 +591,219 @@ SKI_BOOTS = [
     {
         "name": "Women's Mach1 LV 95",
         "brand": "Tecnica",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 95,
         "last_mm": 98,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
         "price": 699.99,
-        "image": "",
-        "notes": ""
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305190-BLKGOLD-6.png?v=1782167260",
+        "notes": "A narrow boot for advanced women skiers, the Mach1 LV 95 W gives you the confidence to take your skiing to the next level. It’s easy to get on and off, anatomically designed to fit most women right out of the box, and endlessly customizable for those who need adjustment. With performance, comfort, warmth, and forgiveness, this boot will meet you where you are and take you where you want to go."
     },
     
 # K2
-    # Cortex
-    {
-        "name": "Cortex 120 Zonal BOA",
-        "brand": "K2",
-        "styles": [],
-        "skill":
-        "flex": 120,
-        "last_mm": 98,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": 849.95,
-        "image": "",
-        "notes": ""
-    },
-    
     # Recon
     {
-        "name": "Recon 100 MV",
+        "name": "Recon AF Zonal BOA 130",
         "brand": "K2",
-        "styles": [],
-        "skill":
-        "flex": 100,
-        "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": 449.95,
-        "image": "",
-        "notes": ""
-    },
-    {
-        "name": "Recon 110 BOA",
-        "brand": "K2",
-        "styles": [],
-        "skill":
-        "flex": 110,
-        "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": 699.99,
-        "image": "",
-        "notes": ""
-    },
-    {
-        "name": "Recon 120 BOA",
-        "brand": "K2",
-        "styles": [],
-        "skill":
-        "flex": 120,
-        "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": 799.99,
-        "image": "",
-        "notes": ""
-    },
-    {
-        "name": "Recon 130 BOA",
-        "brand": "K2",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 130,
         "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": ,
-        "image": "",
-        "notes": ""
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 899.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305273_1.png?v=1775765765",
+        "notes": "Dialed for serious skiers. Dual-zone BOA® closure wraps evenly for a secure, custom fit. Stiff flex means control when you’re pushing limits. Ski harder, ski longer."
     },
-    
-    # Mindbender
     {
-        "name": "Mindbender 120 BOA",
+        "name": "Recon AF Zonal BOA 110",
         "brand": "K2",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
+        "flex": 110,
+        "last_mm": 100,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 899.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305274_1.png?v=1775770528",
+        "notes": "Dialed for serious skiers. Dual-zone BOA® closure wraps evenly for a secure, custom fit. Stiff flex means control when you’re pushing limits. Ski harder, ski longer."
+    },
+    {
+        "name": "Recon 120 Zonal BOA",
+        "brand": "K2",
+        "styles": ["all-mountain"],
         "flex": 120,
         "last_mm": 100,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": ,
-        "image": "",
-        "notes": ""
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 799.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305275_1.png?v=1775773847",
+        "notes": "Responsive, powerful, and built for all-day laps. Zonal BOA® closure gives a glove-like fit, while the shell delivers energy transfer you can trust."
     },
-    
+    {
+        "name": "Recon 110 Zonal BOA",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 110,
+        "last_mm": 100,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 699.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305276_1.png?v=1775775458",
+        "notes": "Responsive, powerful, and built for all-day laps. Zonal BOA® closure gives a glove-like fit, while the shell delivers energy transfer you can trust."
+    },
+    {
+        "name": "Recon 100 BOA",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 100,
+        "last_mm": 100,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305277_1.png?v=1775776810",
+        "notes": "Comfort-forward without losing edge. BOA® closure and a forgiving flex make this boot perfect for progressing skiers who still want performance."
+    },
+
     # BFC
     {
-        "name": "BFC 90",
+        "name": "BFC 130 BOA",
         "brand": "K2",
-        "styles": [],
-        "skill":
-        "flex": 90,
-        "last_mm": 100-103,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": 449.95,
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100273725_1.png?v=1754107673",
-        "notes": ""
-    },
-    {
-        "name": "BFC 100 BOA",
-        "brand": "K2",
-        "styles": [],
-        "skill":
-        "flex": 100,
-        "last_mm": 100-103,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": 549.95,
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100273724_1.png?v=1754107671",
-        "notes": ""
+        "styles": ["all-mountain"],
+        "flex": 130,
+        "last_mm": 103,
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5],
+        "price": 899.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288931_BRBK_1.png?v=1754107446",
+        "notes": "The BFC 130 BOA® pairs high volume, wide fit and a stiffer flex for a more stable downhill performance. Long gone are the days where performance and comfort are exclusive factors."
     },
     {
         "name": "BFC 120 BOA",
         "brand": "K2",
-        "styles": [],
-        "skill":
+        "styles": ["all-mountain"],
         "flex": 120,
-        "last_mm": 100-103,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
+        "last_mm": 103,
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
         "price": 749.95,
         "image": "https://www.sportsbasement.com/cdn/shop/files/100288932_BLU_1.png?v=1754107442",
-        "notes": ""
+        "notes": "The BFC 120 BOA® boasts a 103mm last, and a performance oriented 120 flex, delivering the perfect pairing of comfort and uncompromised downhill performance."
     },
     {
-        "name": "BFC 130 BOA",
+        "name": "BFC 100 BOA",
         "brand": "K2",
-        "styles": [],
-        "skill":
-        "flex": 130,
-        "last_mm": 100-103,
-        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5],
-        "price": 899.95,
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100288931_BRBK_1.png?v=1754107446",
-        "notes": ""
-    }
+        "styles": ["all-mountain"],
+        "flex": 100,
+        "last_mm": 103,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305281_1.png?v=1775840874",
+        "notes": "Comfort without compromise. The BFC 100 delivers a roomy fit for all-day laps with the precision of the BOA® Fit System. Easy on, easy off, and ready for everything from groomers to après. Ski more, fuss less."
+    },
+
+    # Mindbender
+    {
+        "name": "Mindbender 120 BOA",
+        "brand": "K2",
+        "styles": ["all-mountain", "touring"],
+        "flex": 120,
+        "last_mm": 100,
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 849.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288934_BLBR_1.png?v=1754107438",
+        "notes": "The Mindbender 120 BOA® boot pairs a super lightweight touring construction with the micro-adjustability of a custom fitted boot."
+    },
+
+    # Cortex
+    {
+        "name": "Cortex 120 Zonal BOA",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 120,
+        "last_mm": 98,
+        "sizes": [25.5, 26.5, 27.5, 28.5],
+        "price": 849.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288925_GRN_1.png?v=1754107457",
+        "notes": "Spotted on FWT podiums alike, the refreshed Cortex Zonal 120 BOA® delivers an uncompromised fit, with better power transmission and improved comfort."
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
 ]

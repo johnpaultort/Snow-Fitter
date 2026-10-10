@@ -697,5 +697,72 @@ SB_BINDINGS = [
         "price": "349.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100400969_FWHT_1.png?v=1786744556",
         "notes": "Engineered to own every line, the T32M FASE® binding locks you in from pow to park. With unrivaled support, mind-bending flex and uncompromising durability, it's built for the ultimate ride... every single time. As for boot-to-binding connection? Meet your new teammate."
+    },
+
+    # Youth Bindings
+    {
+        "gender": ["youth"],
+        "name": "Youth Step On Smalls",
+        "brand": "Burton",
+        "style": ["all-mountain"],
+        "sizes": ["OS"],
+        "flex": 4,
+        "pattern": ["2x4", "4x4", "channel"],
+        "type": "step-on",
+        "price": "189.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100269704_BLK_1.png?v=1740083055",
+        "notes": "Give your young rider the power of independence with the kids' Burton Step On® Re:Flex Snowboard Bindings. Like the name says, it's a step-on-and-ride scenario. Featuring the same design as the adult model, the Step On® bindings mean little hands don't need to fumble with straps. Zero lean hi-backs keep it playful and relaxed to help young riders progress."
+    },
+    {
+        "gender": ["youth"],
+        "name": "Youth Charger Mini",
+        "brand": "Nitro",
+        "style": ["all-mountain"],
+        "sizes": ["S"],
+        "flex": 2,
+        "pattern": ["2x4", "4x4"],
+        "type": "traditional",
+        "price": "149.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100291958.UltraBlack.3.png?v=1748447601",
+        "notes": "The Game Changer! Engineered from the ground up for those riders progressing at lightning speed and demanding a binding with adult-level features and durability in a youth-size package. Flex profile response and fit are specifically designed with young riders in mind to ignite a new level of excitement in their snowboarding journey."
+    },
+    {
+        "gender": ["Youth"],
+        "name": "Youth Ghost FASE",
+        "brand": "Bataleon",
+        "style": ["all-mountain"],
+        "sizes": ["XS"],
+        "flex": 5,
+        "pattern": ["4x2", "4x4", "channel"],
+        "type": "fase",
+        "price": "229.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100309173_GRY_1.png?v=1780957623",
+        "notes": "Evolution. Doubling down on a commitment to progression and innovation, Bataleon developed the MonoFrame™ chassis - a binding platform that expands the Bataleon offering and integrates FASE® technology into the Ghost models. Featuring a wide size range, an updated AutoBack Highback for added tweak-ability, and a premium strap package, these bindings deliver top tier performance with a seamless, one-piece feel - at a price point that puts innovation within reach."
+    },
+    {
+        "gender": ["youth"],
+        "name": "Youth Smalls Re:Flex",
+        "brand": "Burton",
+        "style": ["all-mountain"],
+        "sizes": ["OS"],
+        "flex": 2,
+        "pattern": ["4x2", "4x4", "channel"],
+        "type": "traditional",
+        "price": "169.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100212023_BLK_1.png?v=1740083138",
+        "notes": "The kids' Burton Mission Smalls Re:Flex Snowboard Binding offers a softer flexing, zero-compromise package for dependable all-terrain riding. Ergonomic, team-designed hi-backs join forces with pro-grade straps and plenty of cushioning to give kids the comfort and performance required for a full day on the mountain. The Re:Flex baseplate unlocks the board's true flex and feel in ways no traditional disc binding can, in a package compatible with all major snowboard mounting systems."
+    },
+    {
+        "gender": ["youth"],
+        "name": "Youth Rhythm",
+        "brand": "Salomon",
+        "style": ["all-mountain"],
+        "sizes": ["S"],
+        "flex": 2,
+        "pattern": ["4x2", "4x4", "channel"],
+        "type": "traditional",
+        "price": "169.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100264928_BKWH_1.png?v=1690822701",
+        "notes": "The Rhythm JR binding is loaded with features to provide superior fit and comfort for young riders. Built for groms with progression in mind, this binding features a lightweight asymmetrical design providing the perfect balance of support and maneuverability. A laundry list of features offers enhanced comfort and easy adjustments for all ages."
     }
 ]

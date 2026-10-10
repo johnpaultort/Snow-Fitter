@@ -546,5 +546,29 @@ BOOTS = [
         "price": "399.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100400999_MRSH_1.png?v=1786751094",
         "notes": "The Lashed Double Boa is a team favorite with well balanced medium flex, support, enhanced liner fit and the added benefit of the Dual BOA fit system featuring H5 coiler on the tongue. With Performance Rubber Outsole, Evolution Foam Cushioning and a new tongue cover to keep you dry.",
+    },
+
+    # Junior Stuff
+    {
+        "name": "Youth Juvie OG",
+        "brand": "Vans",
+        "styles": ["all-mountain"],
+        "flex": 3,
+        "sizes": [4, 5, 6],
+        "lacing": ["single-boa"],
+        "price": "185.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100278872-BLKWHT-1.png?v=1727902180",
+        "notes": "The Juvie OG is built to support groms who rip. Complete with a V1 UltraCush liner, V1 POPCUSH footbed, and V1 Waffle Lug outsole, this boot matches features with all of Vans’ adult-level OG products. When combined with the BOA Fit System, the Juvie OG is the youth culture’s clear choice for progression and undeniable style.",
+    },
+    {
+        "name": "Youth Smalls Step On",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 3,
+        "sizes": [3, 4, 5, 6, 7],
+        "lacing": ["single-boa", "step-on"],
+        "price": "219.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100269705_BLK_1.png?v=1740083056",
+        "notes": "That's right, just step on and ride. The Youth Burton Smalls Step On® Snowboard Boots set young riders up with a system that they can master quickly. No shortcuts here, just real-deal performance and features designed to keep kids independent and moving ahead.",
     }
 ]

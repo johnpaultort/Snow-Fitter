@@ -3,7 +3,6 @@ import json
 SKI_BOOTS = [
 
     # TODO: Change "all-mountain" to downhill since it makes more sense
-
 # Atomic
     {
         "name": "Hawx Prime 120 S BOA",
@@ -74,17 +73,27 @@ SKI_BOOTS = [
 
     # Women's Atomic 
     {
-        "name": "",
-        "brand": "",
+        "name": "Women's Hawx Ultra 85 BOA",
+        "brand": "Atomic",
         "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 85,
+        "last_mm": 100,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306695-BLKDUST-4.png?v=1780937423",
+        "notes": "Newer and less aggressive women skiers used to have to suck it up and deal with multiple compromises when buying an entry-level boot, but no more. The Atomic Hawx Prime 85 BOA Women's Ski Boots sport an appealing and user-friendly 85 flex, quality Mimic Silver heat moldable liner, and Atomic's proven Memory Fit heat moldable shells. What's more, the lower BOA® Fit System closure is just as good as the one on many if not most expert level boots these days. Start off on the right foot with the Hawx Prime 85 BOA, you won't regret it."
     },
-
+    {
+        "name": "Women's Hawx Prime 95 BOA",
+        "brand": "Atomic",
+        "styles": ["all-mountain"],
+        "flex": 95,
+        "last_mm": 100,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 649.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306694-ICE-3.png?v=1780408710",
+        "notes": "The redoubtable Atomic Hawx Prime 95 BOA Women's Ski Boots soldier on with one of the best boots of their selection. This ultra versatile platform will light up your ski life, whether you prefer groomers or off the beaten track exploration. The combination of best out-of-box fit and superior Memory Fit heat moldability will astound you."
+    },
     
 # Armada
     {
@@ -718,9 +727,72 @@ SKI_BOOTS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100288925_GRN_1.png?v=1754107457",
         "notes": "Spotted on FWT podiums alike, the refreshed Cortex Zonal 120 BOA® delivers an uncompromised fit, with better power transmission and improved comfort."
     },
+
+# Women's K2
+    # Anthem
     {
-        "name": "",
-        "brand": "",
+        "name": "Women's Anthem 85 BOA",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 85,
+        "last_mm": 100,
+        "sizes": [21.5, 22.5, 23.5, 24.5, 25.5, 26.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305280_1.png?v=1775839682",
+        "notes": "Progression made easy. Anthem 85 combines forgiving flex with a women’s-specific fit that feels right from the start. BOA® closure means quick, precise adjustments—so you can focus on the fun."
+    },
+    {
+        "name": "Women's Anthem 95 Zonal BOA",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 95,
+        "last_mm": 100,
+        "sizes": [21.5, 22.5, 23.5, 24.5, 25.5, 26.5],
+        "price": 699.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305279_1.png?v=1775836922",
+        "notes": "Confidence starts with fit. Anthem’s True-Form last and True-Align geometry keep you balanced and powerful. BOA® closure wraps evenly for comfort that lasts from first chair to last lap."
+    },
+    {
+        "name": "Women's Anthem 105 Zonal BOA",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 105,
+        "last_mm": 100,
+        "sizes": [21.5, 22.5, 23.5, 24.5, 25.5, 26.5],
+        "price": 799.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305278_1.png?v=1775837082",
+        "notes": "Confidence starts with fit. Anthem’s True-Form last and True-Align geometry keep you balanced and powerful. BOA® closure wraps evenly for comfort that lasts from first chair to last lap."
+    },
+
+    # Mindbender
+    {
+        "name": "Women's Mindbender 95 BOA",
+        "brand": "K2",
+        "styles": ["all-mountain"],
+        "flex": 95,
+        "last_mm": 100,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
+        "price": 749.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288935_WHT_1.png?v=1754107436",
+        "notes": "The Mindbender 95 BOA® are the perfect boot for female freeride skiers looking to level up their downhill performance. With classic lightweight construction, the 95 W BOA are a breeze on the boot pack, and on the skin track."
+    },
+# Lange
+
+    # Shadow
+    {
+        "name": "Shadow 110 LV GW",
+        "brand": "Lange",
+        "styles": ["all-mountain"],
+        "flex": 110,
+        "last_mm": 98,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "Shadow 120 LV GW",
+        "brand": "Lange",
         "styles": ["all-mountain"],
         "flex": ,
         "last_mm": ,
@@ -730,8 +802,8 @@ SKI_BOOTS = [
         "notes": "."
     },
     {
-        "name": "",
-        "brand": "",
+        "name": "Shadow 110 MV GW",
+        "brand": "Lange",
         "styles": ["all-mountain"],
         "flex": ,
         "last_mm": ,
@@ -741,8 +813,21 @@ SKI_BOOTS = [
         "notes": "."
     },
     {
-        "name": "",
-        "brand": "",
+        "name": "Shadow 120 MV GW",
+        "brand": "Lange",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+
+    # Concept
+    {
+        "name": "Concept 11 GW BOA",
+        "brand": "Lange",
         "styles": ["all-mountain"],
         "flex": ,
         "last_mm": ,
@@ -752,8 +837,21 @@ SKI_BOOTS = [
         "notes": "."
     },
     {
-        "name": "",
-        "brand": "",
+        "name": "Concept 12 GW BOA",
+        "brand": "Lange",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+
+    # Women's Shadow
+    {
+        "name": "Women's Shadow 85 LW GW",
+        "brand": "Lange",
         "styles": ["all-mountain"],
         "flex": ,
         "last_mm": ,
@@ -763,8 +861,8 @@ SKI_BOOTS = [
         "notes": "."
     },
     {
-        "name": "",
-        "brand": "",
+        "name": "Women's Shadow 95 LW GW",
+        "brand": "Lange",
         "styles": ["all-mountain"],
         "flex": ,
         "last_mm": ,
@@ -774,8 +872,8 @@ SKI_BOOTS = [
         "notes": "."
     },
     {
-        "name": "",
-        "brand": "",
+        "name": "Women's Shadow 85 MV GW",
+        "brand": "Lange",
         "styles": ["all-mountain"],
         "flex": ,
         "last_mm": ,
@@ -783,6 +881,148 @@ SKI_BOOTS = [
         "price": ,
         "image": "URL",
         "notes": "."
+    },
+    {
+        "name": "Women's Shadow 95 MV GW",
+        "brand": "Lange",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+
+    # Women's Concept
+    {
+        "name": "Women's Concept 9.5 GW",
+        "brand": "Lange",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "Women's Concept 10.5 GW",
+        "brand": "Lange",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+
+# Head
+    {
+        "name": "Kaliber 110 MV GW BOA2",
+        "brand": "Head",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "Kaliber 130 MV GW BOA2",
+        "brand": "Head",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+
+# Women's Head
+    {
+        "name": "Women's Kaliber 95 MV GW BOA2",
+        "brand": "Head",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+    {
+        "name": "Women's Kaliber 105 MV GW BOA2",
+        "brand": "Head",
+        "styles": ["all-mountain"],
+        "flex": ,
+        "last_mm": ,
+        "sizes": [],
+        "price": ,
+        "image": "URL",
+        "notes": "."
+    },
+
+# Rossignol
+    {
+        "name": "Vizion 4B 100 Pro MV GW",
+        "brand": "Rossignol",
+        "styles": ["all-mountain"],
+        "flex": 100,
+        "last_mm": 100,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+        "price": 599.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304826.Vizion.4B100ProMVGW.1.png?v=1780356090",
+        "notes": "Step into a revolution — the easy entry and high performance revolution of Rossignol's innovative Step In design. Made for skiers looking for a medium volume fit and modest flex, the Rossignol Vizion 4B Pro 100 MV ski boots feature a ground-breaking overlap shell design that opens wide in the back for unparalleled slip-on ease thanks to an innovative spoiler and spine mechanism. The system creates wide articulation at the cuff and complete locked-in support for precise power transfer and full downhill performance with unmatched ease of use. Just slip in, buckle up and ski."
+    },
+    {
+        "name": "Vizion 4B 120 Pro MV GW",
+        "brand": "Rossignol",
+        "styles": ["all-mountain"],
+        "flex": 120,
+        "last_mm": 100,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+        "price": 799.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304825.Vizion.4B120ProMVGW.1.png?v=1780350590",
+        "notes": "Step into a revolution — the easy entry and high performance revolution of Rossignol's innovative Step In design. Made for skiers looking for a medium volume fit and medium flex, the Rossignol Vizion 4B Pro 120 MV ski boots feature a ground-breaking overlap shell design that opens wide in the back for unparalleled slip-on ease thanks to an innovative spoiler and spine mechanism. The system creates wide articulation at the cuff and complete locked-in support for precise power transfer and full downhill performance with unmatched ease of use. Just slip in, buckle up and ski."
+    },
+
+# Women's Rossignol
+    {
+        "name": "Women's Vizion 4B 80 Pro GW",
+        "brand": "Rossignol",
+        "styles": ["all-mountain"],
+        "flex": 80,
+        "last_mm": 100,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 599.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304829.WsVizion4B80ProGW.1.png?v=1780411838",
+        "notes": "Reliable performance. Easy entry. Total game changer. The women's Rossignol Vizion 4B 80 Pro GW ski boots with revolutionary Step In system feature an innovative spoiler and spine mechanism that opens wide for easy entry. Once you're locked in, you get all the on-piste performance you'd expect from a four-buckle boot, thanks to a generative-design shell and precision fit of a full custom liner made with warm merino wool. Designed for intermediate and advanced skiers, these boots deliver full downhill performance, easy flex and a precise, low-volume fit for days spent cruising corduroy."
+    },
+    {
+        "name": "Women's Vizion 4B Pro 90 GW",
+        "brand": "Rossignol",
+        "styles": ["all-mountain"],
+        "flex": 90,
+        "last_mm": 100,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 699.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304830.WsVizion4BPro90GW.1.png?v=1780415561",
+        "notes": "Reliable performance. Easy entry. Total game changer. The women's Rossignol Vizion 4B Pro 90 GW ski boots with revolutionary Step In system feature an innovative spoiler and spine mechanism that opens wide for easy entry. Once you're locked in, you get all the on-piste performance you'd expect from a four-buckle boot, thanks to a generative-design shell and precision fit of a full custom liner made with warm merino wool. Designed for intermediate and advanced skiers, these boots deliver full downhill performance, forgiving flex and a precise, low-volume fit for days spent cruising corduroy."
+    },
+    {
+        "name": "Women's Pure Savage BOA GW",
+        "brand": "Rossignol",
+        "styles": ["all-mountain"],
+        "flex": 95,
+        "last_mm": 100,
+        "sizes": [23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 749.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304824.PureSavageBOAGW.1.png?v=1783446856",
+        "notes": "The Rossignol Pure Savage BOA GW is the Pure 95 Pro BOA shell with a zebra-graphic. A women's all-mountain boot: polyurethane shell, BOA lower closure, two traditional upper buckles, and Rossignol's women's-specific cuff and last geometry. It fits and skis like a 95-flex Pure Pro. The BOA lower closure replaces the two lower buckles with a single dial for even pressure across the forefoot and instep, no buckle bite over the navicular, and the ability to fine-tune the fit."
     },
     {
         "name": "",

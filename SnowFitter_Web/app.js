@@ -560,9 +560,9 @@ function calcSki() {
 
     'groomer':{
       name:'Carving / Groomer Ski',
-      width:'80-88mm',
+      width:'>= 88mm',
       rocker:'Camber dominant',
-      desc:'Narrow waist for precise carving on groomers.'
+      desc:'Narrow wasit with wide radius'
     },
 
     'freeride':{
@@ -573,7 +573,7 @@ function calcSki() {
     },
 
     'park':{
-      name:'Park / Twin-Tip Ski',
+      name:'Twin-Tip Ski',
       width:'88–95mm',
       rocker:'Twin-tip, slight camber',
       desc:'Symmetrical for skiing switch and park features.'

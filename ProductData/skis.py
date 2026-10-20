@@ -4,7 +4,7 @@ import json
 
 SKIS = [
 
-    # Blizard (26/27 images)
+# Blizard (26/27 images)
     
     # Canvas
     {
@@ -127,62 +127,79 @@ SKIS = [
     # Women's Anamoly
     {
         "name": "Women's Black Pearl 84",
-        "brand": "",
+        "brand": "Blizzard",
         "styles": [""],
         "skill": [""],
         "terrain": [],
         "local": "",
         "preferences": [''],
         "waist_mm": 84,
-        "lengths": [],
-        "price": "",
-        "image": "",
-        "notes": ""
+        "lengths": [146, 152, 158, 164],
+        "price": "699.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305186-GREEN-5.png?v=1782834712",
+        "notes": "The Black Pearl 84 is built to trench fresh corduroy, slice through crud, and bite into ice—and dabble in the trees from time to time, thank you very much. With a women’s specific TrueBlend woodcore, it’s both nimble and stable, effortless and strong. With these on your feet, you may never pray for powder again."
     },
     {
         "name": "Women's Black Pearl 88",
-        "brand": "",
+        "brand": "Blizzard",
         "styles": [""],
         "skill": [""],
         "terrain": [],
         "local": "",
         "preferences": [''],
         "waist_mm": 88,
-        "lengths": [],
-        "price": "",
-        "image": "",
-        "notes": ""
+        "lengths": [146, 152, 158, 164, 170],
+        "price": "749.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305185_BLUE_1.png?v=1780187146",
+        "notes": "The Blizzard Black Pearl 88 Skis are women’s all-mountain frontside skis designed to deliver confident, versatile performance across a wide variety of terrain. With a balanced 88 mm waist, advanced TrueBlend W.S.D. wood core and FluxForm W.S.D. construction, they combine smooth turn initiation, solid edge grip on groomers and the agility to handle mixed snow conditions — making them a go-to choice for intermediate to advanced skiers who want one dependable ski for cruising, carving and exploring the whole mountain."
     },
     {
         "name": "Women's Black Pearl 94",
-        "brand": "",
+        "brand": "Blizzard",
         "styles": [""],
         "skill": [""],
         "terrain": [],
         "local": "",
         "preferences": [''],
         "waist_mm": 94,
-        "lengths": [],
-        "price": "",
-        "image": "",
-        "notes": ""
+        "lengths": [152, 158, 164, 170],
+        "price": "799.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305184-PURP-2.png?v=1782791790",
+        "notes": "An all-mountain ski with a taste for the soft stuff, the Black Pearl 94 purrs through powder and eats up big terrain—but it’s still nimble enough to slalom through tight trees and arc on hardpack. Powered by a women’s specific TrueBlend woodcore, the Black Pearl 94 will be there for you from bell to bell."
     },
     {
         "name": "Women's Sheeva 9",
-        "brand": "",
-        "styles": [""],
-        "skill": [""],
+        "brand": "Blizzard",
+        "styles": ["freeride"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": ["mixed"],
+        "local": "",
+        "preferences": [''],
+        "waist_mm": 96,
+        "lengths": [150, 156, 162, 168],
+        "price": "799.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295445_BLTL_1.png?v=1766787429",
+        "notes": "The Sheeva 9 has all the rebellious, out-of-bounds spirit of its bigger sisters, but with a narrower, more spritely waist-width for arcing on groomers and zipping through bumps. Built with a lively TrueBlend woodcore and panels of vibration-damping metal, it kicks butt everywhere and has a blast along the way. With the Sheeva 9 on your feet, the mountain is your playground."
+    },
+
+    # Youth Blizzard
+    {
+        "name": "Youth Rustler Team",
+        "brand": "Blizzard",
+        "styles": ["freeride"],
+        "skill": ["beginner", "intermediate"],
         "terrain": [],
         "local": "",
         "preferences": [''],
         "waist_mm": 9,
-        "lengths": [],
-        "price": "",
-        "image": "",
-        "notes": ""
+        "lengths": [132, 140, 148, 156, 164],
+        "price": "399.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295457_BKOR_1.png?v=1755721725",
+        "notes": "Tailored specifically for junior freeriders, the Rustler Team empowers young chargers to seek jaw-dropping lines they dream about during the doldrums of summer. Available in five sizes, riders flock to the Rustler Team because it’s made for top-to-bottom runs and every playing on every ounce of terrain encountered along the way. Versatility and energy are the calling cards of the Rustler Team making it the go-to choice for junior freeride athletes all over the world."
     },
 
-    # ARMADA (26/27 images)
+# ARMADA (26/27 images)
+    # ARV
     {
         "name": "ARV",
         "brand": "Armada",
@@ -226,34 +243,34 @@ SKIS = [
         "notes": "True one-ski quiver, all-mountain twin. The ARV 106 is the pow to piste all-mountain twin. Plenty of float for deep stashes and stout enough to stomp on with a smooth, round flex that carves, charges, slashes, and butters with ease."
     },
     
-    # Women's Armada
+    # Women's ARW
     {
         "name": "Women's ARW 84",
-        "brand": "",
+        "brand": "Armada",
         "styles": [""],
         "skill": [""],
         "terrain": [],
         "local": "",
         "preferences": [''],
         "waist_mm": 84,
-        "lengths": [],
-        "price": "",
-        "image": "",
-        "notes": ""
+        "lengths": [143, 150, 157, 164, 171],
+        "price": "424.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306758_1.png?v=1776964483",
+        "notes": "Ultra-durable, entry-level all-mountain twin. The ARW 84 is embedded with Armada’s freestyle DNA and the all-mtn chops to shred in and out of the park. Entry level price with high level performance."
     },
     {
         "name": "Women's ARW 88",
-        "brand": "",
+        "brand": "Armada",
         "styles": [""],
         "skill": [""],
         "terrain": [],
         "local": "",
         "preferences": [''],
         "waist_mm": 88,
-        "lengths": [],
-        "price": "",
-        "image": "",
-        "notes": ""
+        "lengths": [156, 161, 166, 171],
+        "price": "549.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306757_1.png?v=1776962440",
+        "notes": "Comp-ready, all-mountain freestyle twin. The ARW 88 is built on a snappy poplar chassis for maximum pop and edge hold to carve hard and send it deep. Slight tip and tail rocker adds versatility in the park and all over the mountain."
     },
     {
         "name": "Women's AWR 94",

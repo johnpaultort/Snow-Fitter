@@ -2,13 +2,14 @@
 function skiBootsHTML() {
   return `<div class="tool-page page">
   <h2 class="tool-title">SKI BOOT FITTER</h2>
-  <p class="tool-desc">Ski boots are the most important piece of gear. Enter your foot measurements for an accurate fit recommendation.</p>
+  <p class="tool-desc">Ski boots are the most important piece of gear. Enter your foot measurements for an estimate fit recommendation.</p>
   
   <div class="form-group">
     <div class="form-label">Category</div>
     <div class="radio-grid">
       ${radioOpt('gender','mens',"Men's")}
       ${radioOpt('gender','womens',"Women's")}
+      ${radioOpt('gender', 'youths', "Youth's")}
     </div>
   </div>
 
@@ -49,8 +50,9 @@ function skiBootsHTML() {
     <div class="form-label">Instep</div>
     <div class="radio-grid">
       ${radioOpt('instep','low-volume','LV')}
-      ${radioOpt('instep','regular','MV')}
+      ${radioOpt('instep','medium','MV')}
       ${radioOpt('instep','wide','HV')}</div>
+      <div class="form-hint">Crucial when sizing for boots, most measure and rely on width.</div>
   </div>
 
   <button class="btn ski" onclick="calcSkiBoot()">Find My Boot Size →</button>
@@ -83,9 +85,9 @@ function calcSkiBoot() {
   const flexMap = {beginner:'50–70',intermediate:'80–100',advanced:'100–120',expert:'120–140'};
   const insole = archType==='high' ? 'High-arch aftermarket footbed recommended (e.g. Superfeet Carbon)' : archType==='low' ? 'Supportive footbed to control pronation (e.g. Sidas Custom)' : 'Stock footbed usually sufficient; aftermarket optional';
   const brands = {
-    narrow:['Lange (96–98mm last)','Atomic Hawx','Tecnica Cochise narrow'],
-    regular:['Salomon S/Pro','Nordica Speedmachine','Fischer RC Pro'],
-    wide:['Atomic Hawx XTD Wide','Rossignol Alltrack Pro Wide','Nordica Sportmachine Wide']
+    narrow:['Salomon Alpha','Nordica Promachine','Tecnica Mach1', 'Lange Shadow LV', 'K2 Cortex'],
+    medium:['Salomon Supra', 'Nordica Speedmachine', 'Atomic Hawx Prime', 'Tecnica Mach BOA MV', 'K2 Recon', 'Lange Shadow MV'],
+    wide:['Salomon Delta', 'Nordica Sportmachine', 'Atomic Magna', 'Tecnica Mach BOA HV', 'K2 BFC', 'Lange Concept']
   };
   $('boot-result').innerHTML = `
   <div class="result-card">

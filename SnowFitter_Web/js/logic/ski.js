@@ -9,6 +9,7 @@ function skiRecommenderHTML() {
     <div class="radio-grid">
     ${radioOpt('gender', 'mens', "Men's")}
     ${radioOpt('gender', 'womens', "Women's")}
+    ${radioOpt('gender', 'youths', "Youth's")}
   </div>
 
   <div class="form-group">
@@ -20,7 +21,7 @@ function skiRecommenderHTML() {
     <div class="form-label">Riding Style</div>
     <div class="radio-grid">
       ${radioOpt('style','all-mountain','All Mountain')}
-      ${radioOpt('style','groomer','Groomed Runs')}
+      ${radioOpt('style','groomer','Frontside')}
       ${radioOpt('style', 'freeride', 'Off-Piste/Freeride')}
       ${radioOpt('style','park','Park')}
     </div>
@@ -36,6 +37,8 @@ function skiRecommenderHTML() {
       ${checkOpt('preferences','high speed','High Speed')}
       ${checkOpt('preferences', 'charger', 'Charger')}
       ${checkOpt('preferences', 'powder', 'Powder')}
+      ${checkOpt('preferences', 'short-turn', 'Short Turns')}
+      ${checkOpt('preferences', 'long-turn', 'Long Turns')}
     </div>
   </div>
 
@@ -48,14 +51,6 @@ function skiRecommenderHTML() {
     <div class="form-group">
       <label class="form-label" for="skier-weight">Weight (lbs)</label>
       <input type="number" class="form-input" id="skier-weight" placeholder="e.g. 170" min="80" max="350" />
-    </div>
-  </div>
-
-  <div class="form-group">
-    <div class="form-label">Terrain</div>
-    <div class="radio-grid">
-      ${radioOpt('terrain','groomed','Only Groomed')}
-      ${radioOpt('terrain','mixed','Mixed Terrain')}
     </div>
   </div>
 
@@ -104,7 +99,8 @@ function calcSki() {
   //Skill Checker
   if (skill==='beginner') base-=15; 
   else if (skill==='intermediate') base-=8; 
-  else if (skill==='advanced') base-=3; else base+=2;
+  else if (skill==='advanced') base-=3; 
+  else base+=2;
 
   // Style Checker
   if (style == 'freeride') base +=6; 
@@ -119,34 +115,35 @@ function calcSki() {
       name:'All-Mountain Ski',
       width:'90-100mm',
       rocker:'Slight tip rocker',
-      desc:'Versatile ski for any condition.'
+      desc:'Versatile ski for any condition. Usually that person that is in between all categories.'
     },
 
     'groomer':{
       name:'Carving / Groomer Ski',
       width:'>= 88mm',
       rocker:'Camber dominant',
-      desc:'Narrow wasit with wide radius'
+      desc:'Narrow waist for carving, mainly for frontside or only on groomers.'
     },
 
     'freeride':{
       name:'Powder / Freeride Ski',
       width:'100–130mm',
       rocker:'Full early rise tip & tail',
-      desc:'Wide and rockered for deep snow.'
+      desc:'Wide for that float, stiffer ski in order to handle that steeper terrain and off piest conditions.'
     },
 
     'park':{
       name:'Twin-Tip Ski',
-      width:'88–95mm',
+      width:'88–98mm',
       rocker:'Twin-tip, slight camber',
-      desc:'Symmetrical for skiing switch and park features.'
+      desc:'Symmetrical for skiing switch and park features. That person that is certain their time is 90 percent in the park.'
     },
 
   };
 
   const t = types[style];
   const skillBadge={beginner:'badge-blue',intermediate:'badge-green',advanced:'badge-warn'};
+
   const matched = (GEAR_DATA.skis || []).filter(s =>
     s.styles.includes(style) && 
     s.skill.includes(skill) &&

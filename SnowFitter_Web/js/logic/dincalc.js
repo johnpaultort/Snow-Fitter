@@ -73,9 +73,12 @@ function calcDIN() {
   const age = parseInt($('din-age')?.value);
   const heightCm = parseInt($('din-height')?.value);
   const type = document.querySelector('input[name="din-type"]:checked')?.value;
+
   if (!weightLbs || !age || !heightCm || !type) {
-    $('din-result').innerHTML = `<div class="warning-box">Please fill in all fields.</div>`; return;
+    $('din-result').innerHTML = `<div class="warning-box">Please fill in all fields.</div>`; 
+    return;
   }
+
   const dinTable = [
     [22,29,0.75,1.0,1.25,1.5],[30,38,1.0,1.25,1.5,1.75],[39,47,1.25,1.5,1.8,2.0],
     [48,56,1.5,1.8,2.0,2.5],[57,66,1.8,2.0,2.6,3.0],[67,78,2.0,2.6,3.0,3.7],
@@ -83,14 +86,24 @@ function calcDIN() {
     [126,147,4.5,5.5,6.5,7.5],[148,174,5.5,6.5,7.5,9.0],[175,209,6.5,7.5,9.0,10.5],
     [210,999,7.5,9.0,10.5,12.0],
   ];
+
   const row = dinTable.find(r => weightLbs >= r[0] && weightLbs <= r[1]);
   if (!row) { $('din-result').innerHTML = `<div class="warning-box">Weight out of range.</div>`; return; }
   const typeIndex = parseInt(type) - 1;
+
   let din = row[2 + typeIndex];
-  if (age <= 10 || age >= 50) { const adjustedIdx = Math.max(0, typeIndex - 1); din = row[2 + adjustedIdx]; }
-  if (heightCm > 193) din += 0.25; else if (heightCm < 150) din -= 0.25;
+
+  if (age <= 10 || age >= 50) { 
+    const adjustedIdx = Math.max(0, typeIndex - 1); 
+    din = row[2 + adjustedIdx]; }
+
+  if (heightCm > 193) din += 0.25;
+   else if (heightCm < 150) din -= 0.25;
+
   din = Math.round(din * 4) / 4;
+
   const matchedBindings = (GEAR_DATA.ski_bindings || []).filter(b => din >= b.min_din && din <= b.max_din);
+  
   $('din-result').innerHTML = `
   <div class="result-card">
     <div class="result-header">

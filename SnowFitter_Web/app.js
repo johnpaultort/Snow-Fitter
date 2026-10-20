@@ -433,7 +433,8 @@ function skiHubHTML() {
   </div>
 </div>`;
 }
- 
+
+/* This has moved into ski.js
 // SKI RECOMMENDER TOOL
 function skiRecommenderHTML() {
   return `<div class="tool-page page">
@@ -608,7 +609,10 @@ function calcSki() {
   </div>
   <div class="info-box">Ski lengths are guidelines. Demo before you buy! Your style may shift the ideal length by ±5cm.</div>`;
 }
- 
+*/
+
+
+/* This has moved into boots.js
 // SKI BOOTS TOOL
 function skiBootsHTML() {
   return `<div class="tool-page page">
@@ -722,7 +726,9 @@ function calcSkiBoot() {
   </div>
   <div class="warning-box">⚠ Always have ski boots fitted by a professional. Heat molding and shell punch-outs are often needed.</div>`;
 }
+*/
 
+/* This has moved into dincalc.js
 // DIN CALCULATOR
 function dinCalcHTML() {
   return `<div class="tool-page page">
@@ -832,7 +838,9 @@ function calcDIN() {
   </div>
   <div class="warning-box">⚠ DIN settings should ALWAYS be checked and adjusted by a certified ski technician.</div>`;
 }
- 
+*/
+
+/* This has moved into bindings.js
 // Ski Bindings
 function skiBindingsHTML() {
   return `<div class="tool-page page">
@@ -876,11 +884,12 @@ function calcSkiBindings() {
   <div class="warning-box">⚠ Bindings must be mounted and adjusted by a certified ski technician.</div>`;
 }
 // SKI TOOLS END HERE
+*/
+
 
 // SNOWBOARD TOOLS START HERE
-// Snowboard Hub
 
-// Pick tool page
+// Snowboard Hub
 function sbHubHTML() {
   return `<div class="hub page">
   <div class="hub-header">
@@ -904,7 +913,8 @@ function sbHubHTML() {
   </div>
 </div>`;
 }
- 
+
+/* This has moved into snowboard.js
 // Board recommender
 function sbBoardHTML() {
   return `<div class="tool-page page">
@@ -1063,7 +1073,9 @@ function calcBoard() {
   
   <div class="info-box" style="background:rgba(167,139,250,.07);border-color:rgba(167,139,250,.25);color:var(--snow);">${widthNote} Overhang of 1–2cm on each side is fine; 3cm+ causes drag in carves.</div>`;
 }
- 
+*/
+
+/* This has moved into boots.js
 // Snowboard Boots
 function sbBootsHTML() {
   return `<div class="tool-page page">
@@ -1222,7 +1234,9 @@ function calcSbBoot() {
   </div>
   <div class="info-box" style="background:rgba(167,139,250,.07);border-color:rgba(167,139,250,.25);color:var(--snow);">Snowboard boots pack out as the liner compresses. Snug (not painful) on day 1 is correct — they'll loosen up after a few sessions.</div>`;
 }
- 
+*/
+
+/* This has moved into bindings.js
 // Snowboard Bindings
 function sbBindingsHTML() {
   return `<div class="tool-page page">
@@ -1318,6 +1332,7 @@ function calcSbBindings() {
   </div>
   `;
 }
+*/
 
 // Accessories Start Here
 // Accessories Hub

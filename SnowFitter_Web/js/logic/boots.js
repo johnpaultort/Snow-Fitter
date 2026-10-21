@@ -34,6 +34,8 @@ function skiBootsHTML() {
       <option value="low">Low (flat foot)</option>
       <option value="medium">Medium (neutral)</option>
       <option value="high">High arch</option>
+      <option value="uneven">Different arch per foot</option>
+      <option value="unknown">Don't know</option>
     </select>
   </div>
 
@@ -52,8 +54,17 @@ function skiBootsHTML() {
       ${radioOpt('instep','low-volume','LV')}
       ${radioOpt('instep','medium','MV')}
       ${radioOpt('instep','wide','HV')}</div>
-      <div class="form-hint">Crucial when sizing for boots, most measure and rely on width.</div>
   </div>
+
+  <div class="form-group">
+    <div class="form-label">Reason</div>
+    <div class="radio-grid">
+        ${radioOpt('reason', 'proper-fit', "Boots too big")}
+        ${radioOpt('reason', 'upgrade', "Upgrade")}
+        ${radioOpt('reason', 'soft', "Outgrew Soft Flex")}
+        ${radioOpt('reason', 'stiff', "Too stiff")}
+        ${radioOpt('reason', 'alpine', "Alpine need gripwalk")}</div>
+    </div>
 
   <button class="btn ski" onclick="calcSkiBoot()">Find My Boot Size →</button>
   <div id="boot-result"></div>
@@ -120,13 +131,14 @@ function calcSkiBoot() {
 function sbBootsHTML() {
   return `<div class="tool-page page">
   <h2 class="tool-title">SNOWBOARD BOOT FINDER</h2>
-  <p class="tool-desc">Snowboard boots fit more like athletic shoes. The right flex and lacing system makes a big difference in control and comfort.</p>
+  <p class="tool-desc">Snowboard boots should not fit like running shoes. Toe touching the front of the boot, and no heel lift. The right flex and lacing system makes a big difference in control and comfort.</p>
   
   <div class="form-group">
     <div class="form-label">Category</div>
     <div class="radio-grid">
       ${radioOpt('gender','mens',"Men's")}
       ${radioOpt('gender','womens',"Women's")}
+      ${radioOpt('gender', 'youths', "Youth's")}
     </div>
   </div>
 
@@ -141,7 +153,7 @@ function sbBootsHTML() {
       <label class="form-label" for="sb-us-size">Boot Size (if known)</label>
       <select class="form-select" id="sb-us-size">
         <option value="">Select if known</option>
-        ${[5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,14,15,16,17].map(s=>`<option value="${s}">${s}</option>`).join('')}
+        ${[4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,14,15,16,17].map(s=>`<option value="${s}">${s}</option>`).join('')}
       </select>
     </div>
   </div>
@@ -151,7 +163,7 @@ function sbBootsHTML() {
     <div class="radio-grid">
       ${radioOpt('sb-boot-style','all-mountain','All Mountain')}
       ${radioOpt('sb-boot-style','park','Park')}
-      ${radioOpt('sb-boot-style','freeride','Freeride')}
+      ${radioOpt('sb-boot-style','freeride','Freeride or Backcountry')}
       ${radioOpt('sb-boot-style','carving','Carving')}
     </div>
   </div>
@@ -160,9 +172,19 @@ function sbBootsHTML() {
     <div class="form-label">Lacing Preference</div>
     <div class="radio-grid">
       ${radioOpt('lacing','traditional','Traditional Lace')}
-      ${radioOpt('lacing','boa','BOA')}
+      ${radioOpt('lacing', 'double-boa', 'Double BOA')}
+      ${radioOpt('lacing','single-boa','Single BOA')}
+      ${radioOpt('lacing', 'single-boa-lace', 'Single BOA and Lace')}
     </div>
   </div>
+
+  <div class="form-group">
+    <div class="form-label">Boot to Binding Type</div>
+    <div class="radio-grid">
+        ${radioOpt('sb-boot-type', 'step-on', 'Step-On')}
+        ${radioOpt('sb-boot-type', 'traditional', 'Traditional')}
+    </div>
+ </div>
 
   <div class="form-group">
     <div class="form-label">Priority</div>
@@ -178,6 +200,8 @@ function sbBootsHTML() {
       ${checkOpt('categories','heel','Best Heel Hold')}
       ${checkOpt('categories','great','Great for Everything')}
       ${checkOpt('categories','investment','One Time Investment')}
+      ${checkOpt('categories', 'soft', 'Soft Boots')}
+      ${checkOpt('categories', 'Stiff', 'Stiff Boots')}
     </div>
   </div>
 

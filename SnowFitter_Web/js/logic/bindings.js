@@ -52,6 +52,7 @@ function sbBindingsHTML() {
     <div class="radio-grid">
       ${radioOpt('gender','mens',"Men's")}
       ${radioOpt('gender','womens',"Women's")}
+      ${radioOpt('gender', 'youths', "Youth's")}
     </div>
   </div>
 
@@ -61,7 +62,6 @@ function sbBindingsHTML() {
       ${radioOpt('sbbind-style','all-mountain','All Mountain')}
       ${radioOpt('sbbind-style','freeride','Freeride')}
       ${radioOpt('sbbind-style','park','Park')}
-      ${radioOpt('sbbind-style','carving','Carving')}
     </div>
   </div>
 

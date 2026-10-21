@@ -1,0 +1,2 @@
+renderPage('landing');
+renderCart();

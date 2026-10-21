@@ -524,7 +524,3 @@ function helmetFinderHTML() {
   <div id="helmet-result"></div>
 </div>`;
 }
-
-// INIT
-renderPage('landing');
-renderCart();

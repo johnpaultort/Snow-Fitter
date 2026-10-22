@@ -2,7 +2,237 @@ import json
 
 # TODO: Skis will need to be researched more on for now just loading some of the information needed in order to make it run. Currently the logic will not be able to read or understand what the customer wants.
 
+# Nordica
+'''
+Initiation is smoother on the enforcer, since it came in a little bit.
+In the nose, the side cut is really consistent. Rocker allows some smear
+in the powder.
+
+94 is versatile in order to be an all mountain ski. This is more time on grooms
+with a 40/60. 99 is 60/40 where there is more off pieste riding. 
+The 104 is the customer that knows what they want. The 104 is the mammoth ski
+that has more float in powder, it has the same turn radius with the rest
+on groomers its stable, just takes longer cause its wider. This is the alller mountain ski
+
+Wildbelle is just for the person that is skiing with the kids that is just skiing blues
+they are able to get on edge and learn what the edges do. There is dual core. Really 
+foundation learning ski that.
+
+Santa ana has the pop and its really not that predictable
+'''
+
+# Faction
+'''
+Twin tip ski, full length wood core. Stiffest at the center point and softer
+with the tip and tail. Really mellow and can be used as an all mountain ski, but that
+softness in tail and nose allow a butter. 
+
+88 has poplar and ash which makes it a little stiffer allowing it come in at a groomer ski
+
+Capsule is just a artist collection that is a unisex ski.
+
+Younger person that comes in that wants to be a park skier that can be used on an all mountain
+
+twin tip is just helping in allowing making turns more adjustable
+
+The person who is starting to advance and wanting a wider ski
+'''
+
+# Salomon
+'''
+# QST
+QST IS FULL SIDE WALL SKI
+
+106 full woodcore ski, its all basalt that is fiber that runs the whole 
+length of the ski to add rigidity, getting rid of carbon. Basalt is better for the feel
+metal mounting plate that is for bindings. Adds some rigidity, but not for 
+preformance. Wood extends all over the ski, which reduces vibration.
+The most advanced looking for a powder ski. Not a true twin, but allows some switch
+and butters. 
+
+100 is the exact same the rocker profile just changes. Less rocker tip and tail
+this is the most versatile for somebody that is not a beginner but that one person
+that wants to do everything.
+
+94 20 percent tip and 16 percent tail for rocker. The big difference is in the tail
+more of a flatter tail which makes it more directional, or carving harder
+for that frontside skier.
+
+# Stance
+Stance 80 these are dad skis, they are ski and biding for the price of the ski
+they are more of a beginner/inter. One sheet of metal that adds rigidity with full
+poplar wood core. Side wall is under the binding.
+
+Stance 84R this one has the whole side wall that gives it for the wider
+ski that has better edge grip.
+
+Womens 80
+Shorter side wall, true beginner/inter
+
+Womens 84
+More material sheet of metal underfoot with some carbon the carbon
+is tip and tail. This makes it stiff
+
+# Addict
+Addict 76
+That swallow tail, two full sheets of metal, they take some of the metal out
+for that average consumer, super short turning radius. The point of this ski
+is front side, groomer, carving. Not fully locked into a turn, they take the turns with
+the notch you are able to get out of the turn instead of being bucked out.
+
+# KIDS
+Qst jr is the smallest kids newest to skier, composite core.
+
+Team blank
+woodcore ski that has poplar for that kid that is on a ski team 
+they are more of a ripper.
+'''
+
+# Atomic
+'''
+# BENT
+Playful they are just all mountain freeride ski that just does
+everything. Lighter more forgiving and playful. Full woodcore ski.
+More rocker in the 110 and step down as they go down in width.
+Suryf, poppy, fun. 
+
+Full side wall that beefs the ski up. They have a bevel piece that
+adds more floatation in soft snow, this is shown in the tip and the tail.
+These allow more surface area without adding weight. They are meant to be
+skied backwards and not just forward.
+
+# Maverick
+Maverick CTI means there is carbon with titnol which stiffens it up,
+but this doesnt make it so aggro. This has two sheets of metal but it doesnt
+run the full length of ski which is carbon in the tip and the tail.
+Poplar and ash, the ash stiffens it up. Funside charger that can do this all mountain.
+These have the horizon refer to bent, this extends more in this ski because its more directional
+this tapers down a little farther, but same tech.
+
+Maverick c is no metal besides the mounting plate. Not two sheets of metal compared to the cti
+this is for that inter rider. Poplar, wood ash that stiffends it up. This doesnt have the horizon in
+the tail compared to the cti which has it there is a cap.
+
+# Maven
+Maven 88 This has poplar no ash to make it softer for that women, to give them that flex.
+This doesnt have horizon in the tail
+
+Maven 84 This is a system ski that has no carbon no metal this is just that 
+directional story there is no horizon in tip or tail compared to the maven that has
+it soley just in the nose.
+'''
+
+# Blizzard
+'''
+Hard charging, smooth, skis. They make the rider really confident.
+
+Canvas comes in the 100, 108, 118. This is really poppy, surfy, buttery ski. 
+92 different prototyes. This was the real idea of making something light, and playful.
+This still has that blizzard feel. They are different than anything else. Taper in tip and tail compared to rustler.
+If you are hitting bumps and stuff its going to want to jump, this skis short.
+
+Anomoly is the most amount of metal, this is really just charging through crud no speed limit. Really smooth
+this is where the anomly comes in this comes in the 88 and 94. This is classic for someone taht wants all mounta
+but still wants to carve. 
+
+Black pearl is for that person that wants the edge to edge with the narrow ski
+if they ski soming that is smooth and long or sports car, the narrow one is going to be quick
+
+94 is for someone that wants a 50/50 ski that kind of offers that change.
+
+Sheeva 9 is 96 underfoot that has a freeride kind of style.
+'''
+
+'''
+# Elan
+Ripstick was designed for north american market and west coast in mind.
+This is lightweight, stable, carve and slarve. Wood used is carbon and palonia
+which is the lightest. With the wood combo we get live and playful. This has some carbon sheets
+that run next to the base of the ski next to the wood. 
+
+There is a right and a left, more rocker profile on the outside edge. Throw it on the snow
+logos on the outside not on the inside. Riding it on the other foot is not bad
+just will feel like its not tuned.
+
+The core is different on the black edition.
+
+96 is stiffer than the 88. The 96 is more demanding than the 88.
+
+102 is going to be a freeride. More for that float this is big mountain that is
+directional powder ski. The tail feels like it finished that curve. The rocker like other
+wide skis is a lot lower compared to the thinner narrow waist skis.
+
+The mounting point on womens skis are 1cm forward. They can be used either way, just making sure
+that we follow with the mounting point which allows women to get that leverage.
+
+W 88 is someone that is gaining confidence. They are looking for someone that wants to play with
+being able to carve. It goes into trees and does a little more.
+
+W 94 this is for someone that goes all over the mountain. They want powder ski for some.
+The angle of hips are different meaning that higher edge angle is more pressure on the knees. A wider ski
+can be a lot on the knees. 
+
+Black edition
+Some more material used in the core to dampen the feel. They add some in the center of the ski
+which stiffens up. It is still light weight, stable, carve, all mountain. This is more of 
+that power clentch, but there is still that fun ripstick identity. 
+
+88 BE is the narrow chassis that has the same solution for someone that likes
+groomers for that on pieste preformance which allows quick initiation.
+
+96 BE is going to be a little wider. This is for the low pack snow
+
+They are great for that person that is trying to increase their confidence
+on steeper terrain.
+'''
+
+# Stockli
+'''
+They have four year warranty date of purchase, from the purchase they have 90
+days to add them to their name. From here they end up having 4 years from then.
+
+# AX - Frontside
+The ax is 80 waist, has rocker tip and tail. They are less than some of the brands, they
+are true to side and go shorter than going than longer. Ax has been in the line for 15 years
+it is 6th gen super versatile, super friendly. The more you step the better it gets.
+At slower speeds it allows the ski to be tortionally rigid. 
+
+Frontside ski will have the cutout technology.
+
+# Storm Rider - All-Mountain
+Neila 86
+This is tetnal topsheet, they do that to make the ski more powerful. This makes
+the ski easier to get on edge. Softer Tip and tail for the women giving it more shape.
+
+Neila 93
+This is same tetnal topsheet, its slimmed down and thinner in the waist and softer
+into the tail. The core is different in the womens ski. Mens use beech poplar.
+These use beech, poplar, palonia. Took the metal insert and changed it so it can 
+be buttery compared to stiffer in the tail.
+
+Stormrider 88
+is 50/50 ski that is more like a gs ski compared to a free ride ski. This is wider
+this is softer than the prevous versions. This is unchanged from last year. It is versatile
+it is more on pieste than off. 
+
+Stormrider 95
+These do have the same rocker profile. They have been in the line for 15 years.
+They will ski anything. This is more of that ski that will do better on that off pieste.
+
+Stormrider 106
+More modern freeride ski, more traditional camber underfoot. This ski is similar construction. 
+More rocker in the tip and the tail compared to the narrow ones. This will also carver great
+on firm snow. The main thing is the rocker. 
+
+Preformance
+Quality
+Longevity
+'''
+
+
 SKIS = [
+
+# 
 
 # Blizard (26/27 images)
     

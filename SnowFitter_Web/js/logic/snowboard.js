@@ -8,6 +8,7 @@ function sbBoardHTML() {
     <div class="radio-grid">
       ${radioOpt('gender','mens',"Men's")}
       ${radioOpt('gender','womens',"Women's")}
+      ${radioOpt('gender', 'youths', "Youth's")}
     </div>
   </div>
 
@@ -22,7 +23,22 @@ function sbBoardHTML() {
       ${radioOpt('sb-style','all-mountain','All Mountain')}
       ${radioOpt('sb-style','freeride','Freeride')}
       ${radioOpt('sb-style','park','Park')}
-      ${radioOpt('sb-style','carving','Carving')}
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="form-label">Specific Traits (select 3)</div>
+    <div class="checkbox-grid">
+      ${checkOpt('sb-preferences','stiff','Stiff')}
+      ${checkOpt('sb-preferences','soft','Soft')}
+      ${checkOpt('sb-preferences','stable','Stable')}
+      ${checkOpt('sb-preferences','carving','Carver')}
+      ${checkOpt('sb-preferences','charger','Hard Charger')}
+      ${checkOpt('sb-preferences', 'powder', 'Powder')}
+      ${checkOpt('sb-preferences', 'ice', 'Good on Ice')}
+      ${checkOpt('sb-preferences', 'butter', 'Butters')}
+      ${checkOpt('sb-preferences', 'rails', 'Rails')}
+      ${checkOpt('sb-preferences', 'jumps', 'Jumps')}
     </div>
   </div>
 
@@ -42,7 +58,7 @@ function sbBoardHTML() {
     <label class="form-label" for="boot-size-sb">Boot Size (US Men's)</label>
     <select class="form-select" id="boot-size-sb">
       <option value="">Select boot size</option>
-      ${[6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,14].map(s=>`<option value="${s}">${s}</option>`).join('')}
+      ${[4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,14,15,16,17].map(s=>`<option value="${s}">${s}</option>`).join('')}
     </select>
     <div class="form-hint">Used to check necessary board width (toe/heel overhang)</div>
   </div>
@@ -88,7 +104,7 @@ function calcBoard() {
   } 
   else if (bootSize == 10.5) {
     boardWidth = 'Regular or Wide';
-    widthNote = '10.5 is middle point, this is also where bindings go from M to L. Carvers will notice the difference';
+    widthNote = '10.5 is middle point, this is also where bindings go from M to L.';
   } 
   else {
     boardWidth = 'Regular'; 
@@ -97,24 +113,24 @@ function calcBoard() {
 
   const shapes = {
     'all-mountain':{
-      shape:'Directional Twin',
+      shape:'Directional Twin or True Twin',
       profile:'Camber / Rocker-Camber-Rocker',
-      flex:'Medium (5–6/10)',
-      desc:'Versatile for all terrain, rides both directions with a slight directional feel.'
+      flex:'Medium (5–8/10)',
+      desc:'There are some all mountain boards with a centered base for those that feel comfortable with even stance. Otherwise, for those that want a more versatile board for all conditions directional twin is better for that float in powder.'
     },
 
     'freeride':{
       shape:'Directional',
-      profile:'Directional Rocker',
-      flex:'Medium-Stiff (6–8/10)',
+      profile:'Rocker, Hybrid, Camber',
+      flex:'Medium-Stiff (6–10/10)',
       desc:'Longer and stiffer with setback stance for powder float and speed.'
     },
 
     'park':{
       shape:'True Twin',
-      profile:'Flat / Rocker',
+      profile:'Flat / Hybrid',
       flex:'Soft-Medium (4–6/10)',
-      desc:'Symmetrical for riding switch. Soft flex for pressing and buttering.'
+      desc:'Symmetrical for riding switch. Either there is a board with carbon stringers for max pop while other park boards are better for rails'
     },
 
     'carving':{
@@ -126,7 +142,7 @@ function calcBoard() {
   };
 
   const s = shapes[style];
-  const setback = style==='freeride' ? '2–5cm back from center' : 'Rec: 12-15 front, 0-6 back';
+  const setback = style==='freeride' ? '2–5cm back from center' : 'Rec: 12-18 front, 0-6 back';
   const matched = (GEAR_DATA.snowboards || []).filter(b =>
      b.styles.includes(style) && 
      b.skill.includes(skill)  &&

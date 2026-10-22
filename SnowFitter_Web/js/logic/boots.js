@@ -59,10 +59,11 @@ function skiBootsHTML() {
   <div class="form-group">
     <div class="form-label">Reason</div>
     <div class="radio-grid">
+        ${radioOpt('reason', 'first-boot', "First boot")}
         ${radioOpt('reason', 'proper-fit', "Boots too big")}
         ${radioOpt('reason', 'upgrade', "Upgrade")}
         ${radioOpt('reason', 'soft', "Outgrew Soft Flex")}
-        ${radioOpt('reason', 'stiff', "Too stiff")}
+        ${radioOpt('reason', 'stiff', "Too stiff/Shin-bang")}
         ${radioOpt('reason', 'alpine', "Alpine need gripwalk")}</div>
     </div>
 

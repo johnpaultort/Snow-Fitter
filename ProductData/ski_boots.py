@@ -2,7 +2,89 @@ import json
 
 SKI_BOOTS = [
 
-    # TODO: Change "all-mountain" to downhill since it makes more sense
+# Upper boa with lower buckles
+'''
+This allows for that agressive person that really wants that tight fight in the front of the boot
+'''
+
+# Nordica
+'''
+What is the reason we go with single boa on the top and buckles on bottom?
+Promachine: Dropped ~1.23 in the toe, still generous. 
+
+Tri force frame that allows the boot to progressivly flex which is new for this season.
+
+Cork is a great material its dense, but molds and grips inside of the shell
+
+Power plate that transfers energy
+
+It is not asym, but it does have the tri force
+
+Remove screw in order to make stiffer/softer by 10 percent
+
+ACP On sport, and womens. This allows to open the calf a little bit more
+
+HF is for that person that is elderly that wants a boot that fits like a rental.
+has a base that can be reduced in order to drop 4mm.
+
+Some Nordica boots come with a 21.5 or 22.5 new for this season for those men
+with smaller feet.
+'''
+
+# Salomon
+'''
+Alpha: Redesigned, some of the key knew benefits. There are four buckle
+single boa either top or bottom, there are no double boa. Moved the buckle closer
+to the instep which the purpose is to help drive the heel into the back of the boot.
+Took the cuff and extended it to the bottom of the boot, one of the benefits
+is easier step in with more rigidity. More plastic that is softer. Power link
+is to connect the upper cuff with the lower in a more robust way, can adjust the cuff
+alignment. New liner does come pre shaped which is more heavier plastic that really customizes
+to customer.  Women's is the exact same the only difference is the calf.
+
+Supra: True traditional cuff with a customer shell, the liner is different
+there are some teflon strips that pocket the ankle. 
+
+Delta: High volume boot, same tech story as the supra. There is no double boa option
+there is only lower or upper. 
+'''
+
+# Atomic
+'''
+These are the only boots without the boa on the cuff. This boot is also heat moldable.
+
+Liners work as silver, platinum, gold
+
+Hawx ultra is the lowest
+
+Hawx prime is the mid
+
+Hawx magna that is the biggest
+'''
+
+# Tecnica
+'''
+The liners don't packout as quick. The difference is the liners in comparison to other boots.
+There are 142 different pieces in their liners which they do not skimp out on customer feel.
+They are using cas, this is almost like the shell you can grind it punch it like the shell.
+
+Replacement liners are 170 dollars. Mach1 has the removable tounges, they are strong velcro.
+Mach1 is the top end boot which is the stiffest liner. 
+They found that the boa did not work in their Mach1 line. Their high quality liners appear in all boots
+just not in their higher end. 
+
+Mach1 95 low volume, this is also in the mv. This is new this year
+the differences in the mv than the last year is you get an external stiffner.
+It is in it out of the turn.
+
+The old lv had the sportiest fit, which it was very agressive. 
+
+CAS just tells you where the most common punches are located.
+
+Chochies is going to be a 99 last boot, with a medium instep
+'''
+
+# TODO: Change "all-mountain" to downhill since it makes more sense
 # Atomic
     {
         "name": "Hawx Prime 120 S BOA",

@@ -493,34 +493,3 @@ function accessoriesHubHTML() {
   </div>
 </div>`;
 }
-
-function helmetFinderHTML() {
-  return `<div class="tool-page page">
-  <h2 class="tool-title">Helmet Finder</h2>
-  <p class="tool-desc">Find helmet that may fit right for you from our inventory.</p>
-  <div class="form-group">
-    <div class="form-label">Gender</div>
-    <div class="radio-grid">
-      ${radioOpt('gender-helmet','unisex','Unisex')}
-      ${radioOpt('gender-helmet','mens','Mens')}
-      ${radioOpt('gender-helmet','womens','Womens')}
-      ${radioOpt('gender-helmet','kids','Kids')}
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-label">Aspects</div>
-
-    <div class="radio-grid">
-      ${radioOpt('aspects-qualities','vents','Air Ventilation')}
-      ${radioOpt('aspects-qualities','value','Cheapest')}
-      ${radioOpt('aspects-qualities','adjustable','Adjustable BOA')}
-    </div>
-
-    <div class="form-hint">
-      All Helmets have MIPS
-    </div>
-  </div>
-  <button class="btn helmets" onclick="calcHelmet()">Get My Helmet→</button>
-  <div id="helmet-result"></div>
-</div>`;
-}

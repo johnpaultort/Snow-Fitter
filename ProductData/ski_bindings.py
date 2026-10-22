@@ -1,4 +1,21 @@
 import json
+'''
+Robust is strive 16, which is manal toe adjustment which adjust to all boots
+they would have to be an advanced skier which is a three piece heel which is the most robust,
+which used to be in the STH. Carbon infused plastic. Low direct and neutral.
+This also comes in a MN model.Elastic travel is 45mm flex off center and come back.
+
+Strive 14 you loose some rigidity the toe is still the same. The material
+and stiffness is consistent. The heel you do remove some, it is easier step in, but
+not the same rigidity. 
+
+14 GW this is automatic toe high adjustment
+
+12 GW is the bread and butter for most customers which is most for all.
+fit most of the customers. 
+
+10 GW goes down to 3 which can fit smaller kids.
+'''
 
 
 SKI_BINDINGS = [

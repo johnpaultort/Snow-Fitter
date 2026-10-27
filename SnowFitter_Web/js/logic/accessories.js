@@ -4,17 +4,10 @@ function helmetFinderHTML() {
   <p class="tool-desc">Find helmet that may fit right for you from our inventory.</p>
 
   <div class="form-group">
-   <div class="form-label">Asian Fit</div>
-   <div class="radio-grid">
-    ${radioOpt('helmet-fit', 'asian-fit', 'Asian Fit')}
-    ${radioOpt('helmet-fit', 'regular', 'Normal Fit')}
-    </div>
-  </div>
-
-  <div class="form-group">
     <div class="form-label">Gender</div>
     <div class="radio-grid">
-      ${radioOpt('gender-helmet','unisex','Unisex')}
+      ${radioOpt('gender-helmet', 'men', 'Men')}
+      ${radioOpt('gender-helmet', 'women', 'Women')}
       ${radioOpt('gender-helmet','youth','Youth')}
     </div>
   </div>
@@ -27,6 +20,8 @@ function helmetFinderHTML() {
       ${radioOpt('aspects-qualities','adjustable','Adjustable BOA')}
       ${radioOpt('aspects-qualities', 'better-value', 'Mid Price')}
       ${radioOpt('aspects-qualities', 'best-value', 'Most Expensive')}
+      ${radioOpt('aspects-qualities', 'round-fit', 'Round Fit')}
+      ${radioOpt('aspects-qualities', 'integrated', 'Integrated Goggle')}
     </div>
 
     <div class="form-hint">
@@ -38,6 +33,7 @@ function helmetFinderHTML() {
   <div id="helmet-result"></div>
 </div>`;
 }
+
 function calcHelmet() {
   const gender = document.querySelector('input[name="gender-helmet"]:checked')?.value;
   const aspects = document.querySelector('input[name="aspects-qualities"]:checked')?.value;

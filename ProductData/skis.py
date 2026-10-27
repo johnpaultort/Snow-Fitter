@@ -242,7 +242,6 @@ SKIS = [
         "brand": "Blizzard",
         "styles": ["all-mountain"],
         "skill": ["intermediate", "advanced"],
-        "terrain": ["mixed"],
         "local": "",
         "preferences": [],
         "waist_mm": 100,

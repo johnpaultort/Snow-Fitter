@@ -17,26 +17,14 @@ function skiBootsHTML() {
     <div class="form-group">
       <label class="form-label" for="foot-length">Foot Length (cm)</label>
       <input type="number" class="form-input" id="foot-length" placeholder="e.g. 27.5" step="0.5" min="20" max="34" />
-      <div class="form-hint">Heel to longest toe, standing</div>
+      <div class="form-hint">Heel to longest toe, do this while standing</div>
     </div>
 
     <div class="form-group">
       <label class="form-label" for="foot-width">Forefoot Width (mm)</label>
       <input type="number" class="form-input" id="foot-width" placeholder="e.g. 98" step="1" min="85" max="115" />
-      <div class="form-hint">Widest part of foot (ball)</div>
+      <div class="form-hint">Widest part of foot (ball), also while standing expands a little more</div>
     </div>
-  </div>
-
-  <div class="form-group">
-    <label class="form-label" for="arch-type">Arch Type</label>
-    <select class="form-select" id="arch-type">
-      <option value="">Select arch type</option>
-      <option value="low">Low (flat foot)</option>
-      <option value="medium">Medium (neutral)</option>
-      <option value="high">High arch</option>
-      <option value="uneven">Different arch per foot</option>
-      <option value="unknown">Don't know</option>
-    </select>
   </div>
 
   <div class="form-group">
@@ -53,7 +41,8 @@ function skiBootsHTML() {
     <div class="radio-grid">
       ${radioOpt('instep','low-volume','LV')}
       ${radioOpt('instep','medium','MV')}
-      ${radioOpt('instep','wide','HV')}</div>
+      ${radioOpt('instep','wide','HV')}
+      </div>
   </div>
 
   <div class="form-group">

@@ -1,4 +1,6 @@
 // SKI BOOT LOGIC
+// TODO: Logic should incorperate take the ski boot size and +- 2 from each size after or 
+// before 26.5. Also if women 27.5<n fit them in a mens boot with an adjustable cuff.
 function skiBootsHTML() {
   return `<div class="tool-page page">
   <h2 class="tool-title">SKI BOOT FITTER</h2>

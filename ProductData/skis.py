@@ -232,8 +232,6 @@ Longevity
 
 SKIS = [
 
-# 
-
 # Blizard (26/27 images)
     
     # Canvas

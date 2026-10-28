@@ -1,90 +1,84 @@
 import json
+    # Upper boa with lower buckles
+'''
+    This allows for that agressive person that really wants that tight fight in the front of the boot
+
+    # Nordica
+    What is the reason we go with single boa on the top and buckles on bottom?
+    Promachine: Dropped ~1.23 in the toe, still generous. 
+
+    Tri force frame that allows the boot to progressivly flex which is new for this season.
+
+    Cork is a great material its dense, but molds and grips inside of the shell
+
+    Power plate that transfers energy
+
+    It is not asym, but it does have the tri force
+
+    Remove screw in order to make stiffer/softer by 10 percent
+
+    ACP On sport, and womens. This allows to open the calf a little bit more
+
+    HF is for that person that is elderly that wants a boot that fits like a rental.
+    has a base that can be reduced in order to drop 4mm.
+
+    Some Nordica boots come with a 21.5 or 22.5 new for this season for those men
+    with smaller feet.
+
+    # Salomon
+    Alpha: Redesigned, some of the key knew benefits. There are four buckle
+    single boa either top or bottom, there are no double boa. Moved the buckle closer
+    to the instep which the purpose is to help drive the heel into the back of the boot.
+    Took the cuff and extended it to the bottom of the boot, one of the benefits
+    is easier step in with more rigidity. More plastic that is softer. Power link
+    is to connect the upper cuff with the lower in a more robust way, can adjust the cuff
+    alignment. New liner does come pre shaped which is more heavier plastic that really customizes
+    to customer.  Women's is the exact same the only difference is the calf.
+
+    Supra: True traditional cuff with a customer shell, the liner is different
+    there are some teflon strips that pocket the ankle. 
+
+    Delta: High volume boot, same tech story as the supra. There is no double boa option
+    there is only lower or upper. 
+
+
+    # Atomic
+    These are the only boots without the boa on the cuff. This boot is also heat moldable.
+
+    Liners work as silver, platinum, gold
+
+    Hawx ultra is the lowest
+
+    Hawx prime is the mid
+
+    Hawx magna that is the biggest
+
+
+    # Tecnica
+
+    The liners don't packout as quick. The difference is the liners in comparison to other boots.
+    There are 142 different pieces in their liners which they do not skimp out on customer feel.
+    They are using cas, this is almost like the shell you can grind it punch it like the shell.
+
+    Replacement liners are 170 dollars. Mach1 has the removable tounges, they are strong velcro.
+    Mach1 is the top end boot which is the stiffest liner. 
+    They found that the boa did not work in their Mach1 line. Their high quality liners appear in all boots
+    just not in their higher end. 
+
+    Mach1 95 low volume, this is also in the mv. This is new this year
+    the differences in the mv than the last year is you get an external stiffner.
+    It is in it out of the turn.
+
+    The old lv had the sportiest fit, which it was very agressive. 
+
+    CAS just tells you where the most common punches are located.
+
+    Chochies is going to be a 99 last boot, with a medium instep
+'''
 
 SKI_BOOTS = [
 
-# Upper boa with lower buckles
-'''
-This allows for that agressive person that really wants that tight fight in the front of the boot
-'''
-
-# Nordica
-'''
-What is the reason we go with single boa on the top and buckles on bottom?
-Promachine: Dropped ~1.23 in the toe, still generous. 
-
-Tri force frame that allows the boot to progressivly flex which is new for this season.
-
-Cork is a great material its dense, but molds and grips inside of the shell
-
-Power plate that transfers energy
-
-It is not asym, but it does have the tri force
-
-Remove screw in order to make stiffer/softer by 10 percent
-
-ACP On sport, and womens. This allows to open the calf a little bit more
-
-HF is for that person that is elderly that wants a boot that fits like a rental.
-has a base that can be reduced in order to drop 4mm.
-
-Some Nordica boots come with a 21.5 or 22.5 new for this season for those men
-with smaller feet.
-'''
-
-# Salomon
-'''
-Alpha: Redesigned, some of the key knew benefits. There are four buckle
-single boa either top or bottom, there are no double boa. Moved the buckle closer
-to the instep which the purpose is to help drive the heel into the back of the boot.
-Took the cuff and extended it to the bottom of the boot, one of the benefits
-is easier step in with more rigidity. More plastic that is softer. Power link
-is to connect the upper cuff with the lower in a more robust way, can adjust the cuff
-alignment. New liner does come pre shaped which is more heavier plastic that really customizes
-to customer.  Women's is the exact same the only difference is the calf.
-
-Supra: True traditional cuff with a customer shell, the liner is different
-there are some teflon strips that pocket the ankle. 
-
-Delta: High volume boot, same tech story as the supra. There is no double boa option
-there is only lower or upper. 
-'''
-
-# Atomic
-'''
-These are the only boots without the boa on the cuff. This boot is also heat moldable.
-
-Liners work as silver, platinum, gold
-
-Hawx ultra is the lowest
-
-Hawx prime is the mid
-
-Hawx magna that is the biggest
-'''
-
-# Tecnica
-'''
-The liners don't packout as quick. The difference is the liners in comparison to other boots.
-There are 142 different pieces in their liners which they do not skimp out on customer feel.
-They are using cas, this is almost like the shell you can grind it punch it like the shell.
-
-Replacement liners are 170 dollars. Mach1 has the removable tounges, they are strong velcro.
-Mach1 is the top end boot which is the stiffest liner. 
-They found that the boa did not work in their Mach1 line. Their high quality liners appear in all boots
-just not in their higher end. 
-
-Mach1 95 low volume, this is also in the mv. This is new this year
-the differences in the mv than the last year is you get an external stiffner.
-It is in it out of the turn.
-
-The old lv had the sportiest fit, which it was very agressive. 
-
-CAS just tells you where the most common punches are located.
-
-Chochies is going to be a 99 last boot, with a medium instep
-'''
-
-# Atomic
+    # Atomic
     {
         "gender": ["mens"],
         "name": "Hawx Prime 120 S BOA",
@@ -102,7 +96,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "name": "Hawx Prime 110 S BOA",
         "brand": "Atomic",
         "flex": 110,
-        "instep": "MV"
+        "instep": "MV",
         "last_mm": 100,
         "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
         "price": 699.95,
@@ -119,14 +113,14 @@ Chochies is going to be a 99 last boot, with a medium instep
         "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
         "price": 649.95,
         "image": "https://www.sportsbasement.com/cdn/shop/files/100306698-BLKSLT-3.png?v=1780940695",
-        "notes": "."
+        "notes": "The 2027 Atomic Hawx Magna 110 S GW delivers confident all-mountain performance in a comfortable 102mm high-volume fit designed for skiers with wider feet. Prolite construction, a supportive 110 flex, and a heat-moldable Mimic Gold liner provide the ideal blend of power, cushioning, and precision for tackling everything from groomers to variable terrain. With customizable Memory Fit technology, adjustable flex and forward lean, and a roomy 3D Stretch Toe Box, the Hawx Magna 110 S offers all-day comfort without compromising control."
     },
     {
         "gender": ["mens"],
         "name": "Hawx Prime 100 BOA",
         "brand": "Atomic",
         "flex": 100,
-        "instep": "MV"
+        "instep": "MV",
         "last_mm": 100,
         "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
         "price": 549.95,
@@ -138,7 +132,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "name": "Hawx Prime 100",
         "brand": "Atomic",
         "flex": 100,
-        "instep": "MV"
+        "instep": "MV",
         "last_mm": 100,
         "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
         "price": 449.95,
@@ -150,29 +144,17 @@ Chochies is going to be a 99 last boot, with a medium instep
         "name": "Hawx Magna 100",
         "brand": "Atomic",
         "flex": 100,
-        "instep": "HV"
+        "instep": "HV",
         "last_mm": 102,
         "sizes": [25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5, 32.5],
         "price": 449.95,
-        "image": "URL",
-        "notes": "."
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306699-BLKRED-3.png?v=1780942564",
+        "notes": "The Atomic Hawx Magna 100 Ski Boots zero in on intermediate skiers who can't find roomy enough boot that actually skis decently. With a Polyurethane shell and Polypropylene cuff, Select Silver Liner, and classic four-buckle architecture, the Magna 100 is a balm for wide feet and a sure fire way to improve your skiing."
     },
 
     # Women's Atomic 
     {
         "gender": ["womens"],
-        "name": "Women's Hawx Ultra 85 BOA",
-        "brand": "Atomic",
-        "flex": 85,
-        "instep": "LV",
-        "last_mm": 100,
-        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
-        "price": 549.95,
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100306695-BLKDUST-4.png?v=1780937423",
-        "notes": "Newer and less aggressive women skiers used to have to suck it up and deal with multiple compromises when buying an entry-level boot, but no more. The Atomic Hawx Prime 85 BOA Women's Ski Boots sport an appealing and user-friendly 85 flex, quality Mimic Silver heat moldable liner, and Atomic's proven Memory Fit heat moldable shells. What's more, the lower BOA® Fit System closure is just as good as the one on many if not most expert level boots these days. Start off on the right foot with the Hawx Prime 85 BOA, you won't regret it."
-    },
-    {
-        "gender": ["mens"],
         "name": "Women's Hawx Prime 95 BOA",
         "brand": "Atomic",
         "flex": 95,
@@ -183,8 +165,33 @@ Chochies is going to be a 99 last boot, with a medium instep
         "image": "https://www.sportsbasement.com/cdn/shop/files/100306694-ICE-3.png?v=1780408710",
         "notes": "The redoubtable Atomic Hawx Prime 95 BOA Women's Ski Boots soldier on with one of the best boots of their selection. This ultra versatile platform will light up your ski life, whether you prefer groomers or off the beaten track exploration. The combination of best out-of-box fit and superior Memory Fit heat moldability will astound you."
     },
-    
-# Armada
+    {
+        "gender": ["womens"],
+        "name": "Women's Hawx Prime 85 BOA",
+        "brand": "Atomic",
+        "flex": 85,
+        "instep": "MV",
+        "last_mm": 100,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306695-BLKDUST-4.png?v=1780937423",
+        "notes": "Newer and less aggressive women skiers used to have to suck it up and deal with multiple compromises when buying an entry-level boot, but no more. The Atomic Hawx Prime 85 BOA Women's Ski Boots sport an appealing and user-friendly 85 flex, quality Mimic Silver heat moldable liner, and Atomic's proven Memory Fit heat moldable shells. What's more, the lower BOA® Fit System closure is just as good as the one on many if not most expert level boots these days. Start off on the right foot with the Hawx Prime 85 BOA, you won't regret it."
+    },
+    {
+        "gender": ["womens"],
+        "name": "Women's Hawx Ultra 85 BOA",
+        "brand": "Atomic",
+        "flex": 85,
+        "instep": "LV",
+        "last_mm": 98,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288910_BKAN_1.png?v=1754107517",
+        "notes": "The supremely comfortable, all-mountain Atomic Hawx Ultra 85 BOA W has a softer, more forgiving flex than other models in the Hawx Ultra W lineup. Best suited for those with low-volume feet, this boot has a narrow 98mm last. Dial in your ideal fit by turning the BOA® Fit System dial in either direction for a consistently enclosed feel and all-day comfort. Prolite technology’s slim yet powerful design creates a lightweight shell that’s agile and supportive and helps transferring power to your skis. Enhance power transfer with Energy Link, a mechanical connection between shell and cuff. The Mimic Silver liner with pre-shaped Ankle Lock provides an anatomical first fit with heat-moldable customization options. Enjoy a little extra space in the big toe area thanks to the liner’s 3D Stretch Toe Box. Further customize the boot through Memory Fit, where you can expand shell and cuff to match your anatomy, or by removing the Adaptive Fit System (AFS) Cuff to increase volume inside the lower leg."
+    },
+
+    # Armada
+        # AR 1
     {
         "gender": ["mens"],
         "name": "AR One 130 MV",
@@ -210,12 +217,12 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "The AR ONE 110 is the smooth-flexing, do-it-all boot. Top shelf features like the Team Liner, Team Elastic Cam 50mm Power Strap and the Kush Damping Bootboard give the AR ONE 110 a plush, supportive feel and customized fit that’s ideal for freestyle athletes. It’s the perfect blend of comfort and control to take the sting out of heavy landings and high speed chatter."
     },
     
-# Salomon
+    # Salomon
 
-    # Alpha
+        # Alpha
     {
         "gender": ["mens"],
-        "name": "Salomon Alpha 100",
+        "name": "S/Pro Alpha C BOA 100",
         "brand": "Salomon",
         "flex": 100,
         "instep": "LV",
@@ -227,7 +234,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["mens"],
-        "name": "Salomon Alpha 120",
+        "name": "S/Pro Alpha C BOA 120",
         "brand": "Salomon",
         "flex": 120,
         "instep": "LV",
@@ -239,7 +246,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["mens"],
-        "name": "Salomon Alpha 130",
+        "name": "S/Pro Alpha C BOA 130",
         "brand": "Salomon",
         "flex": 130,
         "instep": "LV",
@@ -249,11 +256,11 @@ Chochies is going to be a 99 last boot, with a medium instep
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305015.WroughtIronBlackRaspberry.2.png?v=1782148306",
         "notes": "Built on the trusted fit of the original Alpha, the S/Pro Alpha BOA® 130 introduces Salomon’s revolutionary ExoDrive construction and Powerlink lower pivot, for unmatched energy transmission, precision and confidence. The 98 mm last ensures a snug fit, while the cuff-mounted BOA® Fit System offers micro-adjustable precision and control."
     },
-    
-    # Supra
+
+        # Supra
     {
         "gender": ["mens"],
-        "name": "Salomon Supra 100",
+        "name": "S/Pro Supra 100",
         "brand": "Salomon",
         "flex": 100,
         "instep": "MV",
@@ -265,7 +272,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["mens"],
-        "name": "Salomon Supra 110",
+        "name": "S/Pro Supra S BOA 110",
         "brand": "Salomon",
         "flex": 110,
         "instep": "MV",
@@ -277,7 +284,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["mens"],
-        "name": "Salomon Supra 120",
+        "name": "S/Pro Supra DUAL BOA 120",
         "brand": "Salomon",
         "flex": 120,
         "instep": "MV",
@@ -289,7 +296,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["mens"],
-        "name": "Salomon Supra 130",
+        "name": "S/Pro Supra C BOA 130",
         "brand": "Salomon",
         "flex": 130,
         "instep": "MV",
@@ -300,9 +307,20 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "The S/Pro Supra C BOA® 130combines a cuffmounted BOA® Fit System with two lower-shell buckles for a stronger support and reliable hold. Paired with Exowrap™ construction and a CF Expert liner, it delivers a precise fit, strong energy transmission, and all-day comfort for confident, high-performance skiing."
     },
     
-    #Delta
+        #Delta
     {
-        "name": "Salomon Delta 120",
+        "name": "S/Pro Delta BOA 100",
+        "brand": "Salomon",
+        "flex": 100,
+        "instep": "HV",
+        "last_mm": 102,
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288696_BBTM_1.png?v=1754107492",
+        "notes": "More volume. More comfort. The revolutionary Boa system debuts on a 102mm last with Salomon’s S/Pro Delta BOA®, enhancing performance and inclusivity. With a wider 102mm fit, these boots offer precise, micro-adjustable control and a secure, customized fit to skiers with wider feet, while the three-position Calf Adjuster ensures added comfort for various calf sizes."
+    },
+    {
+        "name": "S/Pro Delta BOA 120",
         "brand": "Salomon",
         "flex": 120,
         "instep": "HV",
@@ -313,12 +331,12 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "The perfect fit for wider feet. The revolutionary BOA® Fit System debuts on a 102mm last with Salomon’s S/Pro Delta BOA®, enhancing performance and inclusivity. With a wider 102mm fit, these boots offer precise, micro-adjustable control and a secure, customized fit to skiers with wider feet, while the three-position Calf Adjuster ensures added comfort for various calf sizes."
     },
     
-# Womens Salomon
+    # Womens Salomon
 
-    # Alpha
+        # Women's Alpha
     {
         "gender": ["womens"],
-        "name": "Salomon Alpha 85",
+        "name": "Women's S/Pro Alpha C BOA 85",
         "brand": "Salomon",
         "flex": 85,
         "instep": "LV",
@@ -330,7 +348,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["womens"],
-        "name": "Salomon Alpha 95",
+        "name": "Women's S/Pro Alpha C BOA 95",
         "brand": "Salomon",
         "flex": 95,
         "instep": "LV",
@@ -345,7 +363,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "name": "Women's S/Pro Alpha C BOA 105",
         "brand": "Salomon",
         "flex": 105,
-        "instep": "LV"
+        "instep": "LV",
         "last_mm": 98,
         "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
         "price": 749.95,
@@ -353,10 +371,10 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Built on the trusted fit of the original Alpha, the S/Pro Alpha BOA® introduces Salomon’s revolutionary ExoDrive construction and Powerlink lower pivot, for unmatched energy transmission, precision and confidence. The 98 mm last ensures a snug fit, while the cuff-mounted BOA® Fit System offers micro-adjustable comfort and control."
     },
     
-    # Womens Supra
+        # Women's Supra
     {
         "gender": ["womens"],
-        "name": "Salomon Supra 85",
+        "name": "Wommen's S/Pro Supra 85",
         "brand": "Salomon",
         "flex": 85,
         "instep": "MV",
@@ -368,7 +386,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["womens"],
-        "name": "Salomon Supra 95",
+        "name": "Women's S/Pro Supra S BOA 95",
         "brand": "Salomon",
         "flex": 95,
         "instep": "MV",
@@ -380,7 +398,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["womens"],
-        "name": "Salomon Supra 105",
+        "name": "Women's S/Pro Supra S BOA 105",
         "brand": "Salomon",
         "flex": 105,
         "instep": "MV",
@@ -391,8 +409,34 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "The next dimension in fit. Engineered to advance foothold and performance by challenging traditional boot constructions, Salomon’s Supra BOA® outline a new standard of perfect fit. ExoWrap® Construction combined with the BOA® Fit System provides a micro-adjustable, precision fit and a targeted wrap around the foot that can easily be adjusted throughout the day."
     },
 
-# Nordica
-    # Promachine
+        # Women's Delta
+    {
+        "gender": ["womens"],
+        "name": "Women's S/Pro Delta BOA 95",
+        "brand": "Salomon",
+        "flex": 95,
+        "instep": "HV",
+        "last_mm": 102,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
+        "price": 649.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288701_BBPG_1.png?v=1754107484",
+        "notes": "More volume. More comfort. The revolutionary Boa system debuts on a 102mm last with Salomon’s S/Pro Delta BOA®, enhancing performance and inclusivity. With a wider 102mm fit, these boots offer precise, micro-adjustable control and a secure, customized fit to skiers with wider feet, while the three-position Calf Adjuster ensures added comfort for various calf sizes."
+    },
+    {
+        "gender": ["womens"],
+        "name": "Women's S/Pro Delta BOA 105",
+        "brand": "Salomon",
+        "flex": 105,
+        "instep": "HV",
+        "last_mm": 102,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5],
+        "price": 729.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288700_BLBM_1.png?v=1754107485",
+        "notes": "More volume. More comfort. The revolutionary Boa system debuts on a 102mm last with Salomon’s S/Pro Delta BOA®, enhancing performance and inclusivity. With a wider 102mm fit, these boots offer precise, micro-adjustable control and a secure, customized fit to skiers with wider feet, while the three-position Calf Adjuster ensures added comfort for various calf sizes."
+    },
+
+    # Nordica
+        # Promachine
     {
         "gender": ["mens"],
         "name": "Promachine 3 110",
@@ -418,7 +462,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "The redesigned Promachine 3 120 is built for skiers—those who ski hard, ski often, and demand gear that keeps up. The all-new, performance-driven, 98-mm shell features our foundational 3Force Frame Technology, delivering power and locked-in edge stability. Together with a modernized stance and refined shape, the Promachine 3 120 provides a smoother flex, enhanced lateral stability, and dialed energy transfer across every turn. With infrared customization available at your local Nordica bootfitter, you can dial in a fit that’s just for you. Lock into powerful precision with a supportive 120 flex and experience all-day skiing performance."
     },
     
-    # Speedmachine
+        # Speedmachine
     {
         "gender": ["mens"],
         "name": "Speedmachine 3 BOA 110",
@@ -444,7 +488,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Speedmachine performance taken to the next level - start your ski day with the wrapping power of BOA®. Featuring an enhanced 3D Cork Fit liner, an all-new BOA® cuff closure system, and two micro-adjust buckles on the lower shell, keep your energy contained and channeled from turn to turn while dialing up your power and precision. Its Tri Force cuff has been redesigned to accommodate the BOA® closure system, crafting the highest level of skiing precision in the Speedmachine family to date. Fully customizable, fine-tune your fit and buckle down faster in the all-new Speedmachine 3 120 BOA® Cuff."
     },
 
-    # Sportmachine
+        # Sportmachine
     {
         "gender": ["mens"],
         "name": "Sportmachine 3 100",
@@ -470,7 +514,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "No matter the terrain or the conditions, the Sportmachine 3 BOA®120 unlocks everything the mountains have to offer. This boot features an integrated BOA®Fit System to enhance comfort and precision, while seamlessly integrating with redesigned Tri Force technology to increase performance. For an even more personalized fit, the shells and liners can be readily customizable. And with 3D Cork Fit Primaloft liner, you will be able to ski run after run while remaining warm and dry. Ski your favorite terrain with the Sportmachine 3 BOA®120."
     },
 
-    # HF
+        # HF
     {
         "gender": ["mens"],
         "name": "HF 110",
@@ -484,9 +528,9 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "No matter the terrain or the conditions, the Sportmachine 3 BOA®120 unlocks everything the mountains have to offer. This boot features an integrated BOA®Fit System to enhance comfort and precision, while seamlessly integrating with redesigned Tri Force technology to increase performance. For an even more personalized fit, the shells and liners can be readily customizable. And with 3D Cork Fit Primaloft liner, you will be able to ski run after run while remaining warm and dry. Ski your favorite terrain with the Sportmachine 3 BOA®120."
     },
     
-# Womens Nordica
+    # Womens Nordica
 
-    # Womens Promachine
+        # Womens Promachine
     {
         "gender": ["womens"],
         "name": "Promachine 3 85",
@@ -512,7 +556,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "The all-new Promachine 3 95 W is the go-to boot for women seeking a proper performance fit, without the stiff flex of other Promachine models. With a 95 flex rating, it’s built for lighter skiers, young adults, or those who prefer a smooth, agile, and confident ride. Developed with top bootfitters and Nordica's R&D team, this women’s-specific boot features a redesigned shell with 3Force Frame Technology and a 3D Cork Fit liner for a progressive flex, enhanced lateral support, and efficient energy transfer. Whether you're building confidence on groomers or exploring more varied terrain, the Promachine 3 95 W gives you the tools to progress. Ski strong, stay comfortable, and let every run build your confidence."
     },
     
-    # Womens Speedmachine
+        # Womens Speedmachine
     {
         "gender": ["womens"],
         "name": "Speedmachine 3 85",
@@ -527,7 +571,7 @@ Chochies is going to be a 99 last boot, with a medium instep
     },
     {
         "gender": ["wommens"],
-        "name": "Speedmachine 3 95",
+        "name": "Speedmachine 3 95 BOA",
         "brand": "Nordica",
         "flex": 95,
         "instep": "MV",
@@ -550,7 +594,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "The Speedmachine 3 DD BOA® 105 W is designed for versatility and performance, allowing you to confidently explore the entire mountain. This boot features a women's specific fit and a Dual Dial Fit System from BOA®, allowing you to experience performance and comfort. Nordica redesigned the Tri-Force shell to pair perfectly with the BOA® Fit System to maximize energy transmission for unrivaled power, efficiency, and control. And for a more personal fit, its customization features allow you to truly make this boot your own. Experience a new level of skiing comfort with the Speedmachine 3 DD BOA® 105 W."
     },
     
-    # Womens Sportmachine
+        # Womens Sportmachine
     {
         "gender": ["womens"],
         "name": "Sportmachine 3 85",
@@ -564,13 +608,13 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "As comfortable as it is confident, the Sportmachine 3 BOA® 85 W is at home anywhere on the mountain. The wrapping power of the BOA® Fit System integrates with redesigned Tri Force technology for exceptional precision and control. This boot includes a Precision Fit liner with PrimaLoft insulation, that is fully customizable for ultimate comfort and warm on the hill. With an emphasis on comfort, the Sportmachine 3 BOA® 85 W focuses on your feet so you can focus on your skiing."
     },
 
-    # HF
+        # HF
     {
         "gender": ["womens"],
         "name": "Women's HF 85",
         "brand": "Nordica",
         "flex": 85,
-        "instep": "HV"
+        "instep": "HV",
         "last_mm": 102,
         "sizes": [23.5, 24.5, 25.5, 26.5, 27.5],
         "price": 649.95,
@@ -578,8 +622,8 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Comfort from beginning to end. As the saying goes, the HF 85 W places an emphasis on comfort from the moment you slip into it to the moment you call it a day. Thanks to the softer lighter shell and 3D cork liner, this boot is fully customizable to ensure comfort and performance while providing the perfect fit. Specially designed for women skiers, the HF 85 W offers a smooth, flowing ride every ride."
     },
 
-# Tecnica
-    # Mach
+    # Tecnica
+        # Mach MV
     {
         "gender": ["mens"],
         "name": "Mach BOA MV 100",
@@ -617,7 +661,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Seeking a Dialed In, Performance Fit with a 130-flex? Tecnic's all Dual BOA Mach MV 130 is designed for just that. Featuring a mid-volume, anatomically shaped lower shell crafted specifically to work with the BOA® Fit System, this Mach BOA flexes an upper and lower BOA for a precise and higher performing experience."
     },
     
-    # HV
+        # Mach HV
     {
         "gender": ["mens"],
         "name": "Mach BOA HV 100",
@@ -643,7 +687,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "For those seeking a Dialed In, Precision Fit in a supportive 120-flex boot, the MachBOA HV 120 is designed for just that. Featuring a high-volume, anatomically shaped lower shell designed specifically to work with the BOA® Fit System, the MachBOA HV 120 provides unparalleled comfort infused with Tecnica’s performance ethos, making it the one boot you need to ski at your best from first chair to the closing bell."
     },
     
-    # Mach 1
+        # Mach 1
     {
         "gender": ["mens"],
         "name": "Mach1 LV 120",
@@ -666,11 +710,26 @@ Chochies is going to be a 99 last boot, with a medium instep
         "sizes": [25.5, 26.5, 27.5, 28.5, 29.5],
         "price": 849.99,
         "image": "https://www.sportsbasement.com/cdn/shop/files/100295447_IORG_1.png?v=1754685347",
-        "notes": "The Mach1 LV 130 has been reimagined to deliver "Real Feel" with enhanced performance, out-of-the-box fit, and greater personalization. Driven by a commitment to improvement, Tecnica modernized the LV fit and performance while preserving the trusted benefits of Custom Adaptive Shape. The newly designed T-Drive system ensures a smooth, consistent flex and makes getting in and out of the boot easier than ever. Feel Real Performance."
+        "notes": "The Mach1 LV 130 has been reimagined to deliver Real Feel with enhanced performance, out-of-the-box fit, and greater personalization. Driven by a commitment to improvement, Tecnica modernized the LV fit and performance while preserving the trusted benefits of Custom Adaptive Shape. The newly designed T-Drive system ensures a smooth, consistent flex and makes getting in and out of the boot easier than ever. Feel Real Performance."
+    },
+
+        # Cochise
+    {
+        "gender": ["mens"],
+        "name": "Cochise 120",
+        "brand": "Tecnica",
+        "flex": 120,
+        "instep": "MV",
+        "last_mm": 98,
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5],
+        "price": 749.99,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295446_PGRN_1.png?v=1754669764",
+        "notes": "For over a decade now, the Cochise franchise has continuously raised the bar in the hybrid ski boot category. Bringing Tecnica’s proven fit-and-performance-above-all ethos to the walking world, the Cochise 120 has the performance benefits of a four-buckle alpine boot combined with the versatility and walkability of a touring boot."
     },
     
-# Womens Tecnica
-    # Mach
+    # Womens Tecnica
+        # TODO: Missing Chochise womens
+        # Mach
     {
         "gender": ["womens"],
         "name": "Women's Mach BOA MV 85",
@@ -696,7 +755,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "For women searching for a super comfortable day on the hill, the MachBOA 95 W is your new go-to. Designed with a medium-volume, anatomically shaped lower shell that works seamlessly with the BOA® Fit System, the MachBOA 95 W delivers a Dialed-In Precision Fit. Inside, a plush, anatomically crafted liner ensures unmatched comfort, allowing you to focus entirely on making the most of your day on the mountain."
     },
 
-    # Mach Sport
+        # Mach Sport
     {
         "gender": ["womens"],
         "name": "Women's Mach Sport LV 75",
@@ -721,9 +780,8 @@ Chochies is going to be a 99 last boot, with a medium instep
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305177-BLK-6.png?v=1781906085",
         "notes": "The Women's Mach Sport LV 85 is designed for intermediate female skiers with lower volume feet looking for comfort while building their confidence on the hill. An anatomically shaped NFS liner with Celliant offers warmth and a comfortable, secure fit."
     },
-    
-    
-    # Mach1
+
+        # Mach1
     {
         "gender": ["womens"],
         "name": "Women's Mach1 LV 95",
@@ -737,8 +795,8 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "A narrow boot for advanced women skiers, the Mach1 LV 95 W gives you the confidence to take your skiing to the next level. It’s easy to get on and off, anatomically designed to fit most women right out of the box, and endlessly customizable for those who need adjustment. With performance, comfort, warmth, and forgiveness, this boot will meet you where you are and take you where you want to go."
     },
     
-# K2
-    # Recon
+    # K2
+        # Recon
     {
         "gender": ["mens"],
         "name": "Recon AF Zonal BOA 130",
@@ -800,7 +858,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Comfort-forward without losing edge. BOA® closure and a forgiving flex make this boot perfect for progressing skiers who still want performance."
     },
 
-    # BFC
+        # BFC
     {
         "gender": ["mens"],
         "name": "BFC 130 BOA",
@@ -838,7 +896,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Comfort without compromise. The BFC 100 delivers a roomy fit for all-day laps with the precision of the BOA® Fit System. Easy on, easy off, and ready for everything from groomers to après. Ski more, fuss less."
     },
 
-    # Mindbender
+        # Mindbender
     {
         "gender": ["mens"],
         "name": "Mindbender 120 BOA",
@@ -852,7 +910,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "The Mindbender 120 BOA® boot pairs a super lightweight touring construction with the micro-adjustability of a custom fitted boot."
     },
 
-    # Cortex
+        # Cortex
     {
         "gender": ["mens"],
         "name": "Cortex 120 Zonal BOA",
@@ -866,8 +924,21 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Spotted on FWT podiums alike, the refreshed Cortex Zonal 120 BOA® delivers an uncompromised fit, with better power transmission and improved comfort."
     },
 
-# Women's K2
-    # Anthem
+    # Women's K2
+        # Cortex
+    {
+        "gender": ["womens"],
+        "name": "W Cortex 105 Zonal BOA",
+        "brand": "K2",
+        "flex": 105,
+        "instep": "LV",
+        "last_mm": 98,
+        "sizes": [23.5, 24.5, 25.5],
+        "price": 849.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288926-ONE-2.png?v=1755110521",
+        "notes": "Looking for a stiffer boot without sacrificing comfort? The Cortex Zonal 105 BOA® delivers a race boot level of performance without sacrificing on ease of use and entry. Dial into the Cortex 105."
+    },
+        # Anthem
     {
         "gender": ["womens"],
         "name": "Women's Anthem 85 BOA",
@@ -905,7 +976,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Confidence starts with fit. Anthem’s True-Form last and True-Align geometry keep you balanced and powerful. BOA® closure wraps evenly for comfort that lasts from first chair to last lap."
     },
 
-    # Mindbender
+        # Mindbender
     {
         "gender": ["womens"],
         "name": "Women's Mindbender 95 BOA",
@@ -918,219 +989,257 @@ Chochies is going to be a 99 last boot, with a medium instep
         "image": "https://www.sportsbasement.com/cdn/shop/files/100288935_WHT_1.png?v=1754107436",
         "notes": "The Mindbender 95 BOA® are the perfect boot for female freeride skiers looking to level up their downhill performance. With classic lightweight construction, the 95 W BOA are a breeze on the boot pack, and on the skin track."
     },
-# Lange
 
-    # Shadow
+        # BFC
+    {
+        "gender": ["womens"],
+        "name": "Women's BFC 85 BOA",
+        "brand": "K2",
+        "flex": 85,
+        "instep": "HV",
+        "last_mm": 103,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 499.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305283_1.png?v=1775843546",
+        "notes": "Confidence starts with comfort. The BFC 85 W pairs a women’s-specific design with BOA® closure for a secure, effortless fit. Forgiving flex keeps progression fun, while the plush feel makes every run better than the last."
+    },
+    {
+        "gender": ["womens"],
+        "name": "Women's BFC 95 BOA",
+        "brand": "K2",
+        "flex": 95,
+        "instep": "HV",
+        "last_mm": 103,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305282_1.png?v=1775841678",
+        "notes": "Slide into the BFC 95 BOA® W and see what comfort-driven performance is all about. With a 95 flex rating, wide 103mm last, and a Cushfit liner, these boots are the ideal blend of comfort and responsiveness. Throw in updated Après Mode for easy walking to and from the slopes."
+    },
+    {
+        "gender": ["womens"],
+        "name": "Women's BFC 105 BOA",
+        "brand": "K2",
+        "flex": 105,
+        "instep": "HV",
+        "last_mm": 103,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288933_TEAL_1.png?v=1754107440",
+        "notes": "Out-of-the-box comfort meets true on-snow performance. Designed for advanced female skiers who prefer a roomier fit. A boot that accommodates a wide variety of feet without sacrificing the support and responsiveness."
+    },
+
+    # Lange
+        # Shadow LV
     {
         "gender": ["mens"],
         "name": "Shadow 110 LV GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
         "flex": 110,
-        "last_mm": 98,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "last_mm": 97,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+        "price": 699.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288944-BLKBLU-1.png?v=1755717910",
+        "notes": "All-mountain revolutionary ski boot which offers expert skiers a new level of power transmission, vibration absorption and comfort. The Shadow 110 LV GW reconciles performance and on-snow confidence by delivering the advantage of increased leverage, through 2 unique technologies working together. The outcome is less fatigue with more confidence inspiring skiing."
     },
     {
         "gender": ["mens"],
         "name": "Shadow 120 LV GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 120,
+        "instep": "LV",
+        "last_mm": 97,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+        "price": 799.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295236-TITBLK-10.png?v=1755712037",
+        "notes": "All-mountain revolutionary ski boot which offers expert skiers a new level of power transmission, vibration absorption and comfort. The Shadow 120 LV GW reconciles performance and on-snow confidence by delivering the advantage of increased leverage, through 2 unique technologies working together. The outcome is less fatigue with more confidence inspiring skiing."
     },
+
+        # Shadow MV
     {
         "gender": ["mens"],
         "name": "Shadow 110 MV GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 110,
+        "last_mm": 100,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+        "price": 699.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288945-BLKBLU-10.png?v=1755718226",
+        "notes": "All-mountain revolutionary ski boot which offers expert skiers a new level of power transmission, vibration absorption and comfort. The Shadow 110 MV GW reconciles performance and on-snow confidence by delivering the advantage of increased leverage, through 2 unique technologies working together. The outcome is less fatigue with more confidence inspiring skiing."
     },
     {
         "gender": ["mens"],
         "name": "Shadow 120 MV GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 120,
+        "instep": "MV",
+        "last_mm": 100,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+        "price": 799.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288943-TITBLK-6.png?v=1755715884",
+        "notes": "All-mountain revolutionary ski boot which offers expert skiers a new level of power transmission, vibration absorption and comfort. The Shadow 120 MV GW reconciles performance and on-snow confidence by delivering the advantage of increased leverage, through 2 unique technologies working together. The outcome is less fatigue with more confidence inspiring skiing."
     },
 
-    # Concept
+        # Concept
     {
         "gender": ["mens"],
         "name": "Concept 11 GW BOA",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 110,
+        "instep": "HV",
+        "last_mm": 103,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288947-BLKRED-6.png?v=1754107566",
+        "notes": "When you feel great, you ski great. Designed for intermediate skiers seeking performance without compromising fit and comfort. The Concept 11 delivers a responsive 110 flex and 103mm last, making it a great match for skiers who want power and all-day performance. The BOA® system provides micro-adjustable shell closure across the forefoot, while the GripWalk soles ensure stable walking around the resort."
     },
     {
         "gender": ["mens"],
         "name": "Concept 12 GW BOA",
         "brand": "Lange",
         "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 120,
+        "last_mm": 103,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
+        "price": 649.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288946-BLKBLUE-11.png?v=1754107561",
+        "notes": "Performance meets comfort for dedicated skiers seeking performance and precision without compromising fit and comfort. With a 120 flex, the Concept 12 provides strong support for confident skiing at higher speeds. The dual-injected shell wraps the foot evenly, while the BOA® system secures the forefoot with uniform pressure. GripWalk soles add comfort when walking between runs."
     },
 
-    # Women's Shadow
+        # Women's Shadow LV
     {
-        "gender": ["mens"],
-        "name": "Women's Shadow 85 LW GW",
+        "gender": ["womens"],
+        "name": "Women's Shadow 85 LV GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 85,
+        "instep": "LV",
+        "last_mm": 97,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 599.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288950-BLKPRL-11.png?v=1755817264",
+        "notes": "The Women's Shadow 85 LV GW is an all-mountain revolutionary ski boot which offers expert skiers a new level of power transmission, vibration absorption and comfort. Such is the mission of the Shadow, first ever performance-assisted ski boot. Its two innovations, Dual Pivot and Suspension Blade, are about transmitting power with less effort. The comfort of its one-piece seamless Core Custom liner together with its easy entry-and-exit, have made it become a reference. The Shadow features Auxetic technology, a three-dimensional structure that allows the material to actively expand under the effect of heat during thermoforming and retract on cooling, for maximum customization. A ski boot designed for those who commit themselves wholeheartedly and whose passion is a faithful shadow of themselves, always."
     },
     {
-        "gender": ["mens"],
-        "name": "Women's Shadow 95 LW GW",
+        "gender": ["womens"],
+        "name": "Women's Shadow 95 LV GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 95,
+        "instep": "LV",
+        "last_mm": 97,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 699.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288948-TITBLU-7.png?v=1755815879",
+        "notes": "The Women's Shadow 95 LV GW is an all-mountain revolutionary ski boot which offers expert skiers a new level of power transmission, vibration absorption and comfort. Such is the mission of the Shadow, first ever performance-assisted ski boot. Its two innovations, Dual Pivot and Suspension Blade, are about transmitting power with less effort. The comfort of its one-piece seamless Core Custom liner together with its easy entry-and-exit, have made it become a reference. The Shadow features Auxetic technology, a three-dimensional structure that allows the material to actively expand under the effect of heat during thermoforming and retract on cooling, for maximum customization. A ski boot designed for those who commit themselves wholeheartedly and whose passion is a faithful shadow of themselves, always."
     },
+
+        # Women's Shadow MV
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Shadow 85 MV GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 85,
+        "instep": "MV",
+        "last_mm": 100,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 599.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288951-BLKPRL-1.png?v=1755817670",
+        "notes": "The Women's Shadow 85 MV GW is an all-mountain revolutionary ski boot which offers expert skiers a new level of power transmission, vibration absorption and comfort. Such is the mission of the Shadow, first ever performance-assisted ski boot. Its two innovations, Dual Pivot and Suspension Blade, are about transmitting power with less effort. The comfort of its one-piece seamless Core Custom liner together with its easy entry-and-exit, have made it become a reference. The Shadow features Auxetic technology, a three-dimensional structure that allows the material to actively expand under the effect of heat during thermoforming and retract on cooling, for maximum customization. A ski boot designed for those who commit themselves wholeheartedly and whose passion is a faithful shadow of themselves, always."
     },
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Shadow 95 MV GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 95,
+        "instep": "MV",
+        "last_mm": 97,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 699.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288949-TITBLU-1.png?v=1755816839",
+        "notes": "The Women's Shadow 95 MV GW is an all-mountain revolutionary ski boot which offers expert skiers a new level of power transmission, vibration absorption and comfort. Such is the mission of the Shadow, first ever performance-assisted ski boot. Its two innovations, Dual Pivot and Suspension Blade, are about transmitting power with less effort. The comfort of its one-piece seamless Core Custom liner together with its easy entry-and-exit, have made it become a reference. The Shadow features Auxetic technology, a three-dimensional structure that allows the material to actively expand under the effect of heat during thermoforming and retract on cooling, for maximum customization. A ski boot designed for those who commit themselves wholeheartedly and whose passion is a faithful shadow of themselves, always."
     },
 
-    # Women's Concept
+        # Women's Concept
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Concept 9.5 GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 95,
+        "instep": "HV",
+        "last_mm": 103,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 549.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288953-BLKBLU-7.png?v=1755819060",
+        "notes": "Driven by the desire to make every on-snow experience an unforgettable moment, the Lange teams are convinced that a ski boot can be easy to use, comfortable and high-performance. That’s why they’ve created the Women's Concept 9.5 GW: ski boots that are easy to put on in the morning, comfortable all day and technical on slopes."
     },
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Concept 10.5 GW",
         "brand": "Lange",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 105,
+        "instep": "HV",
+        "last_mm": 103,
+        "sizes": [22.5, 23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 649.95,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100288952-BLKPNK-11.png?v=1754107578",
+        "notes": "Driven by the desire to make every on-snow experience an unforgettable moment, the Lange teams are convinced that a ski boot can be easy to use, comfortable and high-performance. That’s why they’ve created the Women's Concept 10.5 GW: ski boots that are easy to put on in the morning, comfortable all day and technical on slopes."
     },
 
-# Head
+    # Head
     {
         "gender": ["mens"],
         "name": "Kaliber 110 MV GW BOA2",
         "brand": "Head",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 110,
+        "instep": "MV",
+        "last_mm": 100,
+        "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 689.00,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100287578.Anthricite.1.png?v=1754107594",
+        "notes": "With every detail designed to optimize both fit and performance, the Kaliber 110 MV GW BOA2 allows advanced skiers to unlock their potential. The BOA Fit System features dual dials designed to deliver a microadjustable precision fit, optimizing the wrap around the leg and foot. The bi-injected construction provides power where needed with softer plastic for an even footwrap. The newly-designed 3D Synapse Evo liner is thinner and more anatomical, with Graphene woven in to help keep feet warm or cool as needed and Liquid Fit material for quick customization of critical areas of the boot."
     },
     {
         "gender": ["mens"],
         "name": "Kaliber 130 MV GW BOA2",
         "brand": "Head",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 130,
+        "instep": "MV",
+        "last_mm": 100,
+        "sizes": [25.5, 26.5, 27.5, 28.5, 29.5, 30.5],
+        "price": 899.00,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100287577.Black.1.png?v=1754107600",
+        "notes": "The Kaliber 130 MV GW BOA2 offers all-mountain skiers unparalleled precision and performance skiing, thanks to a new construction with an integrated BOA Fit System. The BOA Fit System featuring a dual dial configuration allows for microadjustments to optimize the wrap around the leg and foot. The bi-injected cuff and shell were engineered specifically for BOA, featuring stiffer plastic in the back for power, with softer plastic and an angled overlap over the foot. The mid-volume 100mm last offers a more anatomical fit, while the newly-designed Synapse Pro liner has Graphene woven in to help regulate temperature."
     },
 
-# Women's Head
+        # Women's Head
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Kaliber 95 MV GW BOA2",
         "brand": "Head",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 95,
+        "last_mm": 100,
+        "sizes": [23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 689.00,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100287580.Black.1.png?v=1754107604",
+        "notes": "The Kaliber 95 W MV GW BOA2 offers advanced women personalized precision for performance skiing. Specifically engineered to integrate the BOA Fit System, micro-adjustments optimize the wrap around the leg and foot, while the bi-injected cuff and shell feature stiffer plastic in the back for power, and softer plastic over the foot. The new 3D Synapse EVO liner has a more anatomical shape with a roomier toebox and better fitting heel pocket, while HEAD's Form FIT customizable shell dials in the fit with easy modifications. Graphene woven in to the liner helps regulate temperature when feet get too hot or cold."
     },
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Kaliber 105 MV GW BOA2",
         "brand": "Head",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
+        "flex": 105,
+        "last_mm": 100,
+        "sizes": [23.5, 24.5, 25.5, 26.5, 27.5],
+        "price": 789.00,
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100287579.Black.1.png?v=1754107603",
+        "notes": "Women looking for an expert-level boot with a precise fit and high performance should choose HEAD's Kaliber 105 W MV GW BOA2. Specifically engineered to integrate the BOA Fit System, the mid-volume boot features dual dials, which allow for micro adjustments to optimize the wrap around the leg and foot. The bi-injected cuff and shell are designed with stiffer plastic in the back for power, and softer plastic over the foot. The new Synapse Pro liner has a more anatomical shape plus Graphene woven in to help regulate temperature and Liquid Fit material for quick customization of critical areas of the boot."
     },
 
-# Rossignol
+    # Rossignol
     {
         "gender": ["mens"],
         "name": "Vizion 4B 100 Pro MV GW",
         "brand": "Rossignol",
-        "styles": ["all-mountain"],
         "flex": 100,
+        "instep": "MV",
         "last_mm": 100,
         "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
         "price": 599.95,
@@ -1141,8 +1250,8 @@ Chochies is going to be a 99 last boot, with a medium instep
         "gender": ["mens"],
         "name": "Vizion 4B 120 Pro MV GW",
         "brand": "Rossignol",
-        "styles": ["all-mountain"],
         "flex": 120,
+        "instep": "MV",
         "last_mm": 100,
         "sizes": [24.5, 25.5, 26.5, 27.5, 28.5, 29.5, 30.5, 31.5],
         "price": 799.95,
@@ -1150,9 +1259,9 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Step into a revolution — the easy entry and high performance revolution of Rossignol's innovative Step In design. Made for skiers looking for a medium volume fit and medium flex, the Rossignol Vizion 4B Pro 120 MV ski boots feature a ground-breaking overlap shell design that opens wide in the back for unparalleled slip-on ease thanks to an innovative spoiler and spine mechanism. The system creates wide articulation at the cuff and complete locked-in support for precise power transfer and full downhill performance with unmatched ease of use. Just slip in, buckle up and ski."
     },
 
-# Women's Rossignol
+    # Women's Rossignol
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Vizion 4B 80 Pro GW",
         "brand": "Rossignol",
         "styles": ["all-mountain"],
@@ -1164,7 +1273,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Reliable performance. Easy entry. Total game changer. The women's Rossignol Vizion 4B 80 Pro GW ski boots with revolutionary Step In system feature an innovative spoiler and spine mechanism that opens wide for easy entry. Once you're locked in, you get all the on-piste performance you'd expect from a four-buckle boot, thanks to a generative-design shell and precision fit of a full custom liner made with warm merino wool. Designed for intermediate and advanced skiers, these boots deliver full downhill performance, easy flex and a precise, low-volume fit for days spent cruising corduroy."
     },
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Vizion 4B Pro 90 GW",
         "brand": "Rossignol",
         "styles": ["all-mountain"],
@@ -1176,7 +1285,7 @@ Chochies is going to be a 99 last boot, with a medium instep
         "notes": "Reliable performance. Easy entry. Total game changer. The women's Rossignol Vizion 4B Pro 90 GW ski boots with revolutionary Step In system feature an innovative spoiler and spine mechanism that opens wide for easy entry. Once you're locked in, you get all the on-piste performance you'd expect from a four-buckle boot, thanks to a generative-design shell and precision fit of a full custom liner made with warm merino wool. Designed for intermediate and advanced skiers, these boots deliver full downhill performance, forgiving flex and a precise, low-volume fit for days spent cruising corduroy."
     },
     {
-        "gender": ["mens"],
+        "gender": ["womens"],
         "name": "Women's Pure Savage BOA GW",
         "brand": "Rossignol",
         "styles": ["all-mountain"],
@@ -1186,29 +1295,5 @@ Chochies is going to be a 99 last boot, with a medium instep
         "price": 749.95,
         "image": "https://www.sportsbasement.com/cdn/shop/files/100304824.PureSavageBOAGW.1.png?v=1783446856",
         "notes": "The Rossignol Pure Savage BOA GW is the Pure 95 Pro BOA shell with a zebra-graphic. A women's all-mountain boot: polyurethane shell, BOA lower closure, two traditional upper buckles, and Rossignol's women's-specific cuff and last geometry. It fits and skis like a 95-flex Pure Pro. The BOA lower closure replaces the two lower buckles with a single dial for even pressure across the forefoot and instep, no buckle bite over the navicular, and the ability to fine-tune the fit."
-    },
-    {
-        "gender": ["mens"],
-        "name": "",
-        "brand": "",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "",
-        "brand": "",
-        "styles": ["all-mountain"],
-        "flex": ,
-        "last_mm": ,
-        "sizes": [],
-        "price": ,
-        "image": "URL",
-        "notes": "."
-    },
+    }
 ]

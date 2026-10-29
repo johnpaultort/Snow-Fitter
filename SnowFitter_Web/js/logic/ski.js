@@ -32,7 +32,7 @@ function skiRecommenderHTML() {
     <div class="radio-grid">
       ${radioOpt('priority', 'stable', 'Stable and planted at speed')}
       ${radioOpt('priority', 'playful', 'Playful and easy flex')}
-      ${radioOpt('priority', 'manuverability', 'Quick and easy to turn')}
+      ${radioOpt('priority', 'manuverable', 'Quick and easy to turn')}
       ${radioOpt('priority', 'balanced', 'Balanced and versatile')}
     </div>
   </div>
@@ -74,11 +74,12 @@ function skiRecommenderHTML() {
 
   <div class="form-group">
     <div class="form-label">Conditions you find yourself riding?</div>
-    <div class="radio-grid">
-      ${radioOpt('conditions', 'firm', 'Firm/Ice')}
-      ${radioOpt('conditions', 'powder', 'Powder')}
-      ${radioOpt('conditions', 'slush', 'Spring Slush')}
-      ${radioOpt('conditions', 'mix', 'Mix of all')}
+    <div class="form-hint">Select all that apply.</div>
+    </div>
+    <div class="checkbox-grid">
+      ${checkOpt('conditions', 'firm', 'Firm/Ice')}
+      ${checkOpt('conditions', 'powder', 'Powder')}
+      ${checkOpt('conditions', 'slush', 'Slush')}
     </div>
   </div>
 
@@ -134,7 +135,7 @@ function calcSki() {
     'groomer':{
       name:'Carving / Groomer Ski',
       width:'>= 88mm',
-      rocker:'Camber dominant',
+      rocker: 'Camber dominant',
       desc:'Narrow waist for carving, mainly for frontside or only on groomers.'
     },
 

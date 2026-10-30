@@ -12,54 +12,6 @@ function skiRecommenderHTML() {
     ${radioOpt('gender', 'youths', "Youth's")}
   </div>
 
-  <div class="form-group">
-    <div class="form-label">Skill Level</div>
-    <div class="radio-grid">${['beginner','intermediate','advanced'].map(s=>radioOpt('skill',s,s.charAt(0).toUpperCase()+s.slice(1))).join('')}</div>
-  </div>
-
-  <div class="form-group">
-    <div class="form-label">Riding Style</div>
-    <div class="radio-grid">
-      ${radioOpt('style','all-mountain','All Mountain')}
-      ${radioOpt('style','groomer','Frontside')}
-      ${radioOpt('style', 'freeride', 'Off-Piste/Freeride')}
-      ${radioOpt('style','park','Park')}
-    </div>
-  </div>
-
-  <div class="form-group">
-    <div class="form-label">What matters most?</div>
-    <div class="radio-grid">
-      ${radioOpt('priority', 'stable', 'Stable and planted at speed')}
-      ${radioOpt('priority', 'playful', 'Playful and easy flex')}
-      ${radioOpt('priority', 'manuverable', 'Quick and easy to turn')}
-      ${radioOpt('priority', 'balanced', 'Balanced and versatile')}
-    </div>
-  </div>
-
-  <div class="form-group">
-    <div class="form-label">How do you like to ski?</div>
-    <div class="radio-grid">
-      ${radioOpt('behavior', 'cruise', 'Cruising comfortably')}
-      ${radioOpt('behavior', 'carve', 'Making precise, carved turns ')}
-      ${radioOpt('behavior', 'charge', 'Charging Hard and Fast')}
-      ${radioOpt('behavior', 'poppy', 'Playing around, popping, and making tricks')}
-      ${radioOpt('behavior', 'explore', 'Exploring varied terrain')}
-    </div>
-  </div>
-
-  <div class="form-group">
-    <div class="form-label">Which terrain and activities do you enjoy? (select 3)</div>
-    <div class="checkbox-grid">
-      ${checkOpt('preferences','trees','Trees')}
-      ${checkOpt('preferences','moguls','Moguls')}
-      ${checkOpt('preferences','steeps','Steeps')}
-      ${checkOpt('preferences','bowls','Bowls')}
-      ${checkOpt('preferences', 'groomers', 'Groomer')}
-      ${checkOpt('preferences', 'jumps', 'Jumps')}
-    </div>
-  </div>
-
   <div class="form-row">
     <div class="form-group">
       <label class="form-label" for="skier-height">Your Height</label>
@@ -73,13 +25,74 @@ function skiRecommenderHTML() {
   </div>
 
   <div class="form-group">
+    <div class="form-label">Skill Level</div>
+    <div class="radio-grid">${['beginner','intermediate','advanced'].map(s=>radioOpt('skill',s,s.charAt(0).toUpperCase()+s.slice(1))).join('')}</div>
+  </div>
+
+  <div class="form-group">
+    <div class="form-label">How aggressively do you typically ski?</div>
+    <div class="radio-grid">
+      ${radioOpt('agro','relaxed','Comfortable speed, prioritize control')}
+      ${radioOpt('agro','moderate','Mix of cruising, and pushing myself')}
+      ${radioOpt('agro', 'aggressive', 'Fast speeds, powerful turns, pushing the ski')}
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="form-label">Riding Style</div>
+    <div class="radio-grid">
+      ${radioOpt('style','all-mountain','All Mountain')}
+      ${radioOpt('style','groomer','Frontside')}
+      ${radioOpt('style', 'freeride', 'Off-Piste/Freeride')}
+      ${radioOpt('style','park','Park')}
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="form-label">What shape of turns do you prefer?</div>
+    <div class="radio-grid">
+      ${radioOpt('turns', 'short', 'Short turns')}
+      ${radioOpt('turns', 'medium', 'Medium turns')}
+      ${radioOpt('turns', 'long', 'Long turns')}
+      ${radioOpt('turns', 'no-pref', 'No preference')}
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="form-label">What kind of ski do you prefer?</div>
+    <div class="radio-grid">
+      ${radioOpt('preferred', 'forgive', 'Forgiving')}
+      ${radioOpt('preferred', 'playful', 'Playful')}
+      ${radioOpt('preferred', 'damp', 'Damp/smooth')}
+      ${radioOpt('preferred', 'stable', 'Stable')}
+      ${radioOpt('preferred', 'manuverable', 'Manuverable')}
+      ${radioOpt('preferred', 'balanced', 'Versatile')}
+      ${radioOpt('preferred', 'powerful', 'Responsive')}
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="form-label">Where do you spend most of your time? (select 3)</div>
+    <div class="checkbox-grid">
+      ${checkOpt('terrain', 'trees', 'Trees')}
+      ${checkOpt('terrain', 'moguls', 'Moguls')}
+      ${checkOpt('terrain', 'steeps', 'Steep/technical')}
+      ${checkOpt('terrain', 'bowls', 'Bowls')}
+      ${checkOpt('terrain', 'groomers', 'Groomed trail')}
+      ${checkOpt('terrain', 'park', 'Park')}
+      ${checkOpt('terrain', 'side-hits', 'Side hits')}
+    </div>
+  </div>
+
+  <div class="form-group">
     <div class="form-label">Conditions you find yourself riding?</div>
     <div class="form-hint">Select all that apply.</div>
-    </div>
     <div class="checkbox-grid">
-      ${checkOpt('conditions', 'firm', 'Firm/Ice')}
+      ${checkOpt('conditions', 'firm', 'Hard pack')}
       ${checkOpt('conditions', 'powder', 'Powder')}
       ${checkOpt('conditions', 'slush', 'Slush')}
+      ${checkOpt('conditions', 'soft', 'Soft snow')}
+      ${checkOpt('conditions', 'ice', 'Icy')}
     </div>
   </div>
 

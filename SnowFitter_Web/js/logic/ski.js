@@ -54,7 +54,6 @@ function skiRecommenderHTML() {
       ${radioOpt('turns', 'short', 'Short turns')}
       ${radioOpt('turns', 'medium', 'Medium turns')}
       ${radioOpt('turns', 'long', 'Long turns')}
-      ${radioOpt('turns', 'no-pref', 'No preference')}
     </div>
   </div>
 

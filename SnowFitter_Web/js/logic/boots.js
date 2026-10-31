@@ -7,6 +7,24 @@ function skiBootsHTML() {
   <p class="tool-desc">Ski boots are the most important piece of gear. Enter your foot measurements for an estimate fit recommendation.</p>
   
   <div class="form-group">
+    <div class="form-label">Reason</div>
+    <div class="radio-grid">
+      ${checkboxOpt('reason', 'first-boot', 'First pair of ski boots')}
+      ${checkboxOpt('reason', 'too-big', 'Boots are too big')}
+      ${checkboxOpt('reason', 'too-tight', 'Boots are too tight or painful')}
+      ${checkboxOpt('reason', 'too-soft', 'Boots are too soft')}
+      ${checkboxOpt('reason', 'too-stiff', 'Boots are too stiff')}
+      ${checkboxOpt('reason', 'worn-out', 'Boots are worn out or damaged')}
+      ${checkboxOpt('reason', 'performance', 'Want better performance')}
+      ${checkboxOpt('reason', 'entry', 'Difficulty getting boots on and off')}
+      ${checkboxOpt('reason', 'prominent-bones', 'Pressure around prominent bones')}
+      ${checkboxOpt('reason', 'calf', 'Calf discomfort')}
+      ${checkboxOpt('reason', 'cold-numb', 'Feet get cold or numb')}
+      ${checkboxOpt('reason', 'gripwalk', 'Need GripWalk compatibility')}
+      </div>
+    </div>
+
+  <div class="form-group">
     <div class="form-label">Category</div>
     <div class="radio-grid">
       ${radioOpt('gender','mens',"Men's")}
@@ -30,15 +48,6 @@ function skiBootsHTML() {
   </div>
 
   <div class="form-group">
-    <div class="form-label">Riding Level</div>
-    <div class="radio-grid">
-      ${radioOpt('boot-level','beginner','Beginner')}
-      ${radioOpt('boot-level','intermediate','Intermediate')}
-      ${radioOpt('boot-level','advanced','Advanced')}
-    </div>
-  </div>
-
-  <div class="form-group">
     <div class="form-label">Instep</div>
     <div class="radio-grid">
       ${radioOpt('instep','low-volume','LV')}
@@ -48,14 +57,22 @@ function skiBootsHTML() {
   </div>
 
   <div class="form-group">
-    <div class="form-label">Reason</div>
+    <div class="form-label">Foot shape or pronounced bone (select all that apply)</div>
+    <div class="checkbox-grid">
+      ${checkOpt('shape', 'regular', 'Regular')}
+      ${checkOpt('shape', 'bunion', 'Bunion')}
+      ${checkOpt('shape', 'navicular', 'Navicular bone')}
+      ${checkOpt('shape', 'inner', 'Inner ankle bone')}
+      ${checkOpt('shape', 'outer', 'Outer ankle bone')}
+    </div>
+  </div>
+
+  <div class="form-group">
+    // <div class="form-label">What kind of ski boots are you looking for?</div>
     <div class="radio-grid">
-        ${radioOpt('reason', 'first-boot', "First boot")}
-        ${radioOpt('reason', 'proper-fit', "Boots too big")}
-        ${radioOpt('reason', 'upgrade', "Upgrade")}
-        ${radioOpt('reason', 'soft', "Outgrew Soft Flex")}
-        ${radioOpt('reason', 'stiff', "Too stiff/Shin-bang")}
-        ${radioOpt('reason', 'alpine', "Alpine need gripwalk")}</div>
+        ${radioOpt('type', 'downhill', "Downhill")}
+        ${radioOpt('type', 'tour', "Touring")}
+        ${radioOpt('type', 'fast', "Fast Entry")}</div>
     </div>
 
   <button class="btn ski" onclick="calcSkiBoot()">Find My Boot Size →</button>

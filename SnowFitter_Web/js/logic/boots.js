@@ -144,6 +144,19 @@ function calculateLastWidth(baseLast, mondoSize){
 }
  
 // TODO: I still have to add the logic where women foot is bigger than 26.5 consult with a mens boot
+// TODO: If instep > size: HV, else if instep = size: MV, else instep < size :LV. 
+
+// TODO: Compare width with instep, if instep is lower, but width is wider than base then increase volume.
+//       EX. 27.5 length, 26 instep, but width is 104 handle MV.  
+// TODO: Compare instep with width, if instep is higher than width increase volume otherwise suffer compression.
+//       EX. 27.5 length, 29 instep, width 100 handle HV.
+// TODO: If instep is in proportion to length, and width is also into proportion therefore give MV. Otherwise can handle compression can go LV.
+//       EX. 27.5 length, 27.5 instep, 102 MM width handle MV
+// TODO: If instep is shorter than length and the width is also narrow compared to base, we give them low volume.
+//       EX. 26.5 length, 24.5 instep, 96mm width we then handle LV boot.
+
+// TODO: Compare instep with width and length. If width is wider than base width increase into
+
 // Calculates ski boots by all information
 function calcSkiBoot() {
 

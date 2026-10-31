@@ -9,18 +9,18 @@ function skiBootsHTML() {
   <div class="form-group">
     <div class="form-label">Reason</div>
     <div class="radio-grid">
-      ${checkboxOpt('reason', 'first-boot', 'First pair of ski boots')}
-      ${checkboxOpt('reason', 'too-big', 'Boots are too big')}
-      ${checkboxOpt('reason', 'too-tight', 'Boots are too tight or painful')}
-      ${checkboxOpt('reason', 'too-soft', 'Boots are too soft')}
-      ${checkboxOpt('reason', 'too-stiff', 'Boots are too stiff')}
-      ${checkboxOpt('reason', 'worn-out', 'Boots are worn out or damaged')}
-      ${checkboxOpt('reason', 'performance', 'Want better performance')}
-      ${checkboxOpt('reason', 'entry', 'Difficulty getting boots on and off')}
-      ${checkboxOpt('reason', 'prominent-bones', 'Pressure around prominent bones')}
-      ${checkboxOpt('reason', 'calf', 'Calf discomfort')}
-      ${checkboxOpt('reason', 'cold-numb', 'Feet get cold or numb')}
-      ${checkboxOpt('reason', 'gripwalk', 'Need GripWalk compatibility')}
+      ${checkOpt('reason', 'first-boot', 'First pair of ski boots')}
+      ${checkOpt('reason', 'too-tight', 'Boots are too tight or painful')}
+      ${checkOpt('reason', 'worn-out', 'Boots are worn out or damaged')}
+      ${checkOpt('reason', 'performance', 'Want better performance')}
+      ${checkOpt('reason', 'entry', 'Difficulty getting boots on and off')}
+      ${checkOpt('reason', 'prominent-bones', 'Pressure around prominent bones')}
+      ${checkOpt('reason', 'cold-numb', 'Feet get cold or numb')}
+      ${checkOpt('reason', 'gripwalk', 'Need GripWalk compatibility')}
+      ${checkOpt('reason', 'too-big', 'Boots are too big')}
+      ${checkOpt('reason', 'too-stiff', 'Boots are too stiff')}
+      ${checkOpt('reason', 'calf', 'Calf discomfort')}
+      ${checkOpt('reason', 'too-soft', 'Boots are too soft')}
       </div>
     </div>
 
@@ -35,26 +35,65 @@ function skiBootsHTML() {
 
   <div class="form-row">
     <div class="form-group">
-      <label class="form-label" for="foot-length">Foot Length (cm)</label>
-      <input type="number" class="form-input" id="foot-length" placeholder="e.g. 27.5" step="0.5" min="20" max="34" />
-      <div class="form-hint">Heel to longest toe, do this while standing</div>
+      <label class="form-label" for="foot-length">
+        Foot Length (cm)
+      </label>
+      <input 
+        type="number" 
+        class="form-input" 
+        id="foot-length" 
+        placeholder="e.g. 27.5" 
+        step="1.0" 
+        min="20.5" 
+        max="34.5" 
+      />
+      <div class="form-hint">
+        Heel to longest toe, do this while standing
+      </div>
     </div>
 
     <div class="form-group">
-      <label class="form-label" for="foot-width">Forefoot Width (mm)</label>
-      <input type="number" class="form-input" id="foot-width" placeholder="e.g. 98" step="1" min="85" max="115" />
-      <div class="form-hint">Widest part of foot (ball), also while standing expands a little more</div>
+      <label class="form-label" for="foot-width">
+        Forefoot Width (mm)
+      </label>
+      <input 
+        type="number" 
+        class="form-input" 
+        id="foot-width" 
+        placeholder="e.g. 98" 
+        step="1" 
+        min="85" 
+        max="115" 
+      />
+      <div class="form-hint">
+        Widest part of foot (ball), also while standing expands a little more
+      </div>
     </div>
   </div>
 
   <div class="form-group">
     <div class="form-label">Instep</div>
+    <div class="form-hint">
+      Your instep affects how much room you need across the top of your foot.
+      A professional boot fitter can help determine this.
+    </div>
     <div class="radio-grid">
       ${radioOpt('instep','low-volume','LV')}
       ${radioOpt('instep','medium','MV')}
       ${radioOpt('instep','wide','HV')}
       </div>
   </div>
+
+  <div class="form-group">
+  <div class="form-label">Arch Height</div>
+  <div class="radio-grid">
+    ${radioOpt('arch-type', 'low', 'Low')}
+    ${radioOpt('arch-type', 'medium', 'Medium')}
+    ${radioOpt('arch-type', 'high', 'High')}
+    ${radioOpt('arch-type', 'uneven', 'Opposites')}
+    ${radioOpt('arch-type', 'unknown', 'Not Sure')}
+  </div>
+</div>
 
   <div class="form-group">
     <div class="form-label">Foot shape or pronounced bone (select all that apply)</div>
@@ -68,11 +107,12 @@ function skiBootsHTML() {
   </div>
 
   <div class="form-group">
-    // <div class="form-label">What kind of ski boots are you looking for?</div>
+    <div class="form-label">What kind of ski boots are you looking for?</div>
     <div class="radio-grid">
         ${radioOpt('type', 'downhill', "Downhill")}
         ${radioOpt('type', 'tour', "Touring")}
-        ${radioOpt('type', 'fast', "Fast Entry")}</div>
+        ${radioOpt('type', 'fast', "Fast Entry")}
+        </div>
     </div>
 
   <button class="btn ski" onclick="calcSkiBoot()">Find My Boot Size →</button>
@@ -80,58 +120,270 @@ function skiBootsHTML() {
 
 </div>`;
 }
- 
 
+function calculateLastWidth(baseLast, mondoSize){
+  const referenceSize = 26.5;
+
+  if(!Number.isFinite(baseLast) || !Number.isFinite(mondoSize)) {
+    return null;
+  }
+
+  if (mondoSize === referenceSize) {
+    return baseLast;
+  }
+
+  const SizeStep = Math.ceil(
+    Math.abs(mondoSize - referenceSize)
+  );
+
+  const adjustment = sizeSteps * 2;
+
+  return mondoSize < referenceSize
+  ? baseLast - adjustment
+  : baseLast + adjustment;
+}
+ 
+// TODO: I still have to add the logic where women foot is bigger than 26.5 consult with a mens boot
 // Calculates ski boots by all information
 function calcSkiBoot() {
-  const gender = document.querySelector('input[name="gender"]:checked')?.value;
+
+  // CUSTOMER INFO
+  const gender = document.querySelector(
+    'input[name="gender"]:checked'
+  )?.value;
+
   const footLen = parseFloat($('foot-length')?.value);
   const footWidth = parseInt($('foot-width')?.value);
-  const archType = $('arch-type')?.value;
-  const level = document.querySelector('input[name="boot-level"]:checked')?.value;
-  const shape = document.querySelector('input[name="instep"]:checked')?.value;
-  if (!footLen || !footWidth || !archType || !level || !shape) {
-    $('boot-result').innerHTML = '<div class="warning-box">Please fill in all fields.</div>'; return;
+
+  const instep = document.querySelector(
+    'input[name="instep"]:checked'
+  )?.value || 'unknown';
+
+  const archType = document.querySelector(
+    'input[name="arch-type"]:checked'
+  )?.value || 'unknown';
+
+  const flexAbility = document.querySelector(
+    'input]name="flex-ability"]:checked'
+  )?.value || 'unknown';
+
+  const bootType = document.querySelector(
+    'input[name="type"]:checked'
+  )?.value;
+
+  const reason = [
+    ...document.querySelectorAll(
+      'input[name="reason"]:checked'
+    )
+  ].map(el => el.value);
+
+  const shape = [
+    ...document.querySelectorAll('input[name="shape"]:checked')
+  ].map(el => el.value);
+
+  if (
+    !gender || 
+    !Number.isFinite(footLen) ||
+    footLen < 20 ||
+    footLen > 34 || 
+    !Number.isFinite(footWidth) || 
+    footWidth < 85 ||
+    footWidth > 115 ||
+    !bootType 
+  ) {
+    $('boot-result').innerHTML = `
+      <div class="warning-box">
+        Please enter your widthCategory, foot length, forefoot width, and boot type.
+      </div>`;
+    return;
   }
-  const matchedBoots = (GEAR_DATA.ski_boots || []).filter(b =>
-    b.skill.includes(level) &&
-    b.width.includes(shape) &&
-    b.gender === gender
-  );  
-  const usSize = Math.round((footLen - 17) / 0.845 * 10) / 10;
-  const euroSize = Math.round(footLen * 1.5 + 1.5);
-  const shellSize = Math.round((footLen + 1) * 10) / 10;
-  const lastWidth = footWidth <= 93 ? 'Narrow Last (96–98mm)' : footWidth <= 100 ? 'Regular Last (100–102mm)' : 'Wide Last (104–106mm)';
-  const flexMap = {beginner:'50–70',intermediate:'80–100',advanced:'100–120',expert:'120–140'};
-  const insole = archType==='high' ? 'High-arch aftermarket footbed recommended (e.g. Superfeet Carbon)' : archType==='low' ? 'Supportive footbed to control pronation (e.g. Sidas Custom)' : 'Stock footbed usually sufficient; aftermarket optional';
-  const brands = {
-    narrow:['Salomon Alpha','Nordica Promachine','Tecnica Mach1', 'Lange Shadow LV', 'K2 Cortex'],
-    medium:['Salomon Supra', 'Nordica Speedmachine', 'Atomic Hawx Prime', 'Tecnica Mach BOA MV', 'K2 Recon', 'Lange Shadow MV'],
-    wide:['Salomon Delta', 'Nordica Sportmachine', 'Atomic Magna', 'Tecnica Mach BOA HV', 'K2 BFC', 'Lange Concept']
+
+  // 1. Mondopoint sizing
+  const mondoSize = footLen;
+
+
+  const insoleGuidance = {
+    low: 'Additional arch support should be provided, this prevents the foot from rolling into the shell',
+    medium: 'A footbed will cover most of the arch allowing support and comfort in the boot',
+    high: 'Footbed will help the foot since this arch is really high where the foot may cramp the most from collapsing',
+    uneven: 'If the arch is uneven or not the same height as the other we recommend using a custom since this will allow the arches the support needed',
+    unknown: 'If unknown please see a place that has like a superfeet or some measure of checking arch'
   };
+
+  const flexDescriptions = {
+    limited: 'Has difficulty flexing boots forward.',
+    moderate: 'Can flex boots, but experiences resistance.',
+    strong: 'Can flex boots forward without much difficulty.',
+    'very-strong': 'Can easily flex boots and prefers strong support.',
+    unknown: 'Flexing ability has not been established.'
+  };
+
+  const matchedBoots = (GEAR_DATA.ski_boots || [])
+    .filter(b => {
+      const correctGender = boot.gender === gender;
+    
+      const correctType = Array.isArray(boot.type)
+      ? boot.type.includes(bootType)
+      : boot.type === bootType;
+
+    return correctGender && correctType;
+  })
+
+  .map(boot => {
+    const baseLast = Number(boot.baseLast);
+
+    const adjustedLast = calculateLastWidth(
+      baseLast,
+      mondoSize
+    );
+
+    const widthDifference = adjustedLast === null
+    ? Infinity
+    : Math.abs(adjustedLast - footWidth);
+
+    return {
+      ...boot,
+      adjustedLast,
+      widthDifference
+    };
+  })
+
+  .sort((a, b) =>
+    a.widthDifference - b.widthDifference
+  );
+
+  const closestBoot = matchedBoots.find(
+    boot => Number.isFinite(boot.widthDifference)
+  );
+
   $('boot-result').innerHTML = `
   <div class="result-card">
+
     <div class="result-header">
-      <div class="result-icon" style="background:rgba(79,195,247,.15);">👟</div>
-      <div><div class="result-title">Your Boot Fit Profile</div><div class="result-sub">Based on foot measurements</div></div>
+      <div class="result-icon"
+      style= "background:rgba(79.195.247,.15);">
+      👟
+      </div>
+
+      <div>
+        <div class="result-title">Your Boot Fit Profile</div>
+        <div class="result-sub">
+          Based on foot measurements
+        </div>
+      </div>
     </div>
-    <div class="result-row"><span class="result-key">Mondopoint Size</span><span class="result-val" style="color:var(--ski);">${footLen} cm</span></div>
-    <div class="result-row"><span class="result-key">Euro Size (approx)</span><span class="result-val" style="color:var(--accent);">${euroSize}</span></div>
-    <div class="result-row"><span class="result-key">US Men's (approx)</span><span class="result-val">${usSize.toFixed(1)}</span></div>
-    <div class="result-row"><span class="result-key">Shell Check Target</span><span class="result-val">${shellSize} cm</span></div>
-    <div class="result-row"><span class="result-key">Last Width</span><span class="result-val" style="color:var(--accent);">${lastWidth}</span></div>
-    <div class="result-row"><span class="result-key">Flex Index</span><span class="result-val" style="color:var(--ski);">${flexMap[level]}</span></div>
+
+    <div class="result-row">
+      <span class="result-key">Mondopoint Size</span>
+      <span class="result-val">
+        ${mondoSize.toFixed(1)}
+      </span>
+    </div>
+
+    <div class="result-row">
+      <span class="result-key">Forefoot Width</span>
+      <span class="result-val">
+        ${footWidth} mm
+      </span>
+    </div>
+
+    <div class="result-row">
+      <span class="result-key">Instep</span>
+      <span class="result-val">
+        ${instep}
+      </span>
+    </div>
+
+    <div class="result-row">
+      <span class="result-key">Arch Height</span>
+      <span class="result-val">
+        ${archType}
+      </span>
+    </div>
+
+    <div class="result-row">
+      <span class="result-key">Boot Category</span>
+      <span class="result-val">
+        ${bootType}
+      </span>
+    </div>
+
     <hr class="section-sep"/>
-    <div style="font-size:.78rem;color:var(--muted);font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.5rem;">Insole Recommendation</div>
-    <p style="font-size:.84rem;color:var(--muted);line-height:1.6;">${insole}</p>
+
+    <div class="result-title">Flexing Ability</div>
+    <p class="result-sub">
+      ${flexDescriptions[flexAbility]}
+    </p>
+
     <hr class="section-sep"/>
-    <div style="font-size:.78rem;color:var(--muted);font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.5rem;">Brand Suggestions — ${shape.charAt(0).toUpperCase()+shape.slice(1)} Foot</div>
-    <ul class="rec-list">${brands[shape].map(b=>`<li><strong>${b}</strong></li>`).join('')}</ul>
+
+    <div class="result-title">Footbed Consideration</div>
+    <p class="result-sub">
+      ${insoleGuidance[archType]}
+    </p>
+
+    ${shapes.length ? `
+      <hr class="section-step"/>
+      <div class="result-title">Foot Shape</div>
+      <p class="result-sub">
+        ${shapes.join(', ')} 
+      </p>
+    ` : ''}
+
+    ${reason.length ? `
+      <hr class="section-step"/>
+      <div class="result-title">Replacement Reasons</div>
+      <p class="result-sub">
+        ${reasons.join(', ')}
+      </p>
+    ` : ''}
+
     <hr class="section-sep"/>
-    <div style="font-size:.78rem;color:var(--muted);font-weight:600;letter-spacing:.08em;text-transform:uppercase;margin-bottom:.75rem;">Matching Ski Boots</div>
+
+    <div class="result-title>Closest Wdith Match</div>
+    
+    ${closestBoot ? `
+      <div class="result-row">
+        <span class="result-key">Boot</span>
+        <span class="result-val">
+          ${closestBoot.name}
+        </span>
+      </div>
+
+      <div class="result-row">
+        <span class="result-key">Advertised Last</span>
+        <span class="result-val">
+          ${closestBoot.baseLast} mm
+        </span>
+      </div>
+
+      <div class="result-row">
+        <span class="result-key">Adjusted Last at Your Size</span>
+        <span class="result-val" style="color:var(--ski);">
+          ${closestBoot.adjustedLast} mm
+        </span>
+      </div>
+    ` : `
+      <p class="result-sub">
+        No boot has sufficient last-width data for comparison.
+      </p>
+    `}
+
+    <hr class="section-sep"/>
+
+    <div class="result-title">Matching Ski Boots</div>
+
     ${renderProducts(matchedBoots, 'ski boot')}
+
   </div>
-  <div class="warning-box">⚠ Always have ski boots fitted by a professional. Heat molding and shell punch-outs are often needed.</div>`;
+
+  <div class="warning-box">
+    These are preliminary recommendations, not confirmed boot sizes.
+    A professional boot fitter should perform a shell fit and assess
+    heel retention, instep clearance, cuff fit, and pressure points.
+    Heat molding and shell modifications may improve fit.
+  </div>
+  `;
 }
 
 // SNOWBOARD BOOT LOGIC

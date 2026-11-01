@@ -3,11 +3,16 @@ function skiBindingsHTML() {
   return `<div class="tool-page page">
   <h2 class="tool-title">SKI BINDING RECOMMENDER</h2>
   <p class="tool-desc">Find a binding that matches your DIN setting and skiing style.</p>
+  
   <div class="form-group">
     <label class="form-label" for="bind-din">Your DIN Setting (if known)</label>
     <input type="number" class="form-input" id="bind-din" placeholder="e.g. 6.0" step="0.25" min="0.75" max="18" />
-    <div class="form-hint">Use the DIN Calculator if you don't know yours.</div>
+    
+    <div class="form-hint">
+      Use the DIN Calculator if you don't know yours.
+    </div>
   </div>
+
   <div class="form-group">
     <div class="form-label">Skiing Style</div>
     <div class="radio-grid">
@@ -15,8 +20,42 @@ function skiBindingsHTML() {
       ${radioOpt('bind-style','freeride','Freeride')}
       ${radioOpt('bind-style','carving','Carving')}
       ${radioOpt('bind-style','park','Park')}
+      ${radioOpt('bind-style','tour','Touring')}
     </div>
   </div>
+
+  <div class="form-group">
+    <div class="form-label">What types of boots do you have?</div>
+    <div class="radio-grid">
+      ${radioOpt('bind-type', 'alpine', 'Alpine (ISO 5355)')}
+      ${radioOpt('bind-type', 'gw', 'GripWalk (ISO 23223)')}
+      ${radioOpt('bind-type', 'touring', 'Touring (ISO 9523)')}
+    </div>
+  <div>
+
+  <div class="form-group">
+    <div class="form-label">What is current ski wasit width</div>
+    <div class='radio-grid'>
+        ${radioOpt('break', '', '')}
+        ${radioOpt('break', '', '')}
+        ${radioOpt('break', '', '')}
+        ${radioOpt('break', '', '')}
+        ${radioOpt('break', '', '')}
+        ${radioOpt('break', '', '')}
+    </div>
+  </div>  
+
+
+  <div class="form-group">
+    <div class="form-label">What matters most in a binding?</div>
+    <div class="radio-grid">
+      ${radioOpt('matter', 'light', 'Lightweight')}
+      ${radioOpt('matter', 'dura', 'Durable')}
+      ${radioOpt('matter', 'preformance', 'Power transfer')}
+      ${radioOpt('matter', 'value', 'Price')}
+    </div>
+  <div>
+
   <button class="btn ski" onclick="calcSkiBindings()">Find Bindings →</button>
   <div id="ski-bind-result"></div>
 </div>`;

@@ -13,9 +13,9 @@ function dinCalcHTML() {
     <div class="form-group">
       <div class="form-label">Skier Type</div>
       <div class="radio-grid">
-        ${radioOpt('din-type','1','Type 1 Beginner')}
-        ${radioOpt('din-type','2','Type 2 Intermediate')}
-        ${radioOpt('din-type','3','Type 3 Advanced')}
+        ${radioOpt('din-type','1','Type 1\n Beginner')}
+        ${radioOpt('din-type','2','Type 2\n Intermediate')}
+        ${radioOpt('din-type','3','Type 3\n Advanced')}
       </div>
     </div>
 

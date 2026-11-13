@@ -2,19 +2,98 @@ import json
 
 SNOWBOARDS = [
 
+    #
+
     # Bataleon
     {
-        "gender": ["mens", "womens"],
+        # Identity
         "name": "Whatever",
         "brand": "Bataleon",
-        "styles": ["all-mountain"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "shape": "directional-twin",
-        "flex": 5,
-        "lengths": [148, 151, 154, 157],
-        "wide_lengths": [156, 159],
+        "gender": ["mens", "womens"],
         "price": "579.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100309170_1.png?v=1780608050",
+
+        # Riding Style
+        "styles": ["all-mountain"],
+        "skill": ["beginner", "intermediate", "advanced"],
+
+        # Riding Characteristics
+        "terrain": ["everything"],
+        "conditions": ["everything"],
+        "feel": ["balanced"],
+        "traits": ["soft", "butter", "rails", "jumps"],
+
+        "shape": "directional-twin",
+        "profile": "camber",
+        "flex": 5,
+
+        # Sizing
+        "sizes": [
+            {
+                "length": 138,
+                "width": "Regular",
+                "waistWidth": 23.6,
+                "minWeight": 91,
+                "maxWeight": 135
+            },
+            {
+                "length": 144,
+                "width": "Regular",
+                "waistWidth": 24.2,
+                "minWeight": 104,
+                "maxWeight": 148
+            },
+            {
+                "length": 148,
+                "width": "Regular",
+                "waistWidth": 24.6,
+                "minWeight": 113,
+                "maxWeight": 157
+            },
+            {
+                "length": 151,
+                "width": "Regular",
+                "waistWidth": 24.9,
+                "minWeight": 124,
+                "maxWeight": 168
+            },
+            {
+                "length": 154,
+                "width": "Regular",
+                "waistWidth": 25.2,
+                "minWeight": 135,
+                "maxWeight": 179
+            },
+            {
+                "length": 156,
+                "width": "Wide",
+                "waistWidth": 26.4,
+                "minWeight": 159,
+                "maxWeight": 203
+            },
+            {
+                "length": 157,
+                "width": "Regular",
+                "waistWidth": 25.5,
+                "minWeight": 148,
+                "maxWeight": 192
+            },
+            {
+                "length": 159,
+                "width": "Wide",
+                "waistWidth": 26.7,
+                "minWeight": 172,
+                "maxWeight": 217
+            },
+            {
+                "length": 162,
+                "width": "Wide",
+                "waistWidth": 27,
+                "minWeight": 186,
+                "maxWeight": 230
+            }
+        ],
+
         "notes": (
             "The Bataleon Whatever Snowboard is the ultimate all-in-one quiver killer—built to handle whatever, wherever. From park laps and groomer carves to powder stashes, "
             "this board thrives in every condition with its perfect blend of freestyle playfulness and all-mountain control. Thanks to Triple Base Technology™ and a medium flex, it’s catch-free, floaty, and ready to adapt to your every move. "
@@ -22,18 +101,69 @@ SNOWBOARDS = [
         )
     },
     {
-        "gender": "mens",
+        "gender": ["mens"],
         "name": "Evil Twin",
         "brand": "Bataleon",
-        "styles": ["park"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "shape": "true-twin",
-        "flex": 5,
-        "lengths": [151, 154, 157, 159],
-        "wide_lengths": [156, 159],
         "price": "589.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100309164_1.png?v=1780606727",
-        "notes": ""
+                
+        "styles": ["park"],
+        "skill": ["beginner", "intermediate", "advanced"],
+
+        "terrain": ["groomers", "park"],
+        "conditions": ["everything"],
+        "feel": ["playful", "balanced"],
+        "traits": ["butters", "rails", "jumps"],
+
+        "shape": "true-twin",
+        "profile": "camber",
+        "flex": 5,
+
+        "sizes": [
+            {
+                "length": 151,
+                "width": "Regular",
+                "waistWidth": 24.7,
+                "minWeight": 124,
+                "maxWeight": 168
+            },
+            {
+                "length": 154,
+                "width": "Regular",
+                "waistWidth": 25.0,
+                "minWeight": 135,
+                "maxWeight": 179
+            },
+            {
+                "length": 156,
+                "width": "Wide",
+                "waistWidth": 26.2,
+                "minWeight": 159,
+                "maxWeight": 203
+            },
+            {
+                "length": 157,
+                "width": "Regular",
+                "waistWidth": 25.3,
+                "minWeight": 148,
+                "maxWeight": 192
+            },
+            {
+                "length": 159,
+                "width": "Regular",
+                "waistWidth": 25.5,
+                "minWeight": 157,
+                "maxWeight": 201
+            },
+            {
+                "length": 159,
+                "width": "Wide",
+                "waistWidth": 26.5,
+                "minWeight": 172,
+                "maxWeight": 217
+            }
+        ],
+        "notes": "Our flagship twin tip, and for good reason. The Bataleon Evil Twin is the perfect go-anywhere, do-anything freestyle board for the entire mountain; take it to the jib zone, take it to the medium line, seek out every single sidehit on the mountain… it literally does it all. Purpose-built to give you everything you need in a park board, the Evil Twin features our 3D tips and tails, our patented Triple Base Technology design, a carbon-fiber SuperTube™ for pop and response, and super-durable, vibration-damping urethane FlexWalls™."
     },
     
     #Womens Boards
@@ -41,26 +171,118 @@ SNOWBOARDS = [
         "gender": "womens",
         "name": "Push Up",
         "brand": "Bataleon",
-        "styles": ["all-mountain"],
-        "skill": ["intermediate", "advanced"],
-        "shape": "directional-twin",
-        "flex": 4,
-        "lengths": [138, 140, 143, 146, 149, 152],
         "price": "539.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100309165_1.png?v=1780611235",
+
+        "styles": ["all-mountain"],
+        "skill": ["intermediate", "advanced"],
+
+        "terrain": [""],
+        "conditions": [""],
+        "feel": [""],
+        "traits": [""],
+
+        "shape": "directional-twin",
+        "profile": "",
+        "flex": 4,
+        
+        "sizes": [
+            {
+                "length": 138,
+                "width": "Regular",
+                "waistWidth": 23.4,
+                "minWeight": 78,
+                "maxWeight": 122
+            },
+            {
+                "length": 140,
+                "width": "Regular",
+                "waistWidth": 23.6,
+                "minWeight": 82,
+                "maxWeight": 126
+            },
+            {
+                "length": 143,
+                "width": "Regular",
+                "waistWidth": 23.8,
+                "minWeight": 89,
+                "maxWeight": 133
+            },
+            {
+                "length": 146,
+                "width": "Regular",
+                "waistWidth": 24.0,
+                "minWeight": 95,
+                "maxWeight": 139
+            },
+            {
+                "length": 149,
+                "width": "Regular",
+                "waistWidth": 24.2,
+                "minWeight": 102,
+                "maxWeight": 146
+            },
+            {
+                "length": 152,
+                "width": "Regular",
+                "waistWidth": 24.4,
+                "minWeight": 113,
+                "maxWeight": 157
+            },
+        ],
+
         "notes": ""
     },
     {
         "gender": "womens",
         "name": "Feelbetter",
         "brand": "Bataleon",
-        "styles": ["park"],
-        "skill": ["beginner", "intermediate"],
-        "shape": "directional-twin",
-        "flex": 3,
-        "lengths": [138, 140, 143, 146, 149, 152],
         "price": "489.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100309166_1.png?v=1780612053",
+
+        "styles": ["park"],
+        "skill": ["beginner", "intermediate"],
+
+        "terrain": [""],
+        "conditions": [""],
+        "feel": [""],
+        "traits": [""],
+
+        "shape": "directional-twin",
+        "profile": "",
+        "flex": 3,
+        
+        
+        "sizes": [
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+        ],
         "notes": ""
     },
 
@@ -76,7 +298,36 @@ SNOWBOARDS = [
         "lengths": [152, 154, 156, 158, 160],
         "wide_lengths": [155, 158],
         "price": "599.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303371-ONE.png?v=1779917790",
+        "sizes": [
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+        ],
         "notes": ""
     },
     {
@@ -91,19 +342,93 @@ SNOWBOARDS = [
         "wide_lengths": [156, 158, 160, 162],
         "price": "699.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303367-ONE-1.png?v=1778714939",
+        "sizes": [
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+        ],
         "notes": ""
     },
     {
         "gender": "mens",
         "name": "Mega Merc",
         "brand": "Capita",
-        "styles": ["all-mountain", "freeride"],
-        "skill": ["intermediate", "advanced"],
-        "shape": "directional",
-        "flex": 7,
-        "lengths": [153, 155, 157, 159, 161],
         "price": "999.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303357-ONE-1.png?v=1778537175",
+
+
+        "styles": ["all-mountain", "freeride"],
+        "skill": ["intermediate", "advanced"],
+
+        "shape": "directional",
+        "flex": 7,
+                
+        "terrain": [""],
+        "conditions": [""],
+        "feel": [""],
+        "traits": [""],
+
+        "shape": "directional",
+        "profile": "",
+        "flex": 7,
+        
+        
+        "sizes": [
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+            {
+                "length": ,
+                "width": "",
+                "waistWidth": ,
+                "minWeight": ,
+                "maxWeight": 
+            },
+        ],
+        
         "notes": "Capitas staple in my opinion, cannot go wrong with this board as it does everything great."
     },
     {

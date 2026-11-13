@@ -1,7 +1,10 @@
 function sbBoardHTML() {
+  <<!-- -->>
   return `<div class="tool-page page">
   <h2 class="tool-title">BOARD RECOMMENDER</h2>
-  <p class="tool-desc">Find your ideal snowboard shape, length, and flex — plus matching boards from our inventory.</p>
+  <p class="tool-desc">
+    Find your ideal snowboard shape, length, and flex — plus matching boards from our inventory.
+  </p>
   
   <div class="form-group">
     <div class="form-label">Category</div>
@@ -14,7 +17,11 @@ function sbBoardHTML() {
 
   <div class="form-group">
     <div class="form-label">Skill Level</div>
-    <div class="radio-grid">${['beginner','intermediate','advanced'].map(s=>radioOpt('sb-skill',s,s.charAt(0).toUpperCase()+s.slice(1))).join('')}</div>
+    <div class="radio-grid">
+    ${['beginner','intermediate','advanced'].map(s=>
+      radioOpt('sb-skill',s,s.charAt(0).toUpperCase()+s.slice(1))
+    ).join('')}
+    </div>
   </div>
 
   <div class="form-group">
@@ -25,6 +32,36 @@ function sbBoardHTML() {
       ${radioOpt('sb-style','park','Park')}
     </div>
   </div>
+
+  <div class="form-group">
+    <div class="form-label">Where do you find yourself riding?</div>
+    <div class="radio-grid">
+      ${radioOpt('terrain', 'groomers', 'Grooms')}
+      ${radioOpt('terrain', 'park', 'Park')}
+      ${radioOpt('terrain', 'steep', 'Steeps')}
+      ${radioOpt('terrain', 'off', 'Off-piste')}
+      ${radioOpt('terrain', 'everything', 'Everything')}
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="form-label">What conditions are you riding?</div>
+    <div class="radio-grid">
+      ${radioOpt('conditions', 'firm', 'Firm')}
+      ${radioOpt('conditions', 'groomed', 'Groomer')}
+      ${radioOpt('conditions', 'powder', 'Powder')}
+      ${radioOpt('conditions', 'slush', 'Slush')}
+      ${radioOpt('conditions', 'everything', 'Everything')}
+    </div>
+  </div>
+
+  <div class="form-group>
+    <div class="form-label">How do you prefer a snowboard to feel?</div>
+    <div class="radio-grid">
+      ${radioOpt('sb-feel', 'playful', 'Playful')}
+      ${radioOpt('sb-feel', 'responsive', 'Responsive')}
+      ${radioOpt('sb-feel', 'agro', 'Aggresive')}
+      ${radioOpt('sb-feel', 'balanced', 'Balanced')}
 
   <div class="form-group">
     <div class="form-label">Specific Traits (select 3)</div>
@@ -45,25 +82,43 @@ function sbBoardHTML() {
   <div class="form-row">
     <div class="form-group">
       <label class="form-label" for="sb-height">Your Height</label>
-      <select class="form-select" id="sb-height"><option value="">Select height</option>${heightOpts()}</select>
+      <select class="form-select" id="sb-height">
+        <option value="">Select height</option>
+        ${heightOpts()}
+      </select>
     </div>
 
     <div class="form-group">
       <label class="form-label" for="sb-weight">Weight (lbs)</label>
-      <input type="number" class="form-input" id="sb-weight" placeholder="e.g. 160" min="80" max="300" />
+      <input 
+        type="number" 
+        class="form-input" 
+        id="sb-weight" 
+        placeholder="e.g. 160" 
+        min="80" 
+        max="300" 
+      />
     </div>
   </div>
 
   <div class="form-group">
-    <label class="form-label" for="boot-size-sb">Boot Size (US Men's)</label>
+    <label class="form-label" for="boot-size-sb">
+      Boot Size (US Men's)
+    </label>
     <select class="form-select" id="boot-size-sb">
       <option value="">Select boot size</option>
-      ${[4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,14,15,16,17].map(s=>`<option value="${s}">${s}</option>`).join('')}
+      ${[4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,14,15,16,17]
+        .map(s=>`<option value="${s}">${s}</option>`).join('')}
     </select>
-    <div class="form-hint">Used to check necessary board width (toe/heel overhang)</div>
+    <div class="form-hint">
+      Used to check necessary board width (toe/heel overhang)
+    </div>
   </div>
 
-  <button class="btn snow" onclick="calcBoard()">Get My Board →</button>
+  <button class="btn snow" onclick="calcBoard()">
+    Get My Board →
+  </button>
+
   <div id="board-result"></div>
 </div>`;
 }

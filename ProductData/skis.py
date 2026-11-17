@@ -239,49 +239,118 @@ SKIS = [
         "gender": ["mens", "womens"],
         "name": "Canvas 100",
         "brand": "Blizzard",
-        "styles": ["all-mountain"],
+
+        "styles": ["all-mountain", "freeride", "park"],
+
         "skill": ["intermediate", "advanced"],
-        "priority": ['playful', 'manuverable'],
-        "behavior": ['poppy', 'explore', 'cruise'],
-        "preferences": ['trees', 'moguls', 'groomers', 'jumps'],
-        "conditions": ['firm', 'powder', 'slush'],
-        "waist_mm": 100,
+
+        "preferred": ['playful', 'manuverable', 'versatile', 'forgive'],
+
+        "terrain": ['trees', 'groomers', 'park', 'side-hits'],
+
+        "conditions": ['powder', 'slush', 'soft'],
+
+        "preformance": {
+            "floatation": 7,
+            "stability": 7,
+            "quickness": 9,
+            "playfulness": 10,
+            "forgiveness": 9,
+            "edge-grip": 8,
+            "versatility": 9,
+            "over-all": 9
+        },
+
+        "specs": {
+            "waist_mm": 100,
+            "core_material": "Poplar/Paulownia Wood Core"
+        },
+
         "lengths": [162, 168, 174, 180, 186],
+
         "price": "699.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305172_WHT_1.png?v=1779322250",
-        "notes": "This is Canvas 100, a fun-forward ski born from art and created for spontaneity, it transforms terrain into a blank Canvas. This ski was made for expression, not expectation. Jib, butter, pivot and float to your own beat. Because skiing, like art, is most powerful when it’s personal."
+
+        "notes": "The 2027 Blizzard Canvas 100 is part of a brand-new freeride collection from Blizzard, an all-mountain freeride platform built around a lightweight Poplar + Paulownia woodcore and a clean, freeride-focused shape. With a 100-mm waist and a versatile rocker profile, it's a daily-driver freeride ski that bridges all-mountain and powder."
     },
     {
         "gender": ["mens", "womens"],
         "name": "Canvas 108",
         "brand": "Blizzard",
-        "styles": ["all-mountain"],
-        "skill": ["intermediate", "advanced"],
-        "priority": ['playful', 'balanced'],
-        "behavior": ['poppy', 'explore', 'cruise'],
-        "preferences": ['trees', 'bowls', 'jumps', 'steeps'],
-        "conditions": ['firm', 'powder', 'slush'],
-        "waist_mm": 108,
+
+        "styles": ["freeride"],
+
+        "skill": ["advanced"],
+
+        "preferred": ['playful', 'manuverable'],
+        
+        "terrain": ['trees', 'big-mountain', 'side-hits'],
+
+        "conditions": ['powder', 'soft'],
+
+        "preformance": {
+            "floatation": 9,
+            "stability": 7,
+            "quickness": 9,
+            "playfulness": 10,
+            "forgiveness": 8,
+            "edge-grip": 7,
+            "versatility": 8,
+            "over-all": 10
+        },
+
+        "specs": {
+            "waist_mm": 108,
+            "core_material": "Poplar/Paulownia Wood Core",
+        },
+
         "lengths": [168, 174, 180, 186, 192],
+
         "price": "799.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305171_WHT_1.png?v=1779321055",
-        "notes": "Canvas 108 doesn't dictate the line -- it's for skiers who don't follow tracks -- they paint their own. With topsheets born in an artist’s studio and a shape designed for fun, it's all about the feeling and the expression. You’re the artist—this is your brush."
+
+        "notes": "The Blizzard Canvas 108 skis represent a creative departure from Blizzard’s traditional lineup, born from a vision of freedom and self‑expression on the mountain. At 108 mm underfoot with a playful twin‑tip profile, these skis invite you to explore every zone of the mountain with spontaneity and flair."
     },
     {
         "gender": ["mens", "womens"],
         "name": "Canvas 118",
         "brand": "Blizzard",
+
         "styles": ["freeride"],
+
         "skill": ["intermediate", "advanced"],
-        "priority": ['playful', 'stable'],
-        "behavior": ['poppy', 'explore', 'charge'],
-        "preferences": ['trees', 'steeps', 'bowls', 'jumps'],
+
+        "preffered": ['playful', 'stable'],
+
+        "terrain": ['trees', 'big-mountain', 'side-hits'],
+
         "conditions": ['powder'],
-        "waist_mm": 118,
+
+        "preformance": {
+            "floatation": null,
+            "stability": null,
+            "quickness": null,
+            "playfulness": null,
+            "forgiveness": null,
+            "edge-grip": null,
+            "versatility": null,
+            "over-all": null
+        },
+
+        "specs": {
+            "waist_mm": 118,
+            "core_material": "Poplar/Paulownia Wood Core",
+        },
+
         "lengths": [172, 180, 186],
+
         "price": "899.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305170_WHT_1.png?v=1779319612",
-        "notes": "Canvas 118 isn’t just a ski—it’s a medium. A place for expression, improvisation, and sending it in ways that make you smile. Playful, light, and open to interpretation, this is the ski for riders who color outside the lines. Clicked into the Canvas there are no rules—just rhythm."
+
+        "notes": "The 2027 Blizzard Canvas 118 is the widest ski in the new Canvas freeride collection, a 118-mm-waisted powder tool with a metal-free, lightweight build and topsheet artwork by Japanese-Australian artist Penelope Misa. It's a dedicated soft-snow ski with personality to spare."
     },
     
     # Rustler
@@ -289,83 +358,194 @@ SKIS = [
         "gender": ["mens"],
         "name": "Rustler 9",
         "brand": "Blizzard",
-        "styles": ["freeride"],
+
+        "styles": ["freeride", "all-mountain"],
+
         "skill": ["intermediate", "advanced"],
-        "priority": ['stable', 'manuverable', 'balanced'],
-        "behavior": ['charge', 'carve', 'explore'],
-        "preferences": ['groomers', 'trees', 'moguls', 'steeps'],
-        "conditions": ['firm', 'powder', 'slush'],
-        "waist_mm": 96,
+
+        "preferred": ['stable', 'manuverable', 'balanced'],
+        
+        "terrain": ['groomers', 'trees', 'moguls'],
+
+        "conditions": ['firm', 'powder', 'slush', 'soft', 'ice'],
+
+        "preformance": {
+            "floatation": 8,
+            "stability": 9,
+            "quickness": 8,
+            "playfulness": 9,
+            "forgiveness": 8,
+            "edge-grip": 9,
+            "versatility": 9,
+            "over-all": 9
+        },
+
+        "specs": {
+            "waist_mm": 96,
+            "core_material": "Poplar/Beech/Paulownia Wood Core",
+        },
+
         "lengths": [162, 168, 174, 180, 186],
+
         "price": "799.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100295443_SDGR_1.png?v=1766785365",
-        "notes": "The Rustler 9 is an everyday ski for whatever throws your way. When it’s not blower conditions, this ski is an easy grab. It lights up on chundery, choppy, and icy days. This ski is nimble and predictable, it responds to power with power, and its platform welcomes airs. Don’t hesitate to roll the Rustler 9 up on edge, too, because this ski carves like a dream. Most days aren’t powder days, which means most days are Rustler 9 days."
+
+        "notes": "Unchanged for 2027, the Blizzard Rustler 9 returns as one of the most agile and precise skis in the all-mountain category, offering an impressive amount of float and maneuverability for its width. Its ability to carve confidently on groomers while still performing in softer snow makes it arguably one of the most versatile skis available today. Designed to tackle everything from hardpack to powder, the Rustler 9 is a true all-mountain workhorse that’s built to handle whatever conditions the day throws your way, all while delivering a lively, enjoyable ride."
     },
     {
         "gender": ["mens"],
         "name": "Rustler 10",
         "brand": "Blizzard",
-        "styles": ["freeride"],
+
+        "styles": ["freeride", "all-mountain"],
+
         "skill": ["intermediate", "advanced"],
-        "priority": ['balanced', 'stable'],
-        "behavior": ['charge', 'carve', 'explore'],
-        "preferences": ['trees', 'steeps', 'bowls'],
-        "conditions": ['firm', 'powder', 'slush'],
-        "waist_mm": 102,
+
+        "preferred": ['balanced', 'stable'],
+        
+        "terrain": ['trees', 'steeps', 'bowls'],
+
+        "conditions": ['firm', 'powder', 'slush', 'soft', 'ice'],
+
+        "preformance": {
+            "floatation": 8,
+            "stability": 10,
+            "quickness": 8,
+            "playfulness": 8,
+            "forgiveness": 7,
+            "edge-grip": 9,
+            "versatility": 9,
+            "over-all": 10
+        },
+
+        "specs": {
+            "waist_mm": 102,
+            "core_material": "Poplar/Beech/Paulownia Wood Core",
+        },
+
         "lengths": [162, 168, 174, 180, 186, 192],
         "price": "849.99",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100295442_BLU_1.png?v=1766781510",
-        "notes": "Congrats! You found the freeride ski that nurtures fun. Draw high-speed turns, bounce off bumps, rail chalk, and detonate crud without an ounce of hesitation with the Rustler 10. Then, when the conditions line up, flash straight lines, weasel into snow, send that feature, and throw them sideway for a whiteout! The Rustler 10 is a life-enhancing ski for fun-hogging chargers. This ski oozes tech—like FluxForm and Trueblend—resulting in an underfoot feel that’s equally playful and trustworthy. Mount it now and thank us later."
+        "notes": "The 2027 Blizzard Rustler 10 hits the sweet spot for skiers who want one ski to rule the entire mountain. At 102 mm underfoot, it’s wide enough to float through fresh snow, agile enough to dance through tight terrain, and stable enough to power through chop and firmer conditions with confidence. It’s the definition of a freeride quiver killer."
     },
     
     # Anomaly
     {
         "gender": ["mens"],
-        "gender": ["mens"],
         "name": "Anomaly 84",
         "brand": "Blizzard",
+
         "styles": ["groomer", "all-mountain"],
+
         "skill": ["intermediate", "advanced"],
-        "priority": ['stable', 'manuverable'],
-        "behavior": ['carve', 'charge', 'cruise'],
-        "preferences": ['groomers', 'moguls', 'steeps'],
-        "conditions": ['firm', 'slush'],
-        "waist_mm": 84,
+
+        "preferred": ['stable', 'manuverable'],
+        
+        "terrain": ['groomers', 'moguls', 'steeps'],
+
+        "conditions": ['firm', 'slush', 'ice'],
+
+        "preformance": {
+            "floatation": 6,
+            "stability": 9,
+            "quickness": 7,
+            "playfulness": 7,
+            "forgiveness": 8,
+            "edge-grip": 9,
+            "versatility": 7,
+            "over-all": 9
+        },
+
+        "specs": {
+            "waist_mm": 84,
+            "core_material": "Poplar/Beech Wood Core",
+        },
+
         "lengths": [164, 170, 176, 182, 188],
+
         "price": "699.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305175-BLKGRY-5.png?v=1782769069",
-        "notes": "This is a ski that mirrors what you put into it. Blizzard's TrueBlend woodcore ensures you don't have to change your style for the Anomaly 84. Instead, this ski is made to make you feel comfortable on snow. The Anomaly 84 will support your style and approach - this ski is fun, pure and simple. "
+
+        "notes": "The 2027 Blizzard Anomaly 84 is the narrowest, most frontside-focused member of the Anomaly lineup. With an 84-mm waist and the same 2Ti FluxForm construction as the wider Anomalies, it's an all-mountain ski with a clear bias toward groomer carving and harder-snow performance."
     },
     {
         "gender": ["mens"],
         "name": "Anomaly 88",
         "brand": "Blizzard",
+
         "styles": ["groomer", "all-mountain"],
+
         "skill": ["intermediate", "advanced"],
-        "priority": ['balanced', 'stable'],
-        "behavior": ['carve', 'charge' 'explore'],
-        "preferences": ['groomers', 'moguls', 'steeps'],
-        "conditions": ['firm', 'slush'],
-        "waist_mm": 88,
+
+        "preferred": ['balanced', 'stable'],
+        
+        "terrain": ['groomers', 'moguls', 'steeps'],
+
+        "conditions": ['firm', 'slush', 'soft', 'ice'],
+
+        "preformance": {
+            "floatation": 7,
+            "stability": 9,
+            "quickness": 8,
+            "playfulness": 7,
+            "forgiveness": 8,
+            "edge-grip": 9,
+            "versatility": 9,
+            "over-all": 10
+        },
+
+        "specs": {
+            "waist_mm": 88,
+            "core_material": "Poplar/Beech Wood Core",
+        },
+        
         "lengths": [164, 170, 176, 182, 188],
+
         "price": "749.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305174-BLUGLD-5.png?v=1782765715",
+
         "notes": "Are you looking for a ski that helps you level up? You found it! Enter the Anomaly 88. Whether you're piping groomers or bouncing throwing bumps, this is the ski you need. For the unrelenting high-pressure dry spells when snow hasn't fallen for weeks, this ski keeps it fun. Give it a go with this one because the Anomaly 88 will elevate your game. "
     },
     {
         "gender": ["mens"],
         "name": "Anomaly 94",
         "brand": "Blizzard",
+
         "styles": ["freeride", "all-mountain"],
+
         "skill": ["intermediate", "advanced"],
-        "priority": ['stable', 'balanced'],
-        "behavior": ['charge', 'carve', 'explore'],
-        "preferences": ['groomers', 'trees', 'steeps', 'bowls'],
+
+        "preferred": ['stable', 'balanced'],
+        
+        "terrain": ['groomers', 'trees', 'steeps', 'bowls'],
+
         "conditions": ['firm', 'powder', 'slush'],
-        "waist_mm": 94,
+
+        "preformance": {
+            "floatation": 7,
+            "stability": 9,
+            "quickness": 8,
+            "playfulness": 6,
+            "forgiveness": 7,
+            "edge-grip": 9,
+            "versatility": 7,
+            "over-all": 8
+        },
+
+        "specs": {
+            "waist_mm": 94,
+            "core_material": "Poplar/Beech Wood Core",
+        },
+
         "lengths": [164, 170, 176, 182, 188],
+
         "price": "799.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305173-GRNGLD-4.png?v=1782758776",
+
         "notes": "Crowded trails, changing terrain, variable snow, and low light are out of your control. But with the Anomaly 94 underfoot you're in control and can take it all in stride. You can gravitate to groomers, play on the side trails, slice zipper lines in trees, or arc in crud without an ounce of hesitation on the Anomaly 94. A higher and more progressive Tip-Tail Rocker profile provide for unparalleled turning capability in all conditions while reimagined camber footprint provides enhanced stability and energy at any speed and in all conditions. "
     },
     
@@ -374,32 +554,78 @@ SKIS = [
         "gender": ["womens"],
         "name": "Women's Black Pearl 84",
         "brand": "Blizzard",
+
         "styles": ["all-mountian", "groomer"],
+
         "skill": ["intermediate", "advanced"],
-        "priority": ['stable', 'manuverable'],
-        "behavior": ['carve', 'charge', 'cruise'],
-        "preferences": ['groomers', 'moguls', 'steeps'],
-        "conditions": ['firm', 'slush'],
-        "waist_mm": 84,
+
+        "preferred": ['stable', 'manuverable'],
+
+        "terrain": ['groomers', 'moguls', 'steeps'],
+
+        "conditions": ['firm', 'slush', 'ice'],
+
+        "preformance": {
+            "floatation": 5,
+            "stability": 9,
+            "quickness": 9,
+            "playfulness": 9,
+            "forgiveness": 8,
+            "edge-grip": 9,
+            "versatility": 7,
+            "over-all": 8
+        },
+
+        "specs": {
+            "waist_mm": 84,
+            "core_material": "Poplar/Beech Wood Core",
+        },
+
         "lengths": [146, 152, 158, 164],
+
         "price": "699.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305186-GREEN-5.png?v=1782834712",
+
         "notes": "The Black Pearl 84 is built to trench fresh corduroy, slice through crud, and bite into ice—and dabble in the trees from time to time, thank you very much. With a women’s specific TrueBlend woodcore, it’s both nimble and stable, effortless and strong. With these on your feet, you may never pray for powder again."
     },
     {
         "gender": ["womens"],
         "name": "Women's Black Pearl 88",
         "brand": "Blizzard",
+
         "styles": ["all-mountain", "groomer"],
+
         "skill": ["intermediate", 'advanced'],
+
         "priority": ['stable', 'balanced'],
-        "behavior": ['carve', 'charge', 'explore'],
+
         "preferences": ['groomers', 'trees', 'moguls', 'steeps'],
-        "conditions": ['firm', 'slush'],
-        "waist_mm": 88,
+
+        "conditions": ['firm', 'slush', 'ice', 'soft'],
+
+            "preformance": {
+            "floatation": 7,
+            "stability": 9,
+            "quickness": 10,
+            "playfulness": 8,
+            "forgiveness": 9,
+            "edge-grip": 10,
+            "versatility": 8,
+            "over-all": 10
+        },
+
+        "specs": {
+            "waist_mm": 88,
+            "core_material": "Poplar/Beech Wood Core",
+        },
+
         "lengths": [146, 152, 158, 164, 170],
+
         "price": "749.99",
+
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305185_BLUE_1.png?v=1780187146",
+
         "notes": "The Blizzard Black Pearl 88 Skis are women’s all-mountain frontside skis designed to deliver confident, versatile performance across a wide variety of terrain. With a balanced 88 mm waist, advanced TrueBlend W.S.D. wood core and FluxForm W.S.D. construction, they combine smooth turn initiation, solid edge grip on groomers and the agility to handle mixed snow conditions — making them a go-to choice for intermediate to advanced skiers who want one dependable ski for cruising, carving and exploring the whole mountain."
     },
     {

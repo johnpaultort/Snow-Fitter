@@ -65,7 +65,7 @@ function skiRecommenderHTML() {
       ${radioOpt('preferred', 'damp', 'Damp/smooth')}
       ${radioOpt('preferred', 'stable', 'Stable')}
       ${radioOpt('preferred', 'manuverable', 'Manuverable')}
-      ${radioOpt('preferred', 'balanced', 'Versatile')}
+      ${radioOpt('preferred', 'versatile', 'Versatile')}
       ${radioOpt('preferred', 'powerful', 'Responsive')}
     </div>
   </div>
@@ -75,8 +75,7 @@ function skiRecommenderHTML() {
     <div class="checkbox-grid">
       ${checkOpt('terrain', 'trees', 'Trees')}
       ${checkOpt('terrain', 'moguls', 'Moguls')}
-      ${checkOpt('terrain', 'steeps', 'Steep/technical')}
-      ${checkOpt('terrain', 'bowls', 'Bowls')}
+      ${checkOpt('terrain', 'big-mountain', 'Big Mountain')}
       ${checkOpt('terrain', 'groomers', 'Groomed trail')}
       ${checkOpt('terrain', 'park', 'Park')}
       ${checkOpt('terrain', 'side-hits', 'Side hits')}
